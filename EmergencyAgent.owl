@@ -7,8 +7,58 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/leopo/ontologies/2022/0/EmergencyAgent">
+        <OWLAnnotationProperty_56383cae_6062_4e24_9cfb_5fb5b9e8c2b6code_license rdf:resource="https://spdx.org/licenses/MIT.html"/>
+        <OWLAnnotationProperty_e51455f4_a5fc_4bb8_9c03_da23e0f3a39bcode_license xml:lang="en">The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of EmergencyAgent
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</OWLAnnotationProperty_e51455f4_a5fc_4bb8_9c03_da23e0f3a39bcode_license>
         <rdfs:comment xml:lang="en">This ontology is designed to cover all  necessary personnel resources to manage an emergency situation.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/leopo/ontologies/2022/0/EmergencyAgent#OWLAnnotationProperty_56383cae_6062_4e24_9cfb_5fb5b9e8c2b6code_license -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/leopo/ontologies/2022/0/EmergencyAgent#OWLAnnotationProperty_56383cae_6062_4e24_9cfb_5fb5b9e8c2b6code_license">
+        <rdfs:label xml:lang="es">code license</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/leopo/ontologies/2022/0/EmergencyAgent#OWLAnnotationProperty_e51455f4_a5fc_4bb8_9c03_da23e0f3a39bcode_license -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/leopo/ontologies/2022/0/EmergencyAgent#OWLAnnotationProperty_e51455f4_a5fc_4bb8_9c03_da23e0f3a39bcode_license">
+        <rdfs:label xml:lang="es">content license</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
