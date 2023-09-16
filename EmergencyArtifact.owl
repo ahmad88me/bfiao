@@ -1,0 +1,1187 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost:8080/BFiaO/EmergencyArtifact#"
+     xml:base="http://localhost:8080/BFiaO/EmergencyArtifact"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact">
+        <ns:license rdf:resource="https://spdx.org/licenses/MIT.html"/>
+        <content_license xml:lang="en">The MIT License (MIT)
+
+Copyright (c) 2023 Leopoldo Santos Santos of EmergencyAgent
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</content_license>
+        <dc:creator>Leopoldo Santos</dc:creator>
+        <rdfs:comment>This ontology is designed to cover all the necessary material resources to act in an emergency situation.</rdfs:comment>
+        <owl:versionInfo>Version 1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#content_license -->
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#content_license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability">
+        <rdfs:comment xml:lang="en">It defines the amount of bed that a hospital or an evacuted camp can provide.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactBedCapability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription">
+        <rdfs:comment xml:lang="en">It provides a description of a specific artifact</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactDescription</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth">
+        <rdfs:comment xml:lang="en">It is the maximum capacity of digging for an excavator. It is expressed in meters.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactDiggingDepth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower">
+        <rdfs:comment xml:lang="en">It specifies the engine power of a vehicle in HPA.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactEnginePower</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID">
+        <rdfs:comment xml:lang="en">This filed identifies univocally any kind of artifact.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport">
+        <rdfs:comment xml:lang="en">It defines the ability to transport injured people.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactInjuredTransport</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel">
+        <rdfs:comment xml:lang="en">It identifies the model used for an specific artifact.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactModel</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize">
+        <rdfs:comment xml:lang="en">It identifies the level of the staff needed to operate an specific system or equipment.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactOperatingStaffSize</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity">
+        <rdfs:comment xml:lang="en">It identifies the capacity for transport of personnel in a vehicle. If the vehicle is an ambulance it identifies the maximum capacity for transporting injured people.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactPersonnelTransportCapacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability">
+        <rdfs:comment xml:lang="en">It defines the amount of water or mud that a pumping equipment can extract. , expressed in cubic meters per hour.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactPumpingWaterCapability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange">
+        <rdfs:comment xml:lang="en">It is the time, in hours, that an artifact can be working without providing any kind of fuel.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactRange</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability">
+        <rdfs:comment xml:lang="en">It defines the maximum amount of salt that a truck or a snowplow can transport. It is expressed im cubic meters.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactSaltCapability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity">
+        <rdfs:comment xml:lang="en">It is the capacity of a tipper in a dump truck. It is expressed in cubic meters.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactTipperCapacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner">
+        <rdfs:comment xml:lang="en">It identifies the unit to which a specific artifact belongs.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactUnitOwner</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability">
+        <rdfs:comment xml:lang="en">It defines the amount of water that a firefighting vehicle o a cistern can transport, expressed in liters (l).</rdfs:comment>
+        <rdfs:label xml:lang="en">ArtifactWaterCapability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">an aeroplane, helicopter, or other machine capable of flight</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">an aeroplane, helicopter, or other machine capable of flight</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">aerialVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"/>
+        <rdfs:comment xml:lang="en">It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ambulanceHelicopterArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">blanketArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">bodyBagArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">bridgeLaunchVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">bulldozerArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A bunk bed is one of two single beds usually placed one above the other.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A bunk bed is one of two single beds usually placed one above the other.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">bunkbedArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A bus is a large motor vehicle designed to carry passengers.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A bus is a large motor vehicle designed to carry passengers.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">busArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact">
+        <rdfs:comment xml:lang="en">A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"/>
+        <rdfs:comment xml:lang="en">Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNIndividualProtectiveArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNInterventionVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"/>
+        <rdfs:comment xml:lang="en">A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNMaterielDecontaminationArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNMobileLabArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"/>
+        <rdfs:comment xml:lang="en">A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNPersonnelDecontaminationArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNReconnaissanceVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.
+It is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.
+It is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">caterpillarExcavatorArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact"/>
+        <owl:disjointWith rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cellsOnWheelsSystemArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A coffin is a box or chest for burying a corpse.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A coffin is a box or chest for burying a corpse.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">coffinArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It describes any kind of vehicle used for providing communication services.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It describes any kind of vehicle used for providing communication services.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">commsVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact">
+        <rdfs:comment xml:lang="en">It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">communicationArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">craneArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">dockLandingShipArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.
+Heavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.
+Heavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">dumpTruckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyAmbulanceArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyCommandPostArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact">
+        <rdfs:comment xml:lang="en">It describes any kind of vehicle used for emergency services.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It describes any kind of vehicle used for emergency services.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">evacuatedCampArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact">
+        <rdfs:comment xml:lang="en">It defines a diversity of tools, field facilities or any other utensiles used in emergency zones.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines a diversity of tools, field facilities or any other utensiles used in emergency zones.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fieldArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fieldHospitalArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">The place where food for a military unit in the field is prepared.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The place where food for a military unit in the field is prepared.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fieldKitchenArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fireExtinguisherArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact"/>
+        <owl:disjointWith rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact"/>
+        <rdfs:comment xml:lang="en">A firefighting plane is an aircraft used to combat wildfires.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A firefighting plane is an aircraft used to combat wildfires.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">firefightingAircraftArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"/>
+        <rdfs:comment xml:lang="en">A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">firefightingHelicopterArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">firefightingTruckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft&apos;s forward airspeed and the shape of the wings.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft&apos;s forward airspeed and the shape of the wings.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fixedWingArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelTankerTruckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">gasTankerTruckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">groundVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"/>
+        <rdfs:comment xml:lang="en">High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hFRadioArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hospitalShipArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact"/>
+        <rdfs:comment xml:lang="en">A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">l1emergencyAmbulanceArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact"/>
+        <rdfs:comment xml:lang="en">It is an ambulance  intended to provide basic life support and
+initial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is an ambulance  intended to provide basic life support and
+initial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">l2emergencyAmbulanceArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact"/>
+        <rdfs:comment xml:lang="en">A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">l3emergencyAmbulanceArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">landingCraftShipArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">marineVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">mobileCommunicationVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It is a vehicle with two wheels and an engine.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a vehicle with two wheels and an engine.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">motorcycleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pickArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">platformTransportTruckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pollutingGasMeterArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">portableFuelStationArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A Portable Gas Station is a facility that provides natural gas to particular users and buildings.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Portable Gas Station is a facility that provides natural gas to particular users and buildings.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">portableGasStationArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"/>
+        <rdfs:comment xml:lang="en">A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">portableSatelliteCommSystemArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"/>
+        <rdfs:comment xml:lang="en">A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">portableWiMAXSystemArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">powerSupplyGeneratorArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A radiactivity meter is a device designed to measure the level of radioactivity in a zone.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A radiactivity meter is a device designed to measure the level of radioactivity in a zone.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">radiactivityMeterArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">reconnaissanceVehicleArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or &apos;sponsons&apos; around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).
+Vessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or &apos;sponsons&apos; around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).
+Vessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">rigidBoatArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">rotaryWingArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">rubberBoatArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">shelterArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">shovelArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">snowplowArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A stretcher is a device for carrying a sick, injured, or dead person.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A stretcher is a device for carrying a sick, injured, or dead person.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">stretcherArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"/>
+        <rdfs:comment xml:lang="en">Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">tETRASystemArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        <rdfs:comment xml:lang="en">A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">tentArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact"/>
+        <rdfs:comment xml:lang="en">A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">transportAircraftArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"/>
+        <rdfs:comment xml:lang="en">A transport helicopter is a rotary wing aircraft used to transport people or equipment.</rdfs:comment>
+        <rdfs:label xml:lang="en">transportHelicopterArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">truckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">uAVArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">uGVArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"/>
+        <rdfs:comment xml:lang="en">Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">uHFRadioArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">uSVArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"/>
+        <rdfs:comment xml:lang="en">Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">vHFRadioArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">waterPumpingTruckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+        <rdfs:comment xml:lang="en">A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">waterTankerTruckArtifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

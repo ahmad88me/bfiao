@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost:8080/BFiaO/StrategicSector#"
+     xml:base="http://localhost:8080/BFiaO/StrategicSector"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:StrategicSector="http://localhost:8080/BFiaO/StrategicSector#">
+    <owl:Ontology rdf:about="http://localhost:8080/BFiaO/StrategicSector">
+        <ns:license rdf:resource="https://spdx.org/licenses/MIT.html"/>
+        <content_license xml:lang="en">The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of Strategic Sector
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</content_license>
+        <dc:creator>Leopoldo Santos</dc:creator>
+        <rdfs:comment xml:lang="en">This ontology is designed to identify the strategic sectors and the domains that each sector has. In this case the sectors are defined in the Spanish law 8/2011 in order to establishing measures for the protection of critical infrastructures.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#content_license -->
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#content_license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#license -->
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#SectorCode -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#SectorCode">
+        <rdfs:comment xml:lang="en">It identifies univocally a sector with a number and several letters with the name of the specfic sector.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies univocally a sector with a number and several letters with the name of the specfic sector.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SectorCode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization">
+        <rdfs:comment xml:lang="en">It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SectorCompetentOrganization</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#SectorPoC -->
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#SectorPoC">
+        <rdfs:comment xml:lang="en">It identies the phone of the person of contact in case of communications reltated to emergencies.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identies the phone of the person of contact in case of communications reltated to emergencies.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SectorPoC</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector">
+        <rdfs:comment xml:lang="en">It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">chemicalIndustrySector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/StrategicSector#energySector"/>
+        <rdfs:comment xml:lang="en">The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">electricalSupplySubsector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#energySector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#energySector">
+        <rdfs:comment xml:lang="en">It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">energySector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#financialTaxSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#financialTaxSector">
+        <rdfs:comment xml:lang="en">The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)
+The Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)
+The Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">financialTaxSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#foodSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#foodSector">
+        <rdfs:comment xml:lang="en">The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">foodSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#fuelSubsector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#fuelSubsector">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/StrategicSector#energySector"/>
+        <rdfs:comment xml:lang="en">The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelSubsector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#gasSubsector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#gasSubsector">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/StrategicSector#energySector"/>
+        <rdfs:comment xml:lang="en">The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">gasSubsector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#healthCareSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#healthCareSector">
+        <rdfs:comment xml:lang="en">The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">healthCareSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#iCTSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#iCTSector">
+        <rdfs:comment xml:lang="en">The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">iCTSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector">
+        <rdfs:comment xml:lang="en">It defines the industry dedicated to obtaining nuclear energy.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines the industry dedicated to obtaining nuclear energy.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">nuclearIndustrySector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector">
+        <rdfs:comment xml:lang="en">It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">publicAdministrationSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector">
+        <rdfs:comment xml:lang="en">It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">researchFacilitySector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#spaceSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#spaceSector">
+        <rdfs:comment xml:lang="en">It defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">t defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">spaceSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#transportationSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#transportationSector">
+        <rdfs:comment xml:lang="en">The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">transportationSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/StrategicSector#waterSector -->
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#waterSector">
+        <rdfs:comment xml:lang="en">It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">waterSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#energySector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#financialTaxSector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#foodSector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#healthCareSector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#iCTSector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#spaceSector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#transportationSector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#waterSector"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#fuelSubsector"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/StrategicSector#gasSubsector"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
