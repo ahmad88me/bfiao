@@ -1,0 +1,130 @@
+{
+  "@context" : {
+    "dataCenterICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#dataCenterICTi"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "InternetService_isProvided" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#InternetService_isProvided",
+      "@type" : "@id"
+    },
+    "fixedTelephoneNetworkICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#fixedTelephoneNetworkICTi"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "xDSLCableICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#xDSLCableICTi"
+    },
+    "WiMAXService_isProvided" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#WiMAXService_isProvided",
+      "@type" : "@id"
+    },
+    "satelliteSystemICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#satelliteSystemICTi"
+    },
+    "baseTransceiverStationICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#baseTransceiverStationICTi"
+    },
+    "provides_BTSService" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#provides_BTSService",
+      "@type" : "@id"
+    },
+    "content_license" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#content_license"
+    },
+    "fiberOpticLineICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#fiberOpticLineICTi"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "provides_SatelliteService" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#provides_SatelliteService",
+      "@type" : "@id"
+    },
+    "routingCenterICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#routingCenterICTi"
+    },
+    "iSPICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#iSPICTi"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "provides_TETRAService" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#provides_TETRAService",
+      "@type" : "@id"
+    },
+    "TETRAService_isProvided" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#TETRAService_isProvided",
+      "@type" : "@id"
+    },
+    "wiMAXNetworkICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#wiMAXNetworkICTi"
+    },
+    "communicationsLineICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#communicationsLineICTi"
+    },
+    "tETRARadioSystemICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#tETRARadioSystemICTi"
+    },
+    "BTSService_isProvided" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#BTSService_isProvided",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "nSPICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#nSPICTi"
+    },
+    "provides_FixedTelephoneService" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#provides_FixedTelephoneService",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "mobileWiMAXICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#mobileWiMAXICTi"
+    },
+    "SatelliteService_isProvided" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#SatelliteService_isProvided",
+      "@type" : "@id"
+    },
+    "provides_WiMAXService" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#provides_WiMAXService",
+      "@type" : "@id"
+    },
+    "NetworkService_isProvided" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#NetworkService_isProvided",
+      "@type" : "@id"
+    },
+    "provides_InternetService" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#provides_InternetService",
+      "@type" : "@id"
+    },
+    "FixedTelephoneService_isProvided" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#FixedTelephoneService_isProvided",
+      "@type" : "@id"
+    },
+    "provides_NetworkService" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#provides_NetworkService",
+      "@type" : "@id"
+    },
+    "satelliteLinkICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#satelliteLinkICTi"
+    },
+    "fixedWiMAXICTi" : {
+      "@id" : "http://localhost:8080/BFiaO/ICTInfractructure#fixedWiMAXICTi"
+    }
+  }
+}

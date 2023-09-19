@@ -1,0 +1,301 @@
+{
+  "@context" : {
+    "firefightingAircraftArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact"
+    },
+    "dumpTruckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact"
+    },
+    "emergencyVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"
+    },
+    "cBRNArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"
+    },
+    "ArtifactPersonnelTransportCapacity" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity"
+    },
+    "bunkbedArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "ArtifactID" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID"
+    },
+    "ambulanceHelicopterArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact"
+    },
+    "evacuatedCampArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "fieldHospitalArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact"
+    },
+    "ArtifactDescription" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription"
+    },
+    "cBRNPersonnelDecontaminationArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact"
+    },
+    "emergencyAmbulanceArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact"
+    },
+    "busArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact"
+    },
+    "shelterArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact"
+    },
+    "portableFuelStationArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact"
+    },
+    "stretcherArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact"
+    },
+    "cBRNVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact"
+    },
+    "ArtifactRange" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange"
+    },
+    "portableSatelliteCommSystemArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact"
+    },
+    "dockLandingShipArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact"
+    },
+    "cBRNIndividualProtectiveArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact"
+    },
+    "uSVArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact"
+    },
+    "uGVArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact"
+    },
+    "l2emergencyAmbulanceArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact"
+    },
+    "coffinArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact"
+    },
+    "groundVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+    },
+    "radiactivityMeterArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact"
+    },
+    "reconnaissanceVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact"
+    },
+    "content_license" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#content_license"
+    },
+    "ArtifactDiggingDepth" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth"
+    },
+    "uHFRadioArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact"
+    },
+    "tETRASystemArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "ArtifactModel" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel"
+    },
+    "portableGasStationArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact"
+    },
+    "cellsOnWheelsSystemArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact"
+    },
+    "emergencyCommandPostArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact"
+    },
+    "mobileCommunicationVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact"
+    },
+    "rigidBoatArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact"
+    },
+    "ArtifactBedCapability" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability"
+    },
+    "shovelArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact"
+    },
+    "fixedWingArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact"
+    },
+    "truckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact"
+    },
+    "rotaryWingArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"
+    },
+    "platformTransportTruckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "pollutingGasMeterArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact"
+    },
+    "motorcycleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact"
+    },
+    "hospitalShipArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact"
+    },
+    "caterpillarExcavatorArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact"
+    },
+    "fireExtinguisherArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact"
+    },
+    "waterTankerTruckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact"
+    },
+    "bulldozerArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact"
+    },
+    "fieldKitchenArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact"
+    },
+    "cBRNReconnaissanceVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact"
+    },
+    "snowplowArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact"
+    },
+    "gasTankerTruckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact"
+    },
+    "ArtifactSaltCapability" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "l3emergencyAmbulanceArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact"
+    },
+    "aerialVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"
+    },
+    "pickArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact"
+    },
+    "powerSupplyGeneratorArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact"
+    },
+    "cBRNMaterielDecontaminationArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact"
+    },
+    "commsVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact"
+    },
+    "ArtifactPumpingWaterCapability" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability"
+    },
+    "ArtifactTipperCapacity" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity"
+    },
+    "ArtifactWaterCapability" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability"
+    },
+    "fuelTankerTruckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact"
+    },
+    "firefightingTruckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact"
+    },
+    "portableWiMAXSystemArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact"
+    },
+    "cBRNInterventionVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact"
+    },
+    "uAVArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact"
+    },
+    "firefightingHelicopterArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact"
+    },
+    "ArtifactOperatingStaffSize" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize"
+    },
+    "bodyBagArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact"
+    },
+    "vHFRadioArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "ArtifactInjuredTransport" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport"
+    },
+    "waterPumpingTruckArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact"
+    },
+    "transportAircraftArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact"
+    },
+    "rubberBoatArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact"
+    },
+    "fieldArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+    },
+    "tentArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact"
+    },
+    "ArtifactUnitOwner" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner"
+    },
+    "ArtifactEnginePower" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower"
+    },
+    "communicationArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+    },
+    "craneArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact"
+    },
+    "l1emergencyAmbulanceArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact"
+    },
+    "hFRadioArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact"
+    },
+    "marineVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+    },
+    "cBRNMobileLabArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact"
+    },
+    "landingCraftShipArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact"
+    },
+    "blanketArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact"
+    },
+    "transportHelicopterArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact"
+    },
+    "bridgeLaunchVehicleArtifact" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact"
+    }
+  }
+}

@@ -1,0 +1,628 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#policeAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent"
+    } ]
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://spdx.org/licenses/MIT.html"
+  } ],
+  "http://localhost:8080/BFiaO/EmergencyAgent#content_license" : [ {
+    "@language" : "en",
+    "@value" : "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "Leopoldo Santos Santos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This ontology is designed to identify the emergency agents who can act in an emergency situation."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1.0"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This atribute has the geolacation of the agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "This atribute has the geolacation of the agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentDeployedGeolocation"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the transaction time for the completion time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the transaction time for the completion time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentEndUseTransctionTime"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the completion time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the completion time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentEndUseValidTime"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifes the name of an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifes the name of an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentName"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the phone of the agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the phone of the agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentPhone"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentRank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the rank of an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the rank of an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentRank"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the transaction tiem for start time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the transaction tiem for start time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentStartUseTransactionTime"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the start time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the start time of use of an artifact by an agent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentStartUseValidTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the identification code for the Unit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the identification code for the Unit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AgentUnitID"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a person who belongs to Armed Forces."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a person who belongs to Armed Forces."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "armedForcesAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A military pilot who has a license to pilot aircraft and specialized in piloting firefighting aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A military pilot who has a license to pilot aircraft and specialized in piloting firefighting aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "armedForcesFireExtinguisherPlanePilotAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A military pilot who belong to Armed Forces and has a license to pilot a helicopter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A military pilot who belong to Armed Forces and has a license to pilot a helicopter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "armedForcesHelicopterPilotAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is an agent who belongs to a BRIF."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is an agent who belongs to a BRIF."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bRIFAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Agent is a person with training in CBRN. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Agent is a person with training in CBRN. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Armed Forces Agent is a person with training in CBRN who belongs to Armed Forces. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Armed Forces Agent is a person with training in CBRN who belongs to Armed Forces. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNArmedForcesAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A UME CBRN Agent is a person with training in CBRN who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A UME CBRN Agent is a person with training in CBRN who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNUMEAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#content_license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person with a medical degree whose job is to treat people who are ill or hurt and who belongs to any kind of Units working in the Emergency."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A person with a medical degree whose job is to treat people who are ill or hurt and who belongs to any kind of Units working in the Emergency."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "doctorAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Fire Brigade Agent is a person with training in fire fighting and works in this field."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Fire Brigade Agent is a person with training in fire fighting and works in this field."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fireBrigadeAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is a person who belongs to Guardia Civil, which is a law enforcement force, a gendarmerie corps with a military nature with a permanent vocation for services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is a person who belongs to Guardia Civil, which is a law enforcement force, a gendarmerie corps with a military nature with a permanent vocation for services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "guardiaCivilAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A healthcare worker is anyone who works in a healthcare or social care setting, including healthcare students on clinical placement, frontline healthcare workers and other healthcare workers not in direct patient contact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A healthcare worker is anyone who works in a healthcare or social care setting, including healthcare students on clinical placement, frontline healthcare workers and other healthcare workers not in direct patient contact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "healthCareWorkerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#policeAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person whose job is to enforce laws, investigate crimes, and make arrests: a member of the police."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A person whose job is to enforce laws, investigate crimes, and make arrests: a member of the police."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "policeAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An expert or specialist in psychology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An expert or specialist in psychology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "psychologistAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is an agent contracted by  regional government to work in emergencies like fires, floods, winter emergencies, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is an agent contracted by  regional government to work in emergencies like fires, floods, winter emergencies, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "regionalEmergencyAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A soldier who belongs to Signal Corps, which the part of an army in charge of communications."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A soldier who belongs to Signal Corps, which the part of an army in charge of communications."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "signalCorpsAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A UME Agent is a person with training in different kind of emergencies who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A UME Agent is a person with training in different kind of emergencies who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uMEAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person who belong to UME (Emergency Military Unit) and has a license to pilot a helicopter. A pilot is posted to UME Helicopter Unit which is a body of Army Aviation adscribed to UME. It can fly in reconnaissance missions, as post command or dropping water in a fire."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A military pilot who belong to UME (Emergency Military Unit) and has a license to pilot a helicopter. A pilot is posted to UME Helicopter Unit which is a body of Army Aviation adscribed to UME. It can fly in reconnaissance missions, as post command or dropping water in a fire."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uMEHelicopterPilotAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Volunteer represent citizens that acts individually helping during emergencies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Volunteer represent citizens that acts individually helping during emergencies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who has the right license and drives an ambulance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who has the right license and drives an ambulance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerAmbulanceDriverAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who is a driver with license to drive a bus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who is a driver with license to drive a bus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerBusDriverAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who voluntarily undertakes or expresses a willingness to undertake a service."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who voluntarily undertakes or expresses a willingness to undertake a service."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerCitizenAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is a volunteer who belongs to Civil Protection."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is a volunteer who belongs to Civil Protection."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerCivilProtectionAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines a volunteer who does not have any specific training and can be used to help in general services like food delivery, food preparation, or cleaning services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines a volunteer who does not have any specific training and can be used to help in general services like food delivery, food preparation, or cleaning services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerGeneralServicesAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who belongs to Red Cross Organization. The Red Cross is an international organization that helps people who are suffering, for example as a result of war, floods, or disease."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who belongs to Red Cross Organization. The Red Cross is an international organization that helps people who are suffering, for example as a result of war, floods, or disease."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerRedCrossAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who has a driver licence to drive a truck."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A volunteer who has a driver licence to drive a truck."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volunteerTruckDriverAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

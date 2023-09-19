@@ -1,0 +1,79 @@
+{
+  "@context" : {
+    "spaceSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#spaceSector"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "SectorPoC" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorPoC"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "fuelSubsector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#fuelSubsector"
+    },
+    "nuclearIndustrySector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector"
+    },
+    "content_license" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#content_license"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "electricalSupplySubsector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector"
+    },
+    "SectorCompetentOrganization" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization"
+    },
+    "healthCareSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#healthCareSector"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "iCTSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#iCTSector"
+    },
+    "waterSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#waterSector"
+    },
+    "publicAdministrationSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector"
+    },
+    "SectorCode" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCode"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "researchFacilitySector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector"
+    },
+    "transportationSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#transportationSector"
+    },
+    "chemicalIndustrySector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector"
+    },
+    "gasSubsector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#gasSubsector"
+    },
+    "energySector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector"
+    },
+    "financialTaxSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#financialTaxSector"
+    },
+    "foodSector" : {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#foodSector"
+    }
+  }
+}

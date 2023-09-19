@@ -1,0 +1,374 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#airportFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility"
+    } ]
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://spdx.org/licenses/MIT.html"
+  } ],
+  "http://localhost:8080/BFiaO/EmergencyFacility#content_license" : [ {
+    "@language" : "en",
+    "@value" : "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of EmergencyAgent\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "Leopoldo Santos Santos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This ontology is designed to cover all  necessary facilities to provide support in an emergency situation."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1.0"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the address of the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the address of the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityAddress"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityBurnUnit"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityCapacity"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the city where the facility is located"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the city where the facility is located."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityCity"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It describes the usual use of the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It describes the usual use of the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityDescription"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the WKS coordinates of the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines the WKS coordinates of the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityGeoLocation"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It idenfies with a true if the facility has heliport capability."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It idenfies with a true if the facility has heliport capability."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityHeliportCapability"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies univocally any facility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies univocally any facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityID"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It provides a name to identify any facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It provides a name to identify any facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityName"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the organism or private company which manages the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the organism or private company which manages the facility."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FacilityOperator"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#airportFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A complex of runways and buildings for the take-off, landing, and maintenance of civil aircraft, with facilities for passengers and payloads"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "airportFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "civilProtectionFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#content_license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyCommandCenterFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyCommandPostFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyDepotFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The headquarters of a fire brigade, where fire engines and other equipment are housed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The headquarters of a fire brigade, where fire engines and other equipment are housed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fireStationFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An airport or landing place for helicopters.(source: Oxford languages)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "an airport or landing place for helicopters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "heliportFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where sick or injured people go to be treated by doctors and nurses."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A place where sick or injured people go to be treated by doctors and nurses."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hospitalFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mortuaryFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large natural or artificial lake used as a source of water supply."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A large natural or artificial lake used as a source of water supply."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reservoirFacility"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sportsCenterFacility"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

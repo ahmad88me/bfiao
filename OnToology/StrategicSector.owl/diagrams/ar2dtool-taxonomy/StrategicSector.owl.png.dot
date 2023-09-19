@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "StrategicSector:fuelSubsector" "StrategicSector:gasSubsector" "StrategicSector:energySector" "StrategicSector:electricalSupplySubsector" ; /*classes style*/
+	"StrategicSector:fuelSubsector" -> "StrategicSector:energySector" [ label = "rdfs:subClassOf" ];
+	"StrategicSector:gasSubsector" -> "StrategicSector:energySector" [ label = "rdfs:subClassOf" ];
+	"StrategicSector:electricalSupplySubsector" -> "StrategicSector:energySector" [ label = "rdfs:subClassOf" ];
+
+}

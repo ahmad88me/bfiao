@@ -1,0 +1,840 @@
+<http://localhost:8080/BFiaO/EmergencyArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://localhost:8080/BFiaO/EmergencyArtifact> <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> .
+<http://localhost:8080/BFiaO/EmergencyArtifact> <http://localhost:8080/BFiaO/EmergencyArtifact#content_license> "The MIT License (MIT)\n\nCopyright (c) 2023 Leopoldo Santos Santos of EmergencyAgent\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact> <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" .
+<http://localhost:8080/BFiaO/EmergencyArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is designed to cover all the necessary material resources to act in an emergency situation." .
+<http://localhost:8080/BFiaO/EmergencyArtifact> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#content_license
+<http://localhost:8080/BFiaO/EmergencyArtifact#content_license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the amount of bed that a hospital or an evacuted camp can provide."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactBedCapability"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "It provides a description of a specific artifact"@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactDescription"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the maximum capacity of digging for an excavator. It is expressed in meters."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactDiggingDepth"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower> <http://www.w3.org/2000/01/rdf-schema#comment> "It specifies the engine power of a vehicle in HPA."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactEnginePower"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID> <http://www.w3.org/2000/01/rdf-schema#comment> "This filed identifies univocally any kind of artifact."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactID"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the ability to transport injured people."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactInjuredTransport"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the model used for an specific artifact."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactModel"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the level of the staff needed to operate an specific system or equipment."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactOperatingStaffSize"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the capacity for transport of personnel in a vehicle. If the vehicle is an ambulance it identifies the maximum capacity for transporting injured people."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactPersonnelTransportCapacity"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the amount of water or mud that a pumping equipment can extract. , expressed in cubic meters per hour."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactPumpingWaterCapability"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the time, in hours, that an artifact can be working without providing any kind of fuel."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactRange"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the maximum amount of salt that a truck or a snowplow can transport. It is expressed im cubic meters."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactSaltCapability"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the capacity of a tipper in a dump truck. It is expressed in cubic meters."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactTipperCapacity"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the unit to which a specific artifact belongs."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactUnitOwner"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the amount of water that a firefighting vehicle o a cistern can transport, expressed in liters (l)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability> <http://www.w3.org/2000/01/rdf-schema#label> "ArtifactWaterCapability"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "an aeroplane, helicopter, or other machine capable of flight"@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "an aeroplane, helicopter, or other machine capable of flight"@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "aerialVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "ambulanceHelicopterArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "blanketArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "bodyBagArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "bridgeLaunchVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "bulldozerArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A bunk bed is one of two single beds usually placed one above the other."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A bunk bed is one of two single beds usually placed one above the other."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "bunkbedArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A bus is a large motor vehicle designed to carry passengers."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A bus is a large motor vehicle designed to carry passengers."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "busArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNIndividualProtectiveArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNInterventionVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNMaterielDecontaminationArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNMobileLabArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNPersonnelDecontaminationArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNReconnaissanceVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.\nIt is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.\nIt is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "caterpillarExcavatorArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact> <http://www.w3.org/2002/07/owl#disjointWith> <http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "cellsOnWheelsSystemArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A coffin is a box or chest for burying a corpse."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A coffin is a box or chest for burying a corpse."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "coffinArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It describes any kind of vehicle used for providing communication services."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It describes any kind of vehicle used for providing communication services."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "commsVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "communicationArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "craneArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "dockLandingShipArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.\nHeavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper)"@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.\nHeavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "dumpTruckArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyAmbulanceArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyCommandPostArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It describes any kind of vehicle used for emergency services."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It describes any kind of vehicle used for emergency services."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "evacuatedCampArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines a diversity of tools, field facilities or any other utensiles used in emergency zones."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines a diversity of tools, field facilities or any other utensiles used in emergency zones."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "fieldArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "fieldHospitalArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "The place where food for a military unit in the field is prepared."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The place where food for a military unit in the field is prepared."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "fieldKitchenArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "fireExtinguisherArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact> <http://www.w3.org/2002/07/owl#disjointWith> <http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A firefighting plane is an aircraft used to combat wildfires."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A firefighting plane is an aircraft used to combat wildfires."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "firefightingAircraftArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "firefightingHelicopterArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "firefightingTruckArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft's forward airspeed and the shape of the wings."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft's forward airspeed and the shape of the wings."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "fixedWingArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "fuelTankerTruckArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "gasTankerTruckArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "groundVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "hFRadioArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "hospitalShipArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "l1emergencyAmbulanceArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an ambulance  intended to provide basic life support and\ninitial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an ambulance  intended to provide basic life support and\ninitial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "l2emergencyAmbulanceArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "l3emergencyAmbulanceArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "landingCraftShipArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "marineVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "mobileCommunicationVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a vehicle with two wheels and an engine."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a vehicle with two wheels and an engine."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "motorcycleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "pickArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "platformTransportTruckArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "pollutingGasMeterArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "portableFuelStationArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A Portable Gas Station is a facility that provides natural gas to particular users and buildings."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Portable Gas Station is a facility that provides natural gas to particular users and buildings."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "portableGasStationArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "portableSatelliteCommSystemArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "portableWiMAXSystemArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "powerSupplyGeneratorArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A radiactivity meter is a device designed to measure the level of radioactivity in a zone."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A radiactivity meter is a device designed to measure the level of radioactivity in a zone."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "radiactivityMeterArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "reconnaissanceVehicleArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or 'sponsons' around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).\nVessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or 'sponsons' around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).\nVessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "rigidBoatArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "rotaryWingArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "rubberBoatArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "shelterArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "shovelArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "snowplowArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A stretcher is a device for carrying a sick, injured, or dead person."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A stretcher is a device for carrying a sick, injured, or dead person."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "stretcherArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "tETRASystemArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "tentArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "transportAircraftArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A transport helicopter is a rotary wing aircraft used to transport people or equipment."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "transportHelicopterArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "truckArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "uAVArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "uGVArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "uHFRadioArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "uSVArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz)."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "vHFRadioArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "waterPumpingTruckArtifact"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#comment> "A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads."@en .
+<http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact> <http://www.w3.org/2000/01/rdf-schema#label> "waterTankerTruckArtifact"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid5 <http://www.w3.org/2002/07/owl#members> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid9 <http://www.w3.org/2002/07/owl#members> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid29 <http://www.w3.org/2002/07/owl#members> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid34 <http://www.w3.org/2002/07/owl#members> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid38 <http://www.w3.org/2002/07/owl#members> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid42 <http://www.w3.org/2002/07/owl#members> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid49 <http://www.w3.org/2002/07/owl#members> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid53 <http://www.w3.org/2002/07/owl#members> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

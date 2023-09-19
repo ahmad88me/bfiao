@@ -1,0 +1,220 @@
+{
+  "@context" : {
+    "musicalConcertEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent"
+    },
+    "forestFireEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent"
+    },
+    "chemicalExplosionEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "dustStormEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent"
+    },
+    "trainDerailmentEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent"
+    },
+    "hailStormEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "EventInitialTransactionTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime"
+    },
+    "radiologicalEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent"
+    },
+    "shipSinkingEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent"
+    },
+    "cybersecurityEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent"
+    },
+    "EventFinalTransactionTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime"
+    },
+    "waterInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent"
+    },
+    "roadInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent"
+    },
+    "volcanoEruptionEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent"
+    },
+    "EventID" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventID"
+    },
+    "biologicalEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"
+    },
+    "content_license" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#content_license"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "tornadoEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent"
+    },
+    "naturalGasInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent"
+    },
+    "petroChemicalEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent"
+    },
+    "nuclearEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent"
+    },
+    "landslideEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent"
+    },
+    "cyberAttackEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent"
+    },
+    "environmentalPollutionEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent"
+    },
+    "EventName" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventName"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "fuelInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent"
+    },
+    "industrialFireEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent"
+    },
+    "electricalInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent"
+    },
+    "technologicalEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+    },
+    "pluvialFloodEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent"
+    },
+    "aircraftCrashEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent"
+    },
+    "earthquakeEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent"
+    },
+    "EventScale" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventScale"
+    },
+    "flashFloodEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent"
+    },
+    "fuelLeakegeEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent"
+    },
+    "strikeEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "EventFinalValidTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime"
+    },
+    "demonstrationEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent"
+    },
+    "sewerSystemInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent"
+    },
+    "toxinSpreadEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent"
+    },
+    "urbanFireEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent"
+    },
+    "miningEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#miningEvent"
+    },
+    "droughtEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent"
+    },
+    "EventDescription" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventDescription"
+    },
+    "iCTInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent"
+    },
+    "avalancheEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent"
+    },
+    "damBreakEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent"
+    },
+    "sportEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#sportEvent"
+    },
+    "fuelPlatformLeakEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent"
+    },
+    "chemicalInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent"
+    },
+    "tsunamiEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent"
+    },
+    "actOfBioTerrorismEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent"
+    },
+    "naturalEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "EventInitialValidTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime"
+    },
+    "railroadInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent"
+    },
+    "airportInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent"
+    },
+    "socialEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"
+    },
+    "fluvialFloodEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent"
+    },
+    "hurricaneEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent"
+    },
+    "actOfTerrorismEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent"
+    },
+    "floodEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"
+    },
+    "portInfrastructureEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent"
+    },
+    "coastalFloodEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent"
+    },
+    "bacterySpreadEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent"
+    },
+    "snowfallEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent"
+    },
+    "virusSpreadEvent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent"
+    }
+  }
+}

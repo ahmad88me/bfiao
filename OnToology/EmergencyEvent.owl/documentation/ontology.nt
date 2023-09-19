@@ -1,0 +1,696 @@
+<http://localhost:8080/BFiaO/EmergencyEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://localhost:8080/BFiaO/EmergencyEvent> <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> .
+<http://localhost:8080/BFiaO/EmergencyEvent> <http://localhost:8080/BFiaO/EmergencyEvent#content_license> "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent> <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en .
+<http://localhost:8080/BFiaO/EmergencyEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "The taxonomy for events defines the possible event that can occur when different risks impact on affected domains or sectors."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent> <http://www.w3.org/2002/07/owl#versionInfo> "October 30, 2022"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#content_license
+<http://localhost:8080/BFiaO/EmergencyEvent#content_license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventDescription
+<http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a brief description about the event and the circunstances of it."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a brief description about the event and the circunstances of it."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/2000/01/rdf-schema#label> "EventDescription"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/2000/01/rdf-schema#label> "EventFinalTransactionTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It expresses the time when this fact is true in the real world and it shows the final time of the event."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It expresses the time when this fact is true in the real world and it shows the final time of the event."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/2000/01/rdf-schema#label> "EventFinalValidTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventID
+<http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a unique identifier for an event"@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a unique identifier for an event."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/2000/01/rdf-schema#label> "EventID"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/2000/01/rdf-schema#label> "EventInitialTransactionTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It expresses the time when this fact is true in the real world and it shows the initial time of the event."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It expresses the time when this fact is true in the real world and it shows the initial time of the event."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/2000/01/rdf-schema#label> "EventInitialValidTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventName
+<http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the name for the event."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the name for the event."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/2000/01/rdf-schema#label> "EventName"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#EventScale
+<http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the magnitude of the event through a scientific scale."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the magnitude of the event through a scientific scale."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/2000/01/rdf-schema#label> "EventScale"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#label> "actOfBioTerrorismEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent> <http://www.w3.org/2000/01/rdf-schema#label> "actOfTerrorismEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An accident in which an aircraft hits land or water and is damaged or destroyed."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An accident in which an aircraft hits land or water and is damaged or destroyed."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent> <http://www.w3.org/2000/01/rdf-schema#label> "aircraftCrashEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the airport infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the airport infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "airportInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A mass of snow, ice, and rocks falling rapidly down a mountainside."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A mass of snow, ice, and rocks falling rapidly down a mountainside."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent> <http://www.w3.org/2000/01/rdf-schema#label> "avalancheEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent> <http://www.w3.org/2000/01/rdf-schema#label> "bacterySpreadEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an event caused by viruses, toxins or bacteries."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "This is an event caused by viruses, toxins or bacteries."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> <http://www.w3.org/2000/01/rdf-schema#label> "biologicalEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent> <http://www.w3.org/2000/01/rdf-schema#label> "chemicalExplosionEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the chemical infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the chemical infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "chemicalInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent> <http://www.w3.org/2000/01/rdf-schema#label> "coastalFloodEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An attempt by hackers to damage or destroy a computer network or system."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An attempt by hackers to damage or destroy a computer network or system."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent> <http://www.w3.org/2000/01/rdf-schema#label> "cyberAttackEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent> <http://www.w3.org/2000/01/rdf-schema#label> "cybersecurityEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent> <http://www.w3.org/2000/01/rdf-schema#label> "damBreakEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A manifestation of protest by public rally, parade, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A manifestation of protest by public rally, parade, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent> <http://www.w3.org/2000/01/rdf-schema#label> "demonstrationEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A prolonged period of abnormally low rainfall, leading to a shortage of water."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A prolonged period of abnormally low rainfall, leading to a shortage of water."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent> <http://www.w3.org/2000/01/rdf-schema#label> "droughtEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent> <http://www.w3.org/2000/01/rdf-schema#label> "dustStormEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth's crust or volcanic action."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth's crust or volcanic action."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent> <http://www.w3.org/2000/01/rdf-schema#label> "earthquakeEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the electrical infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the electrical infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "electricalInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent> <http://www.w3.org/2000/01/rdf-schema#label> "environmentalPollutionEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent> <http://www.w3.org/2000/01/rdf-schema#label> "flashFloodEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#floodEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An overflow of a large amount of water beyond its normal limits"@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An overflow of a large amount of water beyond its normal limits."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> <http://www.w3.org/2000/01/rdf-schema#label> "floodEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#label> "fluvialFloodEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A fire event which is produced in a forest."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A fire event which is produced in a forest."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent> <http://www.w3.org/2000/01/rdf-schema#label> "forestFireEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the fuel infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the fuel infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "fuelInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent> <http://www.w3.org/2000/01/rdf-schema#label> "fuelLeakegeEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent> <http://www.w3.org/2000/01/rdf-schema#label> "fuelPlatformLeakEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A storm of heavy hail."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A storm of heavy hail."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent> <http://www.w3.org/2000/01/rdf-schema#label> "hailStormEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A violent storm with very strong winds."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A violent storm with very strong winds."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent> <http://www.w3.org/2000/01/rdf-schema#label> "hurricaneEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "iCTInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "The fire event that are produced in a industrial area."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The fire event that are produced in a industrial area."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent> <http://www.w3.org/2000/01/rdf-schema#label> "industrialFireEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent> <http://www.w3.org/2000/01/rdf-schema#label> "landslideEven"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#miningEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#miningEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#miningEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#miningEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#miningEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#miningEvent> <http://www.w3.org/2000/01/rdf-schema#label> "miningEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent> <http://www.w3.org/2000/01/rdf-schema#label> "musicalConcertEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an event produced by nature."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "This is an event produced by nature."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> <http://www.w3.org/2000/01/rdf-schema#label> "naturalEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the natural gas infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the natural gas infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "naturalGasInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent> <http://www.w3.org/2000/01/rdf-schema#label> "nuclearEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent> <http://www.w3.org/2000/01/rdf-schema#label> "petroChemicalEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent> <http://www.w3.org/2000/01/rdf-schema#label> "pluvialFloodEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the port infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the port infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "portInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent> <http://www.w3.org/2000/01/rdf-schema#label> "radiologicalEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the railroad infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the railroad infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "railroadInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the road infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the road infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "roadInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. \nSo, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. \nSo, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "sewerSystemInfrastructureEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent> <http://www.w3.org/2000/01/rdf-schema#label> "shipSinkingEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent> <http://www.w3.org/2000/01/rdf-schema#label> "snowfallEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#socialEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "These are the events where there is a large influx of people."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "These are the events where there is a large influx of people."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "socialEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#sportEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#sportEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#sportEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#sportEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#sportEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#sportEvent> <http://www.w3.org/2000/01/rdf-schema#label> "sportEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer"@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent> <http://www.w3.org/2000/01/rdf-schema#label> "strikeEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an event where infrastructures are damaged."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "This is an event where infrastructures are damaged."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> <http://www.w3.org/2000/01/rdf-schema#label> "technologicalEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent> <http://www.w3.org/2000/01/rdf-schema#label> "tornadoEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria)."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#label> "toxinSpreadEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent> <http://www.w3.org/2000/01/rdf-schema#label> "trainDerailmentEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent> <http://www.w3.org/2000/01/rdf-schema#label> "tsunamiEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "The fire event that are produced in an urban area."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The fire event that are produced in an urban area."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent> <http://www.w3.org/2000/01/rdf-schema#label> "urbanFireEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent> <http://www.w3.org/2000/01/rdf-schema#label> "virusSpreadEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent> <http://www.w3.org/2000/01/rdf-schema#label> "volcanoEruptionEvent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent
+<http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+<http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Any kind of damage in the water infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Any kind of damage in the water infrastructure which prevent the use of the facilities."@en .
+<http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent> <http://www.w3.org/2000/01/rdf-schema#label> "waterInfrastructureEvent"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid6 <http://www.w3.org/2002/07/owl#members> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#miningEvent> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid35 <http://www.w3.org/2002/07/owl#members> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#floodEvent> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid49 <http://www.w3.org/2002/07/owl#members> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid54 <http://www.w3.org/2002/07/owl#members> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid59 <http://www.w3.org/2002/07/owl#members> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#sportEvent> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid64 <http://www.w3.org/2002/07/owl#members> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,88 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "license" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#license"
+    },
+    "civilProtectionFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility"
+    },
+    "FacilityOperator" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator"
+    },
+    "FacilityAddress" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress"
+    },
+    "FacilityCapacity" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity"
+    },
+    "sportsCenterFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility"
+    },
+    "emergencyCommandCenterFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility"
+    },
+    "mortuaryFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility"
+    },
+    "content_license" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#content_license"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "FacilityID" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityID"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "hospitalFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility"
+    },
+    "FacilityName" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityName"
+    },
+    "FacilityBurnUnit" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit"
+    },
+    "emergencyDepotFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "heliportFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility"
+    },
+    "emergencyCommandPostFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility"
+    },
+    "FacilityCity" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity"
+    },
+    "FacilityDescription" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription"
+    },
+    "FacilityHeliportCapability" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability"
+    },
+    "fireStationFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility"
+    },
+    "reservoirFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "airportFacility" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#airportFacility"
+    },
+    "FacilityGeoLocation" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation"
+    }
+  }
+}

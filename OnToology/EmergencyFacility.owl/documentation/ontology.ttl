@@ -1,0 +1,230 @@
+@prefix : <http://localhost:8080/BFiaO/EmergencyFacility#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://localhost:8080/BFiaO/EmergencyFacility#> .
+
+<http://localhost:8080/BFiaO/EmergencyFacility> rdf:type owl:Ontology ;
+                                                 <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> ;
+                                                 :content_license """The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of EmergencyAgent
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \"Software\"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE."""@en ;
+                                                 <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en ;
+                                                 rdfs:comment "This ontology is designed to cover all  necessary facilities to provide support in an emergency situation."@en ;
+                                                 owl:versionInfo "Version 1.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#content_license
+:content_license rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#license
+:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress
+:FacilityAddress rdf:type owl:DatatypeProperty ;
+                 rdfs:comment "It identifies the address of the facility."@en ;
+                 rdfs:isDefinedBy "It identifies the address of the facility."@en ;
+                 rdfs:label "FacilityAddress"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit
+:FacilityBurnUnit rdf:type owl:DatatypeProperty ;
+                  rdfs:comment "It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it."@en ;
+                  rdfs:isDefinedBy "It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it."@en ;
+                  rdfs:label "FacilityBurnUnit"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity
+:FacilityCapacity rdf:type owl:DatatypeProperty ;
+                  rdfs:comment "It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions."@en ;
+                  rdfs:isDefinedBy "It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions."@en ;
+                  rdfs:label "FacilityCapacity"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity
+:FacilityCity rdf:type owl:DatatypeProperty ;
+              rdfs:comment "It identifies the city where the facility is located"@en ;
+              rdfs:isDefinedBy "It identifies the city where the facility is located."@en ;
+              rdfs:label "FacilityCity"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription
+:FacilityDescription rdf:type owl:DatatypeProperty ;
+                     rdfs:comment "It describes the usual use of the facility."@en ;
+                     rdfs:isDefinedBy "It describes the usual use of the facility."@en ;
+                     rdfs:label "FacilityDescription"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation
+:FacilityGeoLocation rdf:type owl:DatatypeProperty ;
+                     rdfs:comment "It defines the WKS coordinates of the facility."@en ;
+                     rdfs:isDefinedBy "It defines the WKS coordinates of the facility."@en ;
+                     rdfs:label "FacilityGeoLocation"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability
+:FacilityHeliportCapability rdf:type owl:DatatypeProperty ;
+                            rdfs:comment "It idenfies with a true if the facility has heliport capability."@en ;
+                            rdfs:isDefinedBy "It idenfies with a true if the facility has heliport capability."@en ;
+                            rdfs:label "FacilityHeliportCapability"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityID
+:FacilityID rdf:type owl:DatatypeProperty ;
+            rdfs:comment "It identifies univocally any facility"@en ;
+            rdfs:isDefinedBy "It identifies univocally any facility."@en ;
+            rdfs:label "FacilityID"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityName
+:FacilityName rdf:type owl:DatatypeProperty ;
+              rdfs:comment "It provides a name to identify any facility."@en ;
+              rdfs:isDefinedBy "It provides a name to identify any facility."@en ;
+              rdfs:label "FacilityName"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator
+:FacilityOperator rdf:type owl:DatatypeProperty ;
+                  rdfs:comment "It identifies the organism or private company which manages the facility."@en ;
+                  rdfs:isDefinedBy "It identifies the organism or private company which manages the facility."@en ;
+                  rdfs:label "FacilityOperator"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#airportFacility
+:airportFacility rdf:type owl:Class ;
+                 rdfs:comment "A complex of runways and buildings for the take-off, landing, and maintenance of civil aircraft, with facilities for passengers and payloads"@en ;
+                 rdfs:label "airportFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility
+:civilProtectionFacility rdf:type owl:Class ;
+                         rdfs:comment "The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed."@en ;
+                         rdfs:isDefinedBy "The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed."@en ;
+                         rdfs:label "civilProtectionFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility
+:emergencyCommandCenterFacility rdf:type owl:Class ;
+                                rdfs:comment "Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency."@en ;
+                                rdfs:isDefinedBy "Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency."@en ;
+                                rdfs:label "emergencyCommandCenterFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility
+:emergencyCommandPostFacility rdf:type owl:Class ;
+                              rdfs:comment "The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident."@en ;
+                              rdfs:isDefinedBy "The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident."@en ;
+                              rdfs:label "emergencyCommandPostFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility
+:emergencyDepotFacility rdf:type owl:Class ;
+                        rdfs:comment "A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects."@en ;
+                        rdfs:isDefinedBy "A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects."@en ;
+                        rdfs:label "emergencyDepotFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility
+:fireStationFacility rdf:type owl:Class ;
+                     rdfs:comment "The headquarters of a fire brigade, where fire engines and other equipment are housed."@en ;
+                     rdfs:isDefinedBy "The headquarters of a fire brigade, where fire engines and other equipment are housed."@en ;
+                     rdfs:label "fireStationFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility
+:heliportFacility rdf:type owl:Class ;
+                  rdfs:comment "An airport or landing place for helicopters.(source: Oxford languages)"@en ;
+                  rdfs:isDefinedBy "an airport or landing place for helicopters"@en ;
+                  rdfs:label "heliportFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility
+:hospitalFacility rdf:type owl:Class ;
+                  rdfs:comment "A place where sick or injured people go to be treated by doctors and nurses."@en ;
+                  rdfs:isDefinedBy "A place where sick or injured people go to be treated by doctors and nurses."@en ;
+                  rdfs:label "hospitalFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility
+:mortuaryFacility rdf:type owl:Class ;
+                  rdfs:comment "A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary)."@en ;
+                  rdfs:isDefinedBy "A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary)."@en ;
+                  rdfs:label "mortuaryFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility
+:reservoirFacility rdf:type owl:Class ;
+                   rdfs:comment "A large natural or artificial lake used as a source of water supply."@en ;
+                   rdfs:isDefinedBy "A large natural or artificial lake used as a source of water supply."@en ;
+                   rdfs:label "reservoirFacility"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility
+:sportsCenterFacility rdf:type owl:Class ;
+                      rdfs:comment "A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people."@en ;
+                      rdfs:isDefinedBy "A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people."@en ;
+                      rdfs:label "sportsCenterFacility"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :airportFacility
+                :civilProtectionFacility
+                :emergencyCommandCenterFacility
+                :emergencyCommandPostFacility
+                :emergencyDepotFacility
+                :fireStationFacility
+                :heliportFacility
+                :hospitalFacility
+                :mortuaryFacility
+                :reservoirFacility
+                :sportsCenterFacility
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

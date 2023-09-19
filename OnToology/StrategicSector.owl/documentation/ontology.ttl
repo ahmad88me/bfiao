@@ -1,0 +1,224 @@
+@prefix : <http://localhost:8080/BFiaO/StrategicSector#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://localhost:8080/BFiaO/StrategicSector#> .
+
+<http://localhost:8080/BFiaO/StrategicSector> rdf:type owl:Ontology ;
+                                               <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> ;
+                                               :content_license """The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of Strategic Sector
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \"Software\"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE."""@en ;
+                                               <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" ;
+                                               rdfs:comment "This ontology is designed to identify the strategic sectors and the domains that each sector has. In this case the sectors are defined in the Spanish law 8/2011 in order to establishing measures for the protection of critical infrastructures."@en ;
+                                               owl:versionInfo "Version 1.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#content_license
+:content_license rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#license
+:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://localhost:8080/BFiaO/StrategicSector#SectorCode
+:SectorCode rdf:type owl:DatatypeProperty ;
+            rdfs:comment "It identifies univocally a sector with a number and several letters with the name of the specfic sector."@en ;
+            rdfs:isDefinedBy "It identifies univocally a sector with a number and several letters with the name of the specfic sector."@en ;
+            rdfs:label "SectorCode"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization
+:SectorCompetentOrganization rdf:type owl:DatatypeProperty ;
+                             rdfs:comment "It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies."@en ;
+                             rdfs:isDefinedBy "It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies."@en ;
+                             rdfs:label "SectorCompetentOrganization"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#SectorPoC
+:SectorPoC rdf:type owl:DatatypeProperty ;
+           rdfs:comment "It identies the phone of the person of contact in case of communications reltated to emergencies."@en ;
+           rdfs:isDefinedBy "It identies the phone of the person of contact in case of communications reltated to emergencies."@en ;
+           rdfs:label "SectorPoC"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector
+:chemicalIndustrySector rdf:type owl:Class ;
+                        rdfs:comment "It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)"@en ;
+                        rdfs:isDefinedBy "It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)"@en ;
+                        rdfs:label "chemicalIndustrySector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector
+:electricalSupplySubsector rdf:type owl:Class ;
+                           rdfs:subClassOf :energySector ;
+                           rdfs:comment "The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy."@en ;
+                           rdfs:isDefinedBy "The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy."@en ;
+                           rdfs:label "electricalSupplySubsector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#energySector
+:energySector rdf:type owl:Class ;
+              rdfs:comment "It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels."@en ;
+              rdfs:isDefinedBy "It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels."@en ;
+              rdfs:label "energySector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#financialTaxSector
+:financialTaxSector rdf:type owl:Class ;
+                    rdfs:comment """The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)
+The Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)"""@en ;
+                    rdfs:isDefinedBy """The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)
+The Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)"""@en ;
+                    rdfs:label "financialTaxSector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#foodSector
+:foodSector rdf:type owl:Class ;
+            rdfs:comment "The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)"@en ;
+            rdfs:isDefinedBy "The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)"@en ;
+            rdfs:label "foodSector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#fuelSubsector
+:fuelSubsector rdf:type owl:Class ;
+               rdfs:subClassOf :energySector ;
+               rdfs:comment "The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives."@en ;
+               rdfs:isDefinedBy "The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives."@en ;
+               rdfs:label "fuelSubsector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#gasSubsector
+:gasSubsector rdf:type owl:Class ;
+              rdfs:subClassOf :energySector ;
+              rdfs:comment "The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas."@en ;
+              rdfs:isDefinedBy "The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas."@en ;
+              rdfs:label "gasSubsector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#healthCareSector
+:healthCareSector rdf:type owl:Class ;
+                  rdfs:comment "The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)"@en ;
+                  rdfs:isDefinedBy "The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)"@en ;
+                  rdfs:label "healthCareSector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#iCTSector
+:iCTSector rdf:type owl:Class ;
+           rdfs:comment "The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat)"@en ;
+           rdfs:isDefinedBy "The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat)."@en ;
+           rdfs:label "iCTSector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector
+:nuclearIndustrySector rdf:type owl:Class ;
+                       rdfs:comment "It defines the industry dedicated to obtaining nuclear energy."@en ;
+                       rdfs:isDefinedBy "It defines the industry dedicated to obtaining nuclear energy."@en ;
+                       rdfs:label "nuclearIndustrySector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector
+:publicAdministrationSector rdf:type owl:Class ;
+                            rdfs:comment "It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government."@en ;
+                            rdfs:isDefinedBy "It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government."@en ;
+                            rdfs:label "publicAdministrationSector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector
+:researchFacilitySector rdf:type owl:Class ;
+                        rdfs:comment "It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)"@en ;
+                        rdfs:isDefinedBy "It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)"@en ;
+                        rdfs:label "researchFacilitySector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#spaceSector
+:spaceSector rdf:type owl:Class ;
+             rdfs:comment "It defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics)."@en ;
+             rdfs:isDefinedBy "t defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics)."@en ;
+             rdfs:label "spaceSector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#transportationSector
+:transportationSector rdf:type owl:Class ;
+                      rdfs:comment "The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)"@en ;
+                      rdfs:isDefinedBy "The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)"@en ;
+                      rdfs:label "transportationSector"@en .
+
+
+###  http://localhost:8080/BFiaO/StrategicSector#waterSector
+:waterSector rdf:type owl:Class ;
+             rdfs:comment "It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water."@en ;
+             rdfs:isDefinedBy "It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water."@en ;
+             rdfs:label "waterSector"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :chemicalIndustrySector
+                :energySector
+                :financialTaxSector
+                :foodSector
+                :healthCareSector
+                :iCTSector
+                :nuclearIndustrySector
+                :publicAdministrationSector
+                :researchFacilitySector
+                :spaceSector
+                :transportationSector
+                :waterSector
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :electricalSupplySubsector
+                :fuelSubsector
+                :gasSubsector
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

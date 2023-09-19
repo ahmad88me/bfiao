@@ -1,0 +1,13 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "EmergencyAgent:volunteerBusDriverAgent" "EmergencyAgent:volunteerGeneralServicesAgent" "EmergencyAgent:volunteerCivilProtectionAgent" "EmergencyAgent:volunteerAgent" "EmergencyAgent:volunteerTruckDriverAgent" "EmergencyAgent:volunteerAmbulanceDriverAgent" "EmergencyAgent:volunteerCitizenAgent" "EmergencyAgent:volunteerRedCrossAgent" ; /*classes style*/
+	"EmergencyAgent:volunteerRedCrossAgent" -> "EmergencyAgent:volunteerAgent" [ label = "rdfs:subClassOf" ];
+	"EmergencyAgent:volunteerCivilProtectionAgent" -> "EmergencyAgent:volunteerAgent" [ label = "rdfs:subClassOf" ];
+	"EmergencyAgent:volunteerBusDriverAgent" -> "EmergencyAgent:volunteerAgent" [ label = "rdfs:subClassOf" ];
+	"EmergencyAgent:volunteerGeneralServicesAgent" -> "EmergencyAgent:volunteerAgent" [ label = "rdfs:subClassOf" ];
+	"EmergencyAgent:volunteerCitizenAgent" -> "EmergencyAgent:volunteerAgent" [ label = "rdfs:subClassOf" ];
+	"EmergencyAgent:volunteerAmbulanceDriverAgent" -> "EmergencyAgent:volunteerAgent" [ label = "rdfs:subClassOf" ];
+	"EmergencyAgent:volunteerTruckDriverAgent" -> "EmergencyAgent:volunteerAgent" [ label = "rdfs:subClassOf" ];
+
+}

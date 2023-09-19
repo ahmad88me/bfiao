@@ -1,0 +1,217 @@
+<http://localhost:8080/BFiaO/StrategicSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://localhost:8080/BFiaO/StrategicSector> <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> .
+<http://localhost:8080/BFiaO/StrategicSector> <http://localhost:8080/BFiaO/StrategicSector#content_license> "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."@en .
+<http://localhost:8080/BFiaO/StrategicSector> <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" .
+<http://localhost:8080/BFiaO/StrategicSector> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is designed to identify the strategic sectors and the domains that each sector has. In this case the sectors are defined in the Spanish law 8/2011 in order to establishing measures for the protection of critical infrastructures."@en .
+<http://localhost:8080/BFiaO/StrategicSector> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#content_license
+<http://localhost:8080/BFiaO/StrategicSector#content_license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#license
+<http://localhost:8080/BFiaO/StrategicSector#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/StrategicSector#SectorCode
+<http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies univocally a sector with a number and several letters with the name of the specfic sector."@en .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies univocally a sector with a number and several letters with the name of the specfic sector."@en .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/2000/01/rdf-schema#label> "SectorCode"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization
+<http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies."@en .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies."@en .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "SectorCompetentOrganization"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#SectorPoC
+<http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/2000/01/rdf-schema#comment> "It identies the phone of the person of contact in case of communications reltated to emergencies."@en .
+<http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identies the phone of the person of contact in case of communications reltated to emergencies."@en .
+<http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/2000/01/rdf-schema#label> "SectorPoC"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector
+<http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> <http://www.w3.org/2000/01/rdf-schema#comment> "It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> <http://www.w3.org/2000/01/rdf-schema#label> "chemicalIndustrySector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector
+<http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/StrategicSector#energySector> .
+<http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector> <http://www.w3.org/2000/01/rdf-schema#comment> "The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy."@en .
+<http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy."@en .
+<http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector> <http://www.w3.org/2000/01/rdf-schema#label> "electricalSupplySubsector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#energySector
+<http://localhost:8080/BFiaO/StrategicSector#energySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#energySector> <http://www.w3.org/2000/01/rdf-schema#comment> "It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels."@en .
+<http://localhost:8080/BFiaO/StrategicSector#energySector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels."@en .
+<http://localhost:8080/BFiaO/StrategicSector#energySector> <http://www.w3.org/2000/01/rdf-schema#label> "energySector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#financialTaxSector
+<http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> <http://www.w3.org/2000/01/rdf-schema#comment> "The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)\nThe Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)\nThe Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> <http://www.w3.org/2000/01/rdf-schema#label> "financialTaxSector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#foodSector
+<http://localhost:8080/BFiaO/StrategicSector#foodSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#foodSector> <http://www.w3.org/2000/01/rdf-schema#comment> "The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#foodSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#foodSector> <http://www.w3.org/2000/01/rdf-schema#label> "foodSector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#fuelSubsector
+<http://localhost:8080/BFiaO/StrategicSector#fuelSubsector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#fuelSubsector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/StrategicSector#energySector> .
+<http://localhost:8080/BFiaO/StrategicSector#fuelSubsector> <http://www.w3.org/2000/01/rdf-schema#comment> "The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives."@en .
+<http://localhost:8080/BFiaO/StrategicSector#fuelSubsector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives."@en .
+<http://localhost:8080/BFiaO/StrategicSector#fuelSubsector> <http://www.w3.org/2000/01/rdf-schema#label> "fuelSubsector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#gasSubsector
+<http://localhost:8080/BFiaO/StrategicSector#gasSubsector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#gasSubsector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/StrategicSector#energySector> .
+<http://localhost:8080/BFiaO/StrategicSector#gasSubsector> <http://www.w3.org/2000/01/rdf-schema#comment> "The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas."@en .
+<http://localhost:8080/BFiaO/StrategicSector#gasSubsector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas."@en .
+<http://localhost:8080/BFiaO/StrategicSector#gasSubsector> <http://www.w3.org/2000/01/rdf-schema#label> "gasSubsector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#healthCareSector
+<http://localhost:8080/BFiaO/StrategicSector#healthCareSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#healthCareSector> <http://www.w3.org/2000/01/rdf-schema#comment> "The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#healthCareSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#healthCareSector> <http://www.w3.org/2000/01/rdf-schema#label> "healthCareSector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#iCTSector
+<http://localhost:8080/BFiaO/StrategicSector#iCTSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#iCTSector> <http://www.w3.org/2000/01/rdf-schema#comment> "The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#iCTSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat)."@en .
+<http://localhost:8080/BFiaO/StrategicSector#iCTSector> <http://www.w3.org/2000/01/rdf-schema#label> "iCTSector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector
+<http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the industry dedicated to obtaining nuclear energy."@en .
+<http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the industry dedicated to obtaining nuclear energy."@en .
+<http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> <http://www.w3.org/2000/01/rdf-schema#label> "nuclearIndustrySector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector
+<http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government."@en .
+<http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government."@en .
+<http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> <http://www.w3.org/2000/01/rdf-schema#label> "publicAdministrationSector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector
+<http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> <http://www.w3.org/2000/01/rdf-schema#comment> "It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> <http://www.w3.org/2000/01/rdf-schema#label> "researchFacilitySector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#spaceSector
+<http://localhost:8080/BFiaO/StrategicSector#spaceSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#spaceSector> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics)."@en .
+<http://localhost:8080/BFiaO/StrategicSector#spaceSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "t defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics)."@en .
+<http://localhost:8080/BFiaO/StrategicSector#spaceSector> <http://www.w3.org/2000/01/rdf-schema#label> "spaceSector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#transportationSector
+<http://localhost:8080/BFiaO/StrategicSector#transportationSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#transportationSector> <http://www.w3.org/2000/01/rdf-schema#comment> "The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#transportationSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)"@en .
+<http://localhost:8080/BFiaO/StrategicSector#transportationSector> <http://www.w3.org/2000/01/rdf-schema#label> "transportationSector"@en .
+# 
+# http://localhost:8080/BFiaO/StrategicSector#waterSector
+<http://localhost:8080/BFiaO/StrategicSector#waterSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/StrategicSector#waterSector> <http://www.w3.org/2000/01/rdf-schema#comment> "It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water."@en .
+<http://localhost:8080/BFiaO/StrategicSector#waterSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water."@en .
+<http://localhost:8080/BFiaO/StrategicSector#waterSector> <http://www.w3.org/2000/01/rdf-schema#label> "waterSector"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#waterSector> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#transportationSector> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#spaceSector> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#iCTSector> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#healthCareSector> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#foodSector> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#energySector> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid14 <http://www.w3.org/2002/07/owl#members> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#gasSubsector> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#fuelSubsector> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
