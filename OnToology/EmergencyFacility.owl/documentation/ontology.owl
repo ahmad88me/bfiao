@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost:8080/BFiaO/EmergencyFacility#"
+     xml:base="http://localhost:8080/BFiaO/EmergencyFacility"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:EmergencyFacility="http://localhost:8080/BFiaO/EmergencyFacility#">
+    <owl:Ontology rdf:about="http://localhost:8080/BFiaO/EmergencyFacility">
+        <ns:license rdf:resource="https://spdx.org/licenses/MIT.html"/>
+        <content_license xml:lang="en">The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of EmergencyAgent
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</content_license>
+        <dc:creator xml:lang="en">Leopoldo Santos Santos</dc:creator>
+        <rdfs:comment xml:lang="en">This ontology is designed to cover all  necessary facilities to provide support in an emergency situation.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#content_license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#content_license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress">
+        <rdfs:comment xml:lang="en">It identifies the address of the facility.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the address of the facility.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityAddress</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit">
+        <rdfs:comment xml:lang="en">It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityBurnUnit</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity">
+        <rdfs:comment xml:lang="en">It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityCapacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity">
+        <rdfs:comment xml:lang="en">It identifies the city where the facility is located</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the city where the facility is located.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityCity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription">
+        <rdfs:comment xml:lang="en">It describes the usual use of the facility.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It describes the usual use of the facility.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityDescription</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation">
+        <rdfs:comment xml:lang="en">It defines the WKS coordinates of the facility.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines the WKS coordinates of the facility.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityGeoLocation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability">
+        <rdfs:comment xml:lang="en">It idenfies with a true if the facility has heliport capability.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It idenfies with a true if the facility has heliport capability.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityHeliportCapability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityID">
+        <rdfs:comment xml:lang="en">It identifies univocally any facility</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies univocally any facility.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityName">
+        <rdfs:comment xml:lang="en">It provides a name to identify any facility.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It provides a name to identify any facility.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator">
+        <rdfs:comment xml:lang="en">It identifies the organism or private company which manages the facility.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the organism or private company which manages the facility.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">FacilityOperator</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#airportFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#airportFacility">
+        <rdfs:comment xml:lang="en">A complex of runways and buildings for the take-off, landing, and maintenance of civil aircraft, with facilities for passengers and payloads</rdfs:comment>
+        <rdfs:label xml:lang="en">airportFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility">
+        <rdfs:comment xml:lang="en">The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">civilProtectionFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility">
+        <rdfs:comment xml:lang="en">Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyCommandCenterFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility">
+        <rdfs:comment xml:lang="en">The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyCommandPostFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility">
+        <rdfs:comment xml:lang="en">A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyDepotFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility">
+        <rdfs:comment xml:lang="en">The headquarters of a fire brigade, where fire engines and other equipment are housed.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The headquarters of a fire brigade, where fire engines and other equipment are housed.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fireStationFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility">
+        <rdfs:comment xml:lang="en">An airport or landing place for helicopters.(source: Oxford languages)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">an airport or landing place for helicopters</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">heliportFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility">
+        <rdfs:comment xml:lang="en">A place where sick or injured people go to be treated by doctors and nurses.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A place where sick or injured people go to be treated by doctors and nurses.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hospitalFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility">
+        <rdfs:comment xml:lang="en">A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">mortuaryFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility">
+        <rdfs:comment xml:lang="en">A large natural or artificial lake used as a source of water supply.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A large natural or artificial lake used as a source of water supply.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">reservoirFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility">
+        <rdfs:comment xml:lang="en">A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">sportsCenterFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#airportFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

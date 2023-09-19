@@ -1,0 +1,669 @@
+@prefix : <http://localhost:8080/BFiaO/EmergencyEvent#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://localhost:8080/BFiaO/EmergencyEvent#> .
+
+<http://localhost:8080/BFiaO/EmergencyEvent> rdf:type owl:Ontology ;
+                                              <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> ;
+                                              :content_license """The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of Strategic Sector
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \"Software\"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE."""@en ;
+                                              <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en ;
+                                              rdfs:comment "The taxonomy for events defines the possible event that can occur when different risks impact on affected domains or sectors."@en ;
+                                              owl:versionInfo "October 30, 2022"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#content_license
+:content_license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventDescription
+:EventDescription rdf:type owl:DatatypeProperty ;
+                  rdfs:comment "It is a brief description about the event and the circunstances of it."@en ;
+                  rdfs:isDefinedBy "It is a brief description about the event and the circunstances of it."@en ;
+                  rdfs:label "EventDescription"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime
+:EventFinalTransactionTime rdf:type owl:DatatypeProperty ;
+                           rdfs:comment "It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered."@en ;
+                           rdfs:isDefinedBy "It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered."@en ;
+                           rdfs:label "EventFinalTransactionTime"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime
+:EventFinalValidTime rdf:type owl:DatatypeProperty ;
+                     rdfs:comment "It expresses the time when this fact is true in the real world and it shows the final time of the event."@en ;
+                     rdfs:isDefinedBy "It expresses the time when this fact is true in the real world and it shows the final time of the event."@en ;
+                     rdfs:label "EventFinalValidTime"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventID
+:EventID rdf:type owl:DatatypeProperty ;
+         rdfs:comment "It is a unique identifier for an event"@en ;
+         rdfs:isDefinedBy "It is a unique identifier for an event."@en ;
+         rdfs:label "EventID"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime
+:EventInitialTransactionTime rdf:type owl:DatatypeProperty ;
+                             rdfs:comment "It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered."@en ;
+                             rdfs:isDefinedBy "It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered."@en ;
+                             rdfs:label "EventInitialTransactionTime"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime
+:EventInitialValidTime rdf:type owl:DatatypeProperty ;
+                       rdfs:comment "It expresses the time when this fact is true in the real world and it shows the initial time of the event."@en ;
+                       rdfs:isDefinedBy "It expresses the time when this fact is true in the real world and it shows the initial time of the event."@en ;
+                       rdfs:label "EventInitialValidTime"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventName
+:EventName rdf:type owl:DatatypeProperty ;
+           rdfs:comment "It is the name for the event."@en ;
+           rdfs:isDefinedBy "It is the name for the event."@en ;
+           rdfs:label "EventName"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#EventScale
+:EventScale rdf:type owl:DatatypeProperty ;
+            rdfs:comment "It identifies the magnitude of the event through a scientific scale."@en ;
+            rdfs:isDefinedBy "It identifies the magnitude of the event through a scientific scale."@en ;
+            rdfs:label "EventScale"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent
+:actOfBioTerrorismEvent rdf:type owl:Class ;
+                        rdfs:subClassOf :biologicalEvent ;
+                        rdfs:comment "An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol)."@en ;
+                        rdfs:isDefinedBy "An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol)."@en ;
+                        rdfs:label "actOfBioTerrorismEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent
+:actOfTerrorismEvent rdf:type owl:Class ;
+                     rdfs:subClassOf :technologicalEvent ;
+                     rdfs:comment "The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI)."@en ;
+                     rdfs:isDefinedBy "The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI)."@en ;
+                     rdfs:label "actOfTerrorismEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent
+:aircraftCrashEvent rdf:type owl:Class ;
+                    rdfs:subClassOf :technologicalEvent ;
+                    rdfs:comment "An accident in which an aircraft hits land or water and is damaged or destroyed."@en ;
+                    rdfs:isDefinedBy "An accident in which an aircraft hits land or water and is damaged or destroyed."@en ;
+                    rdfs:label "aircraftCrashEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent
+:airportInfrastructureEvent rdf:type owl:Class ;
+                            rdfs:subClassOf :technologicalEvent ;
+                            rdfs:comment "Any kind of damage in the airport infrastructure which prevent the use of the facilities."@en ;
+                            rdfs:isDefinedBy "Any kind of damage in the airport infrastructure which prevent the use of the facilities."@en ;
+                            rdfs:label "airportInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent
+:avalancheEvent rdf:type owl:Class ;
+                rdfs:subClassOf :naturalEvent ;
+                rdfs:comment "A mass of snow, ice, and rocks falling rapidly down a mountainside."@en ;
+                rdfs:isDefinedBy "A mass of snow, ice, and rocks falling rapidly down a mountainside."@en ;
+                rdfs:label "avalancheEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent
+:bacterySpreadEvent rdf:type owl:Class ;
+                    rdfs:subClassOf :biologicalEvent ;
+                    rdfs:comment "It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population."@en ;
+                    rdfs:isDefinedBy "It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population."@en ;
+                    rdfs:label "bacterySpreadEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent
+:biologicalEvent rdf:type owl:Class ;
+                 rdfs:comment "This is an event caused by viruses, toxins or bacteries."@en ;
+                 rdfs:isDefinedBy "This is an event caused by viruses, toxins or bacteries."@en ;
+                 rdfs:label "biologicalEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent
+:chemicalExplosionEvent rdf:type owl:Class ;
+                        rdfs:subClassOf :technologicalEvent ;
+                        rdfs:comment "An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia)."@en ;
+                        rdfs:isDefinedBy "An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia)."@en ;
+                        rdfs:label "chemicalExplosionEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent
+:chemicalInfrastructureEvent rdf:type owl:Class ;
+                             rdfs:subClassOf :technologicalEvent ;
+                             rdfs:comment "Any kind of damage in the chemical infrastructure which prevent the use of the facilities."@en ;
+                             rdfs:isDefinedBy "Any kind of damage in the chemical infrastructure which prevent the use of the facilities."@en ;
+                             rdfs:label "chemicalInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent
+:coastalFloodEvent rdf:type owl:Class ;
+                   rdfs:subClassOf :floodEvent ;
+                   rdfs:comment "Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge."@en ;
+                   rdfs:isDefinedBy "Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge."@en ;
+                   rdfs:label "coastalFloodEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent
+:cyberAttackEvent rdf:type owl:Class ;
+                  rdfs:subClassOf :technologicalEvent ;
+                  rdfs:comment "An attempt by hackers to damage or destroy a computer network or system."@en ;
+                  rdfs:isDefinedBy "An attempt by hackers to damage or destroy a computer network or system."@en ;
+                  rdfs:label "cyberAttackEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent
+:cybersecurityEvent rdf:type owl:Class ;
+                    rdfs:subClassOf :technologicalEvent ;
+                    rdfs:comment "A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST)."@en ;
+                    rdfs:isDefinedBy "A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST)."@en ;
+                    rdfs:label "cybersecurityEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent
+:damBreakEvent rdf:type owl:Class ;
+               rdfs:subClassOf :technologicalEvent ;
+               rdfs:comment "An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water."@en ;
+               rdfs:isDefinedBy "An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water."@en ;
+               rdfs:label "damBreakEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent
+:demonstrationEvent rdf:type owl:Class ;
+                    rdfs:subClassOf :socialEvent ;
+                    rdfs:comment "A manifestation of protest by public rally, parade, etc."@en ;
+                    rdfs:isDefinedBy "A manifestation of protest by public rally, parade, etc."@en ;
+                    rdfs:label "demonstrationEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent
+:droughtEvent rdf:type owl:Class ;
+              rdfs:subClassOf :naturalEvent ;
+              rdfs:comment "A prolonged period of abnormally low rainfall, leading to a shortage of water."@en ;
+              rdfs:isDefinedBy "A prolonged period of abnormally low rainfall, leading to a shortage of water."@en ;
+              rdfs:label "droughtEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent
+:dustStormEvent rdf:type owl:Class ;
+                rdfs:subClassOf :naturalEvent ;
+                rdfs:comment "A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area."@en ;
+                rdfs:isDefinedBy "A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area."@en ;
+                rdfs:label "dustStormEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent
+:earthquakeEvent rdf:type owl:Class ;
+                 rdfs:subClassOf :naturalEvent ;
+                 rdfs:comment "A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth's crust or volcanic action."@en ;
+                 rdfs:isDefinedBy "A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth's crust or volcanic action."@en ;
+                 rdfs:label "earthquakeEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent
+:electricalInfrastructureEvent rdf:type owl:Class ;
+                               rdfs:subClassOf :technologicalEvent ;
+                               rdfs:comment "Any kind of damage in the electrical infrastructure which prevent the use of the facilities."@en ;
+                               rdfs:isDefinedBy "Any kind of damage in the electrical infrastructure which prevent the use of the facilities."@en ;
+                               rdfs:label "electricalInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent
+:environmentalPollutionEvent rdf:type owl:Class ;
+                             rdfs:subClassOf :technologicalEvent ;
+                             rdfs:comment "An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading)."@en ;
+                             rdfs:isDefinedBy "An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading)."@en ;
+                             rdfs:label "environmentalPollutionEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent
+:flashFloodEvent rdf:type owl:Class ;
+                 rdfs:subClassOf :floodEvent ;
+                 rdfs:comment "Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time."@en ;
+                 rdfs:isDefinedBy "Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time."@en ;
+                 rdfs:label "flashFloodEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#floodEvent
+:floodEvent rdf:type owl:Class ;
+            rdfs:subClassOf :naturalEvent ;
+            rdfs:comment "An overflow of a large amount of water beyond its normal limits"@en ;
+            rdfs:isDefinedBy "An overflow of a large amount of water beyond its normal limits."@en ;
+            rdfs:label "floodEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent
+:fluvialFloodEvent rdf:type owl:Class ;
+                   rdfs:subClassOf :floodEvent ;
+                   rdfs:comment "A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land."@en ;
+                   rdfs:isDefinedBy "A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land."@en ;
+                   rdfs:label "fluvialFloodEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent
+:forestFireEvent rdf:type owl:Class ;
+                 rdfs:subClassOf :naturalEvent ;
+                 rdfs:comment "A fire event which is produced in a forest."@en ;
+                 rdfs:isDefinedBy "A fire event which is produced in a forest."@en ;
+                 rdfs:label "forestFireEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent
+:fuelInfrastructureEvent rdf:type owl:Class ;
+                         rdfs:subClassOf :technologicalEvent ;
+                         rdfs:comment "Any kind of damage in the fuel infrastructure which prevent the use of the facilities."@en ;
+                         rdfs:isDefinedBy "Any kind of damage in the fuel infrastructure which prevent the use of the facilities."@en ;
+                         rdfs:label "fuelInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent
+:fuelLeakegeEvent rdf:type owl:Class ;
+                  rdfs:subClassOf :technologicalEvent ;
+                  rdfs:comment "An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground."@en ;
+                  rdfs:isDefinedBy "An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground."@en ;
+                  rdfs:label "fuelLeakegeEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent
+:fuelPlatformLeakEvent rdf:type owl:Class ;
+                       rdfs:subClassOf :technologicalEvent ;
+                       rdfs:comment "It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution."@en ;
+                       rdfs:isDefinedBy "It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution."@en ;
+                       rdfs:label "fuelPlatformLeakEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent
+:hailStormEvent rdf:type owl:Class ;
+                rdfs:subClassOf :naturalEvent ;
+                rdfs:comment "A storm of heavy hail."@en ;
+                rdfs:isDefinedBy "A storm of heavy hail."@en ;
+                rdfs:label "hailStormEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent
+:hurricaneEvent rdf:type owl:Class ;
+                rdfs:subClassOf :naturalEvent ;
+                rdfs:comment "A violent storm with very strong winds."@en ;
+                rdfs:isDefinedBy "A violent storm with very strong winds."@en ;
+                rdfs:label "hurricaneEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent
+:iCTInfrastructureEvent rdf:type owl:Class ;
+                        rdfs:subClassOf :technologicalEvent ;
+                        rdfs:comment "Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities."@en ;
+                        rdfs:isDefinedBy "Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities."@en ;
+                        rdfs:label "iCTInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent
+:industrialFireEvent rdf:type owl:Class ;
+                     rdfs:subClassOf :technologicalEvent ;
+                     rdfs:comment "The fire event that are produced in a industrial area."@en ;
+                     rdfs:isDefinedBy "The fire event that are produced in a industrial area."@en ;
+                     rdfs:label "industrialFireEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent
+:landslideEvent rdf:type owl:Class ;
+                rdfs:subClassOf :naturalEvent ;
+                rdfs:comment "A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary)."@en ;
+                rdfs:isDefinedBy "A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary)."@en ;
+                rdfs:label "landslideEven"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#miningEvent
+:miningEvent rdf:type owl:Class ;
+             rdfs:subClassOf :technologicalEvent ;
+             rdfs:comment "A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia)."@en ;
+             rdfs:isDefinedBy "A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia)."@en ;
+             rdfs:label "miningEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent
+:musicalConcertEvent rdf:type owl:Class ;
+                     rdfs:subClassOf :socialEvent ;
+                     rdfs:comment "A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur."@en ;
+                     rdfs:isDefinedBy "A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur."@en ;
+                     rdfs:label "musicalConcertEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent
+:naturalEvent rdf:type owl:Class ;
+              rdfs:comment "This is an event produced by nature."@en ;
+              rdfs:isDefinedBy "This is an event produced by nature."@en ;
+              rdfs:label "naturalEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent
+:naturalGasInfrastructureEvent rdf:type owl:Class ;
+                               rdfs:subClassOf :technologicalEvent ;
+                               rdfs:comment "Any kind of damage in the natural gas infrastructure which prevent the use of the facilities."@en ;
+                               rdfs:isDefinedBy "Any kind of damage in the natural gas infrastructure which prevent the use of the facilities."@en ;
+                               rdfs:label "naturalGasInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent
+:nuclearEvent rdf:type owl:Class ;
+              rdfs:subClassOf :technologicalEvent ;
+              rdfs:comment "Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy)."@en ;
+              rdfs:isDefinedBy "Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy)."@en ;
+              rdfs:label "nuclearEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent
+:petroChemicalEvent rdf:type owl:Class ;
+                    rdfs:subClassOf :technologicalEvent ;
+                    rdfs:comment "Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary)."@en ;
+                    rdfs:isDefinedBy "Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary)."@en ;
+                    rdfs:label "petroChemicalEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent
+:pluvialFloodEvent rdf:type owl:Class ;
+                   rdfs:subClassOf :floodEvent ;
+                   rdfs:comment "A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body."@en ;
+                   rdfs:isDefinedBy "A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body."@en ;
+                   rdfs:label "pluvialFloodEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent
+:portInfrastructureEvent rdf:type owl:Class ;
+                         rdfs:subClassOf :technologicalEvent ;
+                         rdfs:comment "Any kind of damage in the port infrastructure which prevent the use of the facilities."@en ;
+                         rdfs:isDefinedBy "Any kind of damage in the port infrastructure which prevent the use of the facilities."@en ;
+                         rdfs:label "portInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent
+:radiologicalEvent rdf:type owl:Class ;
+                   rdfs:subClassOf :technologicalEvent ;
+                   rdfs:comment "A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation."@en ;
+                   rdfs:isDefinedBy "A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation."@en ;
+                   rdfs:label "radiologicalEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent
+:railroadInfrastructureEvent rdf:type owl:Class ;
+                             rdfs:subClassOf :technologicalEvent ;
+                             rdfs:comment "Any kind of damage in the railroad infrastructure which prevent the use of the facilities."@en ;
+                             rdfs:isDefinedBy "Any kind of damage in the railroad infrastructure which prevent the use of the facilities."@en ;
+                             rdfs:label "railroadInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent
+:roadInfrastructureEvent rdf:type owl:Class ;
+                         rdfs:subClassOf :technologicalEvent ;
+                         rdfs:comment "Any kind of damage in the road infrastructure which prevent the use of the facilities."@en ;
+                         rdfs:isDefinedBy "Any kind of damage in the road infrastructure which prevent the use of the facilities."@en ;
+                         rdfs:label "roadInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent
+:sewerSystemInfrastructureEvent rdf:type owl:Class ;
+                                rdfs:subClassOf :technologicalEvent ;
+                                rdfs:comment """Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. 
+So, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities."""@en ;
+                                rdfs:isDefinedBy """Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. 
+So, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities."""@en ;
+                                rdfs:label "sewerSystemInfrastructureEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent
+:shipSinkingEvent rdf:type owl:Class ;
+                  rdfs:subClassOf :technologicalEvent ;
+                  rdfs:comment "Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather."@en ;
+                  rdfs:isDefinedBy "Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather."@en ;
+                  rdfs:label "shipSinkingEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent
+:snowfallEvent rdf:type owl:Class ;
+               rdfs:subClassOf :naturalEvent ;
+               rdfs:comment "A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure."@en ;
+               rdfs:isDefinedBy "A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure."@en ;
+               rdfs:label "snowfallEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#socialEvent
+:socialEvent rdf:type owl:Class ;
+             rdfs:comment "These are the events where there is a large influx of people."@en ;
+             rdfs:isDefinedBy "These are the events where there is a large influx of people."@en ;
+             rdfs:label "socialEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#sportEvent
+:sportEvent rdf:type owl:Class ;
+            rdfs:subClassOf :socialEvent ;
+            rdfs:comment "A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.)."@en ;
+            rdfs:isDefinedBy "A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.)."@en ;
+            rdfs:label "sportEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent
+:strikeEvent rdf:type owl:Class ;
+             rdfs:subClassOf :socialEvent ;
+             rdfs:comment "A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer"@en ;
+             rdfs:isDefinedBy "A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer."@en ;
+             rdfs:label "strikeEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent
+:technologicalEvent rdf:type owl:Class ;
+                    rdfs:comment "This is an event where infrastructures are damaged."@en ;
+                    rdfs:isDefinedBy "This is an event where infrastructures are damaged."@en ;
+                    rdfs:label "technologicalEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent
+:tornadoEvent rdf:type owl:Class ;
+              rdfs:subClassOf :naturalEvent ;
+              rdfs:comment "A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm."@en ;
+              rdfs:isDefinedBy "A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm."@en ;
+              rdfs:label "tornadoEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent
+:toxinSpreadEvent rdf:type owl:Class ;
+                  rdfs:subClassOf :biologicalEvent ;
+                  rdfs:comment "It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria)."@en ;
+                  rdfs:isDefinedBy "It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria)."@en ;
+                  rdfs:label "toxinSpreadEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent
+:trainDerailmentEvent rdf:type owl:Class ;
+                      rdfs:subClassOf :technologicalEvent ;
+                      rdfs:comment "In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported."@en ;
+                      rdfs:isDefinedBy "In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported."@en ;
+                      rdfs:label "trainDerailmentEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent
+:tsunamiEvent rdf:type owl:Class ;
+              rdfs:subClassOf :naturalEvent ;
+              rdfs:comment "Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea."@en ;
+              rdfs:isDefinedBy "Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea."@en ;
+              rdfs:label "tsunamiEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent
+:urbanFireEvent rdf:type owl:Class ;
+                rdfs:subClassOf :technologicalEvent ;
+                rdfs:comment "The fire event that are produced in an urban area."@en ;
+                rdfs:isDefinedBy "The fire event that are produced in an urban area."@en ;
+                rdfs:label "urbanFireEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent
+:virusSpreadEvent rdf:type owl:Class ;
+                  rdfs:subClassOf :biologicalEvent ;
+                  rdfs:comment "It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population."@en ;
+                  rdfs:isDefinedBy "It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population."@en ;
+                  rdfs:label "virusSpreadEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent
+:volcanoEruptionEvent rdf:type owl:Class ;
+                      rdfs:subClassOf :naturalEvent ;
+                      rdfs:comment "A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively."@en ;
+                      rdfs:isDefinedBy "A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively."@en ;
+                      rdfs:label "volcanoEruptionEvent"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent
+:waterInfrastructureEvent rdf:type owl:Class ;
+                          rdfs:subClassOf :technologicalEvent ;
+                          rdfs:comment "Any kind of damage in the water infrastructure which prevent the use of the facilities."@en ;
+                          rdfs:isDefinedBy "Any kind of damage in the water infrastructure which prevent the use of the facilities."@en ;
+                          rdfs:label "waterInfrastructureEvent"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :actOfBioTerrorismEvent
+                :bacterySpreadEvent
+                :toxinSpreadEvent
+                :virusSpreadEvent
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :actOfTerrorismEvent
+                :aircraftCrashEvent
+                :airportInfrastructureEvent
+                :chemicalExplosionEvent
+                :chemicalInfrastructureEvent
+                :cyberAttackEvent
+                :cybersecurityEvent
+                :damBreakEvent
+                :electricalInfrastructureEvent
+                :environmentalPollutionEvent
+                :fuelInfrastructureEvent
+                :fuelLeakegeEvent
+                :fuelPlatformLeakEvent
+                :iCTInfrastructureEvent
+                :industrialFireEvent
+                :miningEvent
+                :naturalGasInfrastructureEvent
+                :nuclearEvent
+                :petroChemicalEvent
+                :portInfrastructureEvent
+                :radiologicalEvent
+                :railroadInfrastructureEvent
+                :roadInfrastructureEvent
+                :sewerSystemInfrastructureEvent
+                :shipSinkingEvent
+                :trainDerailmentEvent
+                :urbanFireEvent
+                :waterInfrastructureEvent
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :avalancheEvent
+                :droughtEvent
+                :dustStormEvent
+                :earthquakeEvent
+                :floodEvent
+                :forestFireEvent
+                :hailStormEvent
+                :hurricaneEvent
+                :landslideEvent
+                :snowfallEvent
+                :tornadoEvent
+                :tsunamiEvent
+                :volcanoEruptionEvent
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :biologicalEvent
+                :naturalEvent
+                :socialEvent
+                :technologicalEvent
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :coastalFloodEvent
+                :flashFloodEvent
+                :fluvialFloodEvent
+                :pluvialFloodEvent
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :demonstrationEvent
+                :musicalConcertEvent
+                :sportEvent
+                :strikeEvent
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :forestFireEvent
+                :industrialFireEvent
+                :urbanFireEvent
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

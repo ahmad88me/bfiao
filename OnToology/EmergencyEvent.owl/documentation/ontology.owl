@@ -1,0 +1,979 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost:8080/BFiaO/EmergencyEvent#"
+     xml:base="http://localhost:8080/BFiaO/EmergencyEvent"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:EmergencyEvent="http://localhost:8080/BFiaO/EmergencyEvent#">
+    <owl:Ontology rdf:about="http://localhost:8080/BFiaO/EmergencyEvent">
+        <ns:license rdf:resource="https://spdx.org/licenses/MIT.html"/>
+        <content_license xml:lang="en">The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of Strategic Sector
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</content_license>
+        <dc:creator xml:lang="en">Leopoldo Santos Santos</dc:creator>
+        <rdfs:comment xml:lang="en">The taxonomy for events defines the possible event that can occur when different risks impact on affected domains or sectors.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">October 30, 2022</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#content_license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#content_license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventDescription">
+        <rdfs:comment xml:lang="en">It is a brief description about the event and the circunstances of it.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a brief description about the event and the circunstances of it.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventDescription</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime">
+        <rdfs:comment xml:lang="en">It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventFinalTransactionTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime">
+        <rdfs:comment xml:lang="en">It expresses the time when this fact is true in the real world and it shows the final time of the event.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It expresses the time when this fact is true in the real world and it shows the final time of the event.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventFinalValidTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventID">
+        <rdfs:comment xml:lang="en">It is a unique identifier for an event</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a unique identifier for an event.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime">
+        <rdfs:comment xml:lang="en">It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventInitialTransactionTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime">
+        <rdfs:comment xml:lang="en">It expresses the time when this fact is true in the real world and it shows the initial time of the event.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It expresses the time when this fact is true in the real world and it shows the initial time of the event.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventInitialValidTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventName">
+        <rdfs:comment xml:lang="en">It is the name for the event.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is the name for the event.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#EventScale -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventScale">
+        <rdfs:comment xml:lang="en">It identifies the magnitude of the event through a scientific scale.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the magnitude of the event through a scientific scale.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">EventScale</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"/>
+        <rdfs:comment xml:lang="en">An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">actOfBioTerrorismEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">actOfTerrorismEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">An accident in which an aircraft hits land or water and is damaged or destroyed.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An accident in which an aircraft hits land or water and is damaged or destroyed.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">aircraftCrashEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the airport infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the airport infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">airportInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A mass of snow, ice, and rocks falling rapidly down a mountainside.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A mass of snow, ice, and rocks falling rapidly down a mountainside.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">avalancheEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"/>
+        <rdfs:comment xml:lang="en">It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">bacterySpreadEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent">
+        <rdfs:comment xml:lang="en">This is an event caused by viruses, toxins or bacteries.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">This is an event caused by viruses, toxins or bacteries.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">biologicalEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">chemicalExplosionEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the chemical infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the chemical infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">chemicalInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"/>
+        <rdfs:comment xml:lang="en">Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">coastalFloodEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">An attempt by hackers to damage or destroy a computer network or system.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An attempt by hackers to damage or destroy a computer network or system.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cyberAttackEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cybersecurityEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">damBreakEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"/>
+        <rdfs:comment xml:lang="en">A manifestation of protest by public rally, parade, etc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A manifestation of protest by public rally, parade, etc.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">demonstrationEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A prolonged period of abnormally low rainfall, leading to a shortage of water.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A prolonged period of abnormally low rainfall, leading to a shortage of water.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">droughtEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">dustStormEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth&apos;s crust or volcanic action.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth&apos;s crust or volcanic action.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">earthquakeEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the electrical infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the electrical infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">electricalInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">environmentalPollutionEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"/>
+        <rdfs:comment xml:lang="en">Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">flashFloodEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#floodEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#floodEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">An overflow of a large amount of water beyond its normal limits</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An overflow of a large amount of water beyond its normal limits.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">floodEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"/>
+        <rdfs:comment xml:lang="en">A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fluvialFloodEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A fire event which is produced in a forest.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A fire event which is produced in a forest.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">forestFireEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the fuel infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the fuel infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelLeakegeEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelPlatformLeakEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A storm of heavy hail.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A storm of heavy hail.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hailStormEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A violent storm with very strong winds.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A violent storm with very strong winds.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hurricaneEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">iCTInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">The fire event that are produced in a industrial area.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The fire event that are produced in a industrial area.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">industrialFireEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">landslideEven</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#miningEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#miningEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">miningEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"/>
+        <rdfs:comment xml:lang="en">A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">musicalConcertEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent">
+        <rdfs:comment xml:lang="en">This is an event produced by nature.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">This is an event produced by nature.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">naturalEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the natural gas infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the natural gas infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">naturalGasInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">nuclearEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">petroChemicalEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"/>
+        <rdfs:comment xml:lang="en">A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">pluvialFloodEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the port infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the port infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">portInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">radiologicalEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the railroad infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the railroad infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">railroadInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the road infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the road infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">roadInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. 
+So, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. 
+So, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">sewerSystemInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">shipSinkingEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">snowfallEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#socialEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#socialEvent">
+        <rdfs:comment xml:lang="en">These are the events where there is a large influx of people.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">These are the events where there is a large influx of people.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">socialEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#sportEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#sportEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"/>
+        <rdfs:comment xml:lang="en">A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">sportEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"/>
+        <rdfs:comment xml:lang="en">A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">strikeEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent">
+        <rdfs:comment xml:lang="en">This is an event where infrastructures are damaged.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">This is an event where infrastructures are damaged.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">technologicalEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">tornadoEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"/>
+        <rdfs:comment xml:lang="en">It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">toxinSpreadEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">trainDerailmentEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">tsunamiEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">The fire event that are produced in an urban area.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The fire event that are produced in an urban area.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">urbanFireEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"/>
+        <rdfs:comment xml:lang="en">It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">virusSpreadEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+        <rdfs:comment xml:lang="en">A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volcanoEruptionEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        <rdfs:comment xml:lang="en">Any kind of damage in the water infrastructure which prevent the use of the facilities.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Any kind of damage in the water infrastructure which prevent the use of the facilities.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">waterInfrastructureEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#miningEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#sportEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

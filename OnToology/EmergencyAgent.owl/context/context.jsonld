@@ -1,0 +1,130 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "uMEHelicopterPilotAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent"
+    },
+    "cBRNUMEAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "volunteerCivilProtectionAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent"
+    },
+    "volunteerAmbulanceDriverAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "AgentDeployedGeolocation" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation"
+    },
+    "AgentUnitID" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID"
+    },
+    "content_license" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#content_license"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "volunteerBusDriverAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent"
+    },
+    "AgentStartUseValidTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime"
+    },
+    "signalCorpsAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent"
+    },
+    "armedForcesHelicopterPilotAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent"
+    },
+    "armedForcesAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent"
+    },
+    "AgentStartUseTransactionTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime"
+    },
+    "volunteerTruckDriverAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "fireBrigadeAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent"
+    },
+    "armedForcesFireExtinguisherPlanePilotAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent"
+    },
+    "volunteerGeneralServicesAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent"
+    },
+    "healthCareWorkerAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent"
+    },
+    "volunteerRedCrossAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "AgentName" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentName"
+    },
+    "cBRNAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent"
+    },
+    "guardiaCivilAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent"
+    },
+    "policeAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#policeAgent"
+    },
+    "AgentRank" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentRank"
+    },
+    "bRIFAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent"
+    },
+    "uMEAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent"
+    },
+    "cBRNArmedForcesAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "AgentPhone" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone"
+    },
+    "AgentEndUseTransctionTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime"
+    },
+    "AgentEndUseValidTime" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime"
+    },
+    "doctorAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent"
+    },
+    "volunteerAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"
+    },
+    "psychologistAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent"
+    },
+    "regionalEmergencyAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent"
+    },
+    "volunteerCitizenAgent" : {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent"
+    }
+  }
+}

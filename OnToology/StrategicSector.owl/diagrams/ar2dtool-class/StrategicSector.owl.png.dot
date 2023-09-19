@@ -1,0 +1,38 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "StrategicSector:fuelSubsector" "StrategicSector:foodSector" "StrategicSector:transportationSector" "StrategicSector:spaceSector" "StrategicSector:researchFacilitySector" "StrategicSector:nuclearIndustrySector" "StrategicSector:healthCareSector" "StrategicSector:publicAdministrationSector" "StrategicSector:gasSubsector" "StrategicSector:iCTSector" "StrategicSector:waterSector" "StrategicSector:chemicalIndustrySector" "StrategicSector:energySector" "StrategicSector:financialTaxSector" "StrategicSector:electricalSupplySubsector" ; /*classes style*/
+	"http://localhost:8080/BFiaO/StrategicSector" -> "https://spdx.org/licenses/MIT.html" [ label = "ns:license" ];
+	"NULL" -> "StrategicSector:gasSubsector" [ label = "rdf:first" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7fec" [ label = "rdf:rest" ];
+	"NULL" -> "StrategicSector:healthCareSector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:foodSector" [ label = "rdf:first" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff1" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff4" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff7" [ label = "rdf:rest" ];
+	"NULL" -> "StrategicSector:waterSector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:nuclearIndustrySector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:spaceSector" [ label = "rdf:first" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7fee" [ label = "owl:members" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff6" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff0" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff3" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ffb" [ label = "owl:members" ];
+	"NULL" -> "StrategicSector:chemicalIndustrySector" [ label = "rdf:first" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7fed" [ label = "rdf:rest" ];
+	"NULL" -> "StrategicSector:fuelSubsector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:energySector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:transportationSector" [ label = "rdf:first" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff8" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff2" [ label = "rdf:rest" ];
+	"NULL" -> "-296d82c7:18aac83dc11:-7ff5" [ label = "rdf:rest" ];
+	"NULL" -> "StrategicSector:researchFacilitySector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:financialTaxSector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:iCTSector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:publicAdministrationSector" [ label = "rdf:first" ];
+	"NULL" -> "StrategicSector:electricalSupplySubsector" [ label = "rdf:first" ];
+
+}

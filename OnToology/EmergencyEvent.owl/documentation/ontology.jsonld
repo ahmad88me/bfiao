@@ -1,0 +1,1328 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#sportEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#miningEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://spdx.org/licenses/MIT.html"
+  } ],
+  "http://localhost:8080/BFiaO/EmergencyEvent#content_license" : [ {
+    "@language" : "en",
+    "@value" : "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "Leopoldo Santos Santos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The taxonomy for events defines the possible event that can occur when different risks impact on affected domains or sectors."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "October 30, 2022"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a brief description about the event and the circunstances of it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a brief description about the event and the circunstances of it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventDescription"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is the time of storing the fact in the database, and it reflects the time of when the event was considered as closed and so it was registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventFinalTransactionTime"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It expresses the time when this fact is true in the real world and it shows the final time of the event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It expresses the time when this fact is true in the real world and it shows the final time of the event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventFinalValidTime"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a unique identifier for an event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a unique identifier for an event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventID"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is the time of storing the fact in the database, and it reflects the time of when the initial event was registered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventInitialTransactionTime"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It expresses the time when this fact is true in the real world and it shows the initial time of the event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It expresses the time when this fact is true in the real world and it shows the initial time of the event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventInitialValidTime"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the name for the event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is the name for the event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventName"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventScale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the magnitude of the event through a scientific scale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the magnitude of the event through a scientific scale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EventScale"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#actOfBioTerrorismEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An act of bioterrorism involves the deliberate release of viruses, bacteries, toxins or any other kind of pathogens to cause illness or death in people, animals, or plants.(Source: Interpol)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "actOfBioTerrorismEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#actOfTerrorismEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The unlawful use of force or violence against persons or property to intimidate or coerce a Government, the civilian population, or any segment thereof, in furtherance of political or social objectives. (source: FBI)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "actOfTerrorismEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#aircraftCrashEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An accident in which an aircraft hits land or water and is damaged or destroyed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An accident in which an aircraft hits land or water and is damaged or destroyed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aircraftCrashEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#airportInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the airport infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the airport infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "airportInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#avalancheEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A mass of snow, ice, and rocks falling rapidly down a mountainside."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A mass of snow, ice, and rocks falling rapidly down a mountainside."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "avalancheEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#bacterySpreadEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is the dissemination, deliberate or not, of a high amount of bacteries that can affect the population."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bacterySpreadEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is an event caused by viruses, toxins or bacteries."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "This is an event caused by viruses, toxins or bacteries."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#chemicalExplosionEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An explosive chemical is a substance or mixture that experiences violent combustion as a reaction to an ignition source. This reaction is an exothermic process that involves the rapid release of large amounts of energy and is characterized by a rapid, violent release of pressure, gas, and heat. (source: safeopedia)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chemicalExplosionEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#chemicalInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the chemical infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the chemical infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chemicalInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#coastalFloodEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Coastal flooding is the inundation of land areas along the coast by seawater. Common causes of coastal flooding are high tide, tsunamis and storm surge."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "coastalFloodEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#content_license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#cyberAttackEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An attempt by hackers to damage or destroy a computer network or system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An attempt by hackers to damage or destroy a computer network or system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cyberAttackEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#cybersecurityEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A cybersecurity change that may have an impact on organizational operations (including mission, capabilities, or reputation). (source: NIST)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cybersecurityEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#damBreakEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An opening or a breakthrough of a dam sometimes caused by rapid erosion of a section of earth embankment by water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "damBreakEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#demonstrationEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A manifestation of protest by public rally, parade, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A manifestation of protest by public rally, parade, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "demonstrationEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#droughtEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A prolonged period of abnormally low rainfall, leading to a shortage of water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A prolonged period of abnormally low rainfall, leading to a shortage of water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "droughtEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#dustStormEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A strong, turbulent wind which carries clouds of fine dust, soil, and sand over a large area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dustStormEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#earthquakeEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth's crust or volcanic action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A sudden violent shaking of the ground, typically causing great destruction, as a result of movements within the earth's crust or volcanic action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "earthquakeEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#electricalInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the electrical infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the electrical infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "electricalInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#environmentalPollutionEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An Environmental Incident  that may cause pollution, harm or potential harm to an environmental receptor e.g. air, water, land, wildlife or local habitat.(source: University of Reading)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "environmentalPollutionEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#flashFloodEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Flash floods are caused by extreme rainfall events or the sudden release of water over a short period of time."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "flashFloodEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#floodEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An overflow of a large amount of water beyond its normal limits"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An overflow of a large amount of water beyond its normal limits."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "floodEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fluvialFloodEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A fluvial, or river flood, occurs when the water level in a river, lake or stream rises and overflows onto the surrounding banks, shores and neighboring land."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fluvialFloodEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#forestFireEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fire event which is produced in a forest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A fire event which is produced in a forest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "forestFireEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the fuel infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the fuel infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelLeakegeEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An fuel spill, leakage of petroleum onto the surface of a large body of water or even ground."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelLeakegeEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#fuelPlatformLeakEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is the release of any hydro-carbons into the environment, especially in marine environments usually due to human activity and is considered a form of pollution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelPlatformLeakEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#hailStormEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A storm of heavy hail."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A storm of heavy hail."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hailStormEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#hurricaneEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A violent storm with very strong winds."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A violent storm with very strong winds."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hurricaneEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#iCTInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the telecommunication infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "iCTInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#industrialFireEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The fire event that are produced in a industrial area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The fire event that are produced in a industrial area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "industrialFireEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#landslideEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A mass of earth, rock, etc. that falls down the slope of a mountain or a cliff. (sourde: Oxford Dictionary)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "landslideEven"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#miningEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A mining event is an accident that occurs during the process of mining minerals or metals. (source: Wikipedia)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "miningEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#musicalConcertEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A musical concert event occurs when there are a large number of people attending a musical concert, and public order disturbances may occur."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "musicalConcertEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is an event produced by nature."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "This is an event produced by nature."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalGasInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the natural gas infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the natural gas infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "naturalGasInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#nuclearEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Act, any event causing damage when the event or damage is due to the radioactive properties or a connection of radioactive properties with toxic, explosive or other hazardous properties of nuclear fuels or radioactive products or waste, or to ionizing radiation emitted from another radiation source within the nuclear plant. (source: German Atomic Energy)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nuclearEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#petroChemicalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the petrochemical infrastructure which prevent the use of the facilities. A pterochemical is a chemical isolated or derived from petroleum or natural gas (source: Merrian-Webster Dictionary)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "petroChemicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#pluvialFloodEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A pluvial, or surface water flood, occurs when heavy rainfall creates a flood independent of an overflowing water body."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pluvialFloodEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#floodEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#portInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the port infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the port infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#radiologicalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A radiological event can be defined as unintentional exposure to materials that emit ionizing radiation. The primary radiological hazards are the health effects resulting from unintentional exposure to ionizing radiation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "radiologicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#railroadInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the railroad infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the railroad infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "railroadInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#roadInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the road infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the road infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "roadInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#sewerSystemInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. \nSo, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Sewer system is the infrastructure that conveys sewage or surface runoff (stormwater, meltwater, rainwater) using sewers. It encompasses components such as receiving drains, manholes, pumping stations, storm overflows, and screening chambers of the combined sewer or sanitary sewer. \nSo, an event is any kind of damage in the sewer system infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sewerSystemInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#shipSinkingEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is an event that causes a shipwreck, such as a ship striking something that causes the ship to sink; the stranding of a ship on rocks, land or shoal; poor maintenance; or the destruction of a ship either intentionally or by violent weather."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "shipSinkingEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#snowfallEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A snowfall that exceeds the usual amounts and prevents free movement or other damage to infrastructure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "snowfallEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "These are the events where there is a large influx of people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "These are the events where there is a large influx of people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "socialEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#sportEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A sporting event occurs when there are a large number of people attending it, and public order disturbances may occur (e.g. football matches, Olympic Games, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sportEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#strikeEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A refusal to work organized by a body of employees as a form of protest, typically in an attempt to gain a concession or concessions from their employer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strikeEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is an event where infrastructures are damaged."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "This is an event where infrastructures are damaged."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#tornadoEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A violently rotating column of air touching the ground, usually attached to the base of a thunderstorm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tornadoEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#toxinSpreadEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is the dissemination, deliberate or not, of a high amount of toxins that can affect the population. Toxins can derive from bacteries, fungi and algae or from plants. Some examples of toxins are: Anthrax (produced by bacillus anthracis), Botulinum (priduced by clostridium botulinum), Pertussis (produced by bordetella pertussis bacteria)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "toxinSpreadEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#trainDerailmentEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "In train transport, a derailment occurs when a rail vehicle such as a train comes off its rails. Although many derailments are minor, all result in temporary disruption of the proper operation of the railway system and they are a potentially serious hazard depending on the types of products, materials or substances being transported."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "trainDerailmentEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#tsunamiEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Tsunamis are giant waves caused by earthquakes or volcanic eruptions under the sea."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tsunamiEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#urbanFireEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The fire event that are produced in an urban area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The fire event that are produced in an urban area."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "urbanFireEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#virusSpreadEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is the dissemination, deliberate or not, of a high amount of viruses that can affect the population."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "virusSpreadEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#volcanoEruptionEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A volcanic eruption is when lava and gas are released from a volcano—sometimes explosively."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volcanoEruptionEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#waterInfrastructureEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the water infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Any kind of damage in the water infrastructure which prevent the use of the facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "waterInfrastructureEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

@@ -1,0 +1,293 @@
+@prefix : <http://localhost:8080/BFiaO/ICTInfractructure#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://localhost:8080/BFiaO/ICTInfractructure#> .
+
+<http://localhost:8080/BFiaO/ICTInfractructure> rdf:type owl:Ontology ;
+                                                 <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> ;
+                                                 :content_license """The MIT License (MIT)
+
+Copyright (c) 2023 Leopoldo Santos Santos of ICT Infrastructure
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \"Software\"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.""" ;
+                                                 <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en ;
+                                                 rdfs:comment "This ontology is designed to cover the main components to define an ICT Infrastructure."@en ;
+                                                 owl:versionInfo "Version 1.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#content_license
+:content_license rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#license
+:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#BTSService_isProvided
+:BTSService_isProvided rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       owl:inverseOf :provides_BTSService .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#FixedTelephoneService_isProvided
+:FixedTelephoneService_isProvided rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                  owl:inverseOf :provides_FixedTelephoneService .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#InternetService_isProvided
+:InternetService_isProvided rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty ;
+                            owl:inverseOf :InternetService_isProvided ;
+                            rdfs:domain :iSPICTi ;
+                            rdfs:range :communicationsLineICTi .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#NetworkService_isProvided
+:NetworkService_isProvided rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty ;
+                           owl:inverseOf :provides_NetworkService .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#SatelliteService_isProvided
+:SatelliteService_isProvided rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty ;
+                             owl:inverseOf :provides_SatelliteService .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#TETRAService_isProvided
+:TETRAService_isProvided rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         owl:inverseOf :provides_TETRAService .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#WiMAXService_isProvided
+:WiMAXService_isProvided rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         owl:inverseOf :provides_WiMAXService .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#provides_BTSService
+:provides_BTSService rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :baseTransceiverStationICTi ;
+                     rdfs:range :communicationsLineICTi .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#provides_FixedTelephoneService
+:provides_FixedTelephoneService rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                rdfs:domain :fixedTelephoneNetworkICTi ;
+                                rdfs:range :communicationsLineICTi .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#provides_InternetService
+:provides_InternetService rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#provides_NetworkService
+:provides_NetworkService rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :nSPICTi ;
+                         rdfs:range :iSPICTi .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#provides_SatelliteService
+:provides_SatelliteService rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty ;
+                           rdfs:domain :satelliteSystemICTi ;
+                           rdfs:range :communicationsLineICTi .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#provides_TETRAService
+:provides_TETRAService rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain :tETRARadioSystemICTi ;
+                       rdfs:range :communicationsLineICTi .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#provides_WiMAXService
+:provides_WiMAXService rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain :wiMAXNetworkICTi ;
+                       rdfs:range :communicationsLineICTi .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#baseTransceiverStationICTi
+:baseTransceiverStationICTi rdf:type owl:Class ;
+                            rdfs:comment "A base transceiver station (BTS) is a piece of equipment that facilitates wireless communication between user equipment (UE) and a network. UEs are devices like mobile phones (handsets), WLL phones, computers with wireless Internet connectivity. The network can be that of any of the wireless communication technologies like GSM, CDMA, wireless local loop, Wi-Fi, WiMAX or other wide area network (WAN) technology."@en ;
+                            rdfs:isDefinedBy "A base transceiver station (BTS) is a piece of equipment that facilitates wireless communication between user equipment (UE) and a network. UEs are devices like mobile phones (handsets), WLL phones, computers with wireless Internet connectivity. The network can be that of any of the wireless communication technologies like GSM, CDMA, wireless local loop, Wi-Fi, WiMAX or other wide area network (WAN) technology."@en ;
+                            rdfs:label "baseTransceiverStationICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#communicationsLineICTi
+:communicationsLineICTi rdf:type owl:Class ;
+                        rdfs:comment "A Communications Line is a physical method which allows sending and receiving data and signals from one transmitter to a receiver and viceversa..It involves copper wires, fiber optic cables, telephone cables or radio signals."@en ;
+                        rdfs:isDefinedBy "A Communications Line is a physical method which allows sending and receiving data and signals from one transmitter to a receiver and viceversa..It involves copper wires, fiber optic cables, telephone cables or radio signals."@en ;
+                        rdfs:label "communicationsLineICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#dataCenterICTi
+:dataCenterICTi rdf:type owl:Class ;
+                rdfs:comment "A data center is a facility that provides shared access to applications and data using a complex network, compute, and storage infrastructure. (source: www.checkpoint.com)."@en ;
+                rdfs:isDefinedBy "A data center is a facility that provides shared access to applications and data using a complex network, compute, and storage infrastructure. (source: www.checkpoint.com)."@en ;
+                rdfs:label "dataCenterICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#fiberOpticLineICTi
+:fiberOpticLineICTi rdf:type owl:Class ;
+                    rdfs:subClassOf :communicationsLineICTi ;
+                    rdfs:comment "Fiber optic cables are made of glass filaments, each with the capacity to transmit digital data modulated in light waves. Send information efficiently encoded in a beam of light through a glass or plastic tube. There are two types of optical fiber, single mode optical fiber (SMF) and also multimode optical fiber (MMF)."@en ;
+                    rdfs:isDefinedBy "Fiber optic cables are made of glass filaments, each with the capacity to transmit digital data modulated in light waves. Send information efficiently encoded in a beam of light through a glass or plastic tube. There are two types of optical fiber, single mode optical fiber (SMF) and also multimode optical fiber (MMF)."@en ;
+                    rdfs:label "fiberOpticLineICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#fixedTelephoneNetworkICTi
+:fixedTelephoneNetworkICTi rdf:type owl:Class ;
+                           rdfs:comment "A fixed telephone network can be seen as a connection to an end customer, by means of a cable, through which a user can make phone calls or connect to the Internet. Fixed-lines are clearly separate from the mobile phone network, by which end users are connected to the network via wireless transmission technologies."@en ;
+                           rdfs:isDefinedBy "A fixed telephone network can be seen as a connection to an end customer, by means of a cable, through which a user can make phone calls or connect to the Internet. Fixed-lines are clearly separate from the mobile phone network, by which end users are connected to the network via wireless transmission technologies."@en ;
+                           rdfs:label "fixedTelephoneNetworkICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#fixedWiMAXICTi
+:fixedWiMAXICTi rdf:type owl:Class ;
+                rdfs:subClassOf :wiMAXNetworkICTi ;
+                owl:disjointWith :mobileWiMAXICTi ;
+                rdfs:comment "Fixed WiMAX is also considered as a wireless backhaul technology for 2G, 3G, and 4G networks in both developed and developing nations. The term backhaul is referred to, In a hierarchical telecommunications network, the backhaul portion of the network comprises the intermediate links between the core network, or backbone network, and the small subnetworks at the edge of the network." ;
+                rdfs:isDefinedBy "Fixed WiMAX is also considered as a wireless backhaul technology for 2G, 3G, and 4G networks in both developed and developing nations. The term backhaul is referred to, In a hierarchical telecommunications network, the backhaul portion of the network comprises the intermediate links between the core network, or backbone network, and the small subnetworks at the edge of the network."@en ;
+                rdfs:label "fixedWiMAXICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#iSPICTi
+:iSPICTi rdf:type owl:Class ;
+         rdfs:comment "An Internet Service Provider (ISP) is a company that provides Internet connections and services (data, voice and signalling) to individuals and organizations through a big variety of access (ADSL, CATV, UMTS, etc.)."@en ;
+         rdfs:isDefinedBy "An Internet Service Provider (ISP) is a company that provides Internet connections and services (data, voice and signalling) to individuals and organizations through a big variety of access (ADSL, CATV, UMTS, etc.)."@en ;
+         rdfs:label "iSPICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#mobileWiMAXICTi
+:mobileWiMAXICTi rdf:type owl:Class ;
+                 rdfs:subClassOf :wiMAXNetworkICTi ;
+                 rdfs:comment "Mobile WiMAX was a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity." ;
+                 rdfs:isDefinedBy "Mobile WiMAX was a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity."@en ;
+                 rdfs:label "mobileWiMAXICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#nSPICTi
+:nSPICTi rdf:type owl:Class ;
+         rdfs:comment "A network service provider (NSP) is a company that provides backbone services to an Internet service provider (ISP)."@en ;
+         rdfs:isDefinedBy "A network service provider (NSP) is a company that provides backbone services to an Internet service provider (ISP)."@en ;
+         rdfs:label "nSPICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#routingCenterICTi
+:routingCenterICTi rdf:type owl:Class ;
+                   rdfs:comment "A router is a switching device for networks, which is able to route network packets, based on their addresses, to other networks or devices. Among other things, they are used for Internet access, for coupling networks or for connecting branch offices to a central office via VPN (Virtual Private Network)." ;
+                   rdfs:isDefinedBy "A router is a switching device for networks, which is able to route network packets, based on their addresses, to other networks or devices. Among other things, they are used for Internet access, for coupling networks or for connecting branch offices to a central office via VPN (Virtual Private Network)."@en ;
+                   rdfs:label "routingCenterICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#satelliteLinkICTi
+:satelliteLinkICTi rdf:type owl:Class ;
+                   rdfs:subClassOf :communicationsLineICTi ;
+                   rdfs:comment "It is the channel through which the signals transmitted from the ground station to the satellite and from the satellite to the ground station will be sent and received."@en ;
+                   rdfs:isDefinedBy "It is the channel through which the signals transmitted from the ground station to the satellite and from the satellite to the ground station will be sent and received."@en ;
+                   rdfs:label "satelliteLinkICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#satelliteSystemICTi
+:satelliteSystemICTi rdf:type owl:Class ;
+                     rdfs:comment "A satellite is a self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network."@en ;
+                     rdfs:isDefinedBy "A satellite is a self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network."@en ;
+                     rdfs:label "satelliteSystemICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#tETRARadioSystemICTi
+:tETRARadioSystemICTi rdf:type owl:Class ;
+                      rdfs:comment "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."@en ;
+                      rdfs:isDefinedBy "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."@en ;
+                      rdfs:label "tETRARadioSystemICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#wiMAXNetworkICTi
+:wiMAXNetworkICTi rdf:type owl:Class ;
+                  rdfs:comment "WiMAX, the Worldwide Interoperability for Microwave Access, is a telecommunications technology aimed at providing wireless data over long distances in a variety of ways, from point-to-point links to full mobile cellular type access. It is the final leg of delivering wireless broadband connectivity from a communications provider to a customer and an alternative to cable and DSL. it is economically viable to provide last-mile broadband Internet access in remote locations with this tecnology." ;
+                  rdfs:isDefinedBy "WiMAX, the Worldwide Interoperability for Microwave Access, is a telecommunications technology aimed at providing wireless data over long distances in a variety of ways, from point-to-point links to full mobile cellular type access. It is the final leg of delivering wireless broadband connectivity from a communications provider to a customer and an alternative to cable and DSL. it is economically viable to provide last-mile broadband Internet access in remote locations with this tecnology."@en ;
+                  rdfs:label "wiMAXNetworkICTi"@en .
+
+
+###  http://localhost:8080/BFiaO/ICTInfractructure#xDSLCableICTi
+:xDSLCableICTi rdf:type owl:Class ;
+               rdfs:subClassOf :communicationsLineICTi ;
+               rdfs:comment "xDSL technologies are based on the multiplexing of the voice signal that runs through the telephone pair cable, and the data signal, taking advantage of the superior spectrum of this transmission medium that was not used before. In other words, it consists of converting the conventional analog telephone line into a high-speed digital line, which entails lower investment costs. (source: http://www.tarluz.com)."@en ;
+               rdfs:isDefinedBy "xDSL technologies are based on the multiplexing of the voice signal that runs through the telephone pair cable, and the data signal, taking advantage of the superior spectrum of this transmission medium that was not used before. In other words, it consists of converting the conventional analog telephone line into a high-speed digital line, which entails lower investment costs. (source: http://www.tarluz.com)."@en ;
+               rdfs:label "xDSLCableICTi"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :baseTransceiverStationICTi
+                :communicationsLineICTi
+                :dataCenterICTi
+                :fixedTelephoneNetworkICTi
+                :iSPICTi
+                :nSPICTi
+                :routingCenterICTi
+                :satelliteSystemICTi
+                :tETRARadioSystemICTi
+                :wiMAXNetworkICTi
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :fiberOpticLineICTi
+                :satelliteLinkICTi
+                :xDSLCableICTi
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

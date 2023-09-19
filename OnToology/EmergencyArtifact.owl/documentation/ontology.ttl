@@ -1,0 +1,870 @@
+@prefix : <http://localhost:8080/BFiaO/EmergencyArtifact#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://localhost:8080/BFiaO/EmergencyArtifact#> .
+
+<http://localhost:8080/BFiaO/EmergencyArtifact> rdf:type owl:Ontology ;
+                                                 <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> ;
+                                                 :content_license """The MIT License (MIT)
+
+Copyright (c) 2023 Leopoldo Santos Santos of EmergencyAgent
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \"Software\"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE."""@en ;
+                                                 <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" ;
+                                                 rdfs:comment "This ontology is designed to cover all the necessary material resources to act in an emergency situation." ;
+                                                 owl:versionInfo "Version 1.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#content_license
+:content_license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability
+:ArtifactBedCapability rdf:type owl:DatatypeProperty ;
+                       rdfs:comment "It defines the amount of bed that a hospital or an evacuted camp can provide."@en ;
+                       rdfs:label "ArtifactBedCapability"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription
+:ArtifactDescription rdf:type owl:DatatypeProperty ;
+                     rdfs:comment "It provides a description of a specific artifact"@en ;
+                     rdfs:label "ArtifactDescription"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth
+:ArtifactDiggingDepth rdf:type owl:DatatypeProperty ;
+                      rdfs:comment "It is the maximum capacity of digging for an excavator. It is expressed in meters."@en ;
+                      rdfs:label "ArtifactDiggingDepth"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower
+:ArtifactEnginePower rdf:type owl:DatatypeProperty ;
+                     rdfs:comment "It specifies the engine power of a vehicle in HPA."@en ;
+                     rdfs:label "ArtifactEnginePower"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID
+:ArtifactID rdf:type owl:DatatypeProperty ;
+            rdfs:comment "This filed identifies univocally any kind of artifact."@en ;
+            rdfs:label "ArtifactID"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport
+:ArtifactInjuredTransport rdf:type owl:DatatypeProperty ;
+                          rdfs:comment "It defines the ability to transport injured people."@en ;
+                          rdfs:label "ArtifactInjuredTransport"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel
+:ArtifactModel rdf:type owl:DatatypeProperty ;
+               rdfs:comment "It identifies the model used for an specific artifact."@en ;
+               rdfs:label "ArtifactModel"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize
+:ArtifactOperatingStaffSize rdf:type owl:DatatypeProperty ;
+                            rdfs:comment "It identifies the level of the staff needed to operate an specific system or equipment."@en ;
+                            rdfs:label "ArtifactOperatingStaffSize"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity
+:ArtifactPersonnelTransportCapacity rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "It identifies the capacity for transport of personnel in a vehicle. If the vehicle is an ambulance it identifies the maximum capacity for transporting injured people."@en ;
+                                    rdfs:label "ArtifactPersonnelTransportCapacity"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability
+:ArtifactPumpingWaterCapability rdf:type owl:DatatypeProperty ;
+                                rdfs:comment "It defines the amount of water or mud that a pumping equipment can extract. , expressed in cubic meters per hour."@en ;
+                                rdfs:label "ArtifactPumpingWaterCapability"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange
+:ArtifactRange rdf:type owl:DatatypeProperty ;
+               rdfs:comment "It is the time, in hours, that an artifact can be working without providing any kind of fuel."@en ;
+               rdfs:label "ArtifactRange"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability
+:ArtifactSaltCapability rdf:type owl:DatatypeProperty ;
+                        rdfs:comment "It defines the maximum amount of salt that a truck or a snowplow can transport. It is expressed im cubic meters."@en ;
+                        rdfs:label "ArtifactSaltCapability"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity
+:ArtifactTipperCapacity rdf:type owl:DatatypeProperty ;
+                        rdfs:comment "It is the capacity of a tipper in a dump truck. It is expressed in cubic meters."@en ;
+                        rdfs:label "ArtifactTipperCapacity"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner
+:ArtifactUnitOwner rdf:type owl:DatatypeProperty ;
+                   rdfs:comment "It identifies the unit to which a specific artifact belongs."@en ;
+                   rdfs:label "ArtifactUnitOwner"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability
+:ArtifactWaterCapability rdf:type owl:DatatypeProperty ;
+                         rdfs:comment "It defines the amount of water that a firefighting vehicle o a cistern can transport, expressed in liters (l)."@en ;
+                         rdfs:label "ArtifactWaterCapability"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact
+:aerialVehicleArtifact rdf:type owl:Class ;
+                       rdfs:subClassOf :emergencyVehicleArtifact ;
+                       rdfs:comment "an aeroplane, helicopter, or other machine capable of flight"@en ;
+                       rdfs:isDefinedBy "an aeroplane, helicopter, or other machine capable of flight"@en ;
+                       rdfs:label "aerialVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact
+:ambulanceHelicopterArtifact rdf:type owl:Class ;
+                             rdfs:subClassOf :rotaryWingArtifact ;
+                             rdfs:comment "It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions."@en ;
+                             rdfs:isDefinedBy "It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions."@en ;
+                             rdfs:label "ambulanceHelicopterArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact
+:blanketArtifact rdf:type owl:Class ;
+                 rdfs:subClassOf :fieldArtifact ;
+                 rdfs:comment "A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person."@en ;
+                 rdfs:isDefinedBy "A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person."@en ;
+                 rdfs:label "blanketArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact
+:bodyBagArtifact rdf:type owl:Class ;
+                 rdfs:subClassOf :fieldArtifact ;
+                 rdfs:comment "A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation."@en ;
+                 rdfs:isDefinedBy "A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation."@en ;
+                 rdfs:label "bodyBagArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact
+:bridgeLaunchVehicleArtifact rdf:type owl:Class ;
+                             rdfs:subClassOf :groundVehicleArtifact ;
+                             rdfs:comment "A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures."@en ;
+                             rdfs:isDefinedBy "A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures."@en ;
+                             rdfs:label "bridgeLaunchVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact
+:bulldozerArtifact rdf:type owl:Class ;
+                   rdfs:subClassOf :groundVehicleArtifact ;
+                   rdfs:comment "A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth."@en ;
+                   rdfs:isDefinedBy "A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth."@en ;
+                   rdfs:label "bulldozerArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact
+:bunkbedArtifact rdf:type owl:Class ;
+                 rdfs:subClassOf :fieldArtifact ;
+                 rdfs:comment "A bunk bed is one of two single beds usually placed one above the other."@en ;
+                 rdfs:isDefinedBy "A bunk bed is one of two single beds usually placed one above the other."@en ;
+                 rdfs:label "bunkbedArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact
+:busArtifact rdf:type owl:Class ;
+             rdfs:subClassOf :groundVehicleArtifact ;
+             rdfs:comment "A bus is a large motor vehicle designed to carry passengers."@en ;
+             rdfs:isDefinedBy "A bus is a large motor vehicle designed to carry passengers."@en ;
+             rdfs:label "busArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact
+:cBRNArtifact rdf:type owl:Class ;
+              rdfs:comment "A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles."@en ;
+              rdfs:isDefinedBy "A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles."@en ;
+              rdfs:label "cBRNArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact
+:cBRNIndividualProtectiveArtifact rdf:type owl:Class ;
+                                  rdfs:subClassOf :cBRNArtifact ;
+                                  rdfs:comment "Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents."@en ;
+                                  rdfs:isDefinedBy "Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents."@en ;
+                                  rdfs:label "cBRNIndividualProtectiveArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact
+:cBRNInterventionVehicleArtifact rdf:type owl:Class ;
+                                 rdfs:subClassOf :cBRNVehicleArtifact ;
+                                 rdfs:comment "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts."@en ;
+                                 rdfs:isDefinedBy "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts."@en ;
+                                 rdfs:label "cBRNInterventionVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact
+:cBRNMaterielDecontaminationArtifact rdf:type owl:Class ;
+                                     rdfs:subClassOf :cBRNArtifact ;
+                                     rdfs:comment "A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities."@en ;
+                                     rdfs:isDefinedBy "A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities."@en ;
+                                     rdfs:label "cBRNMaterielDecontaminationArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact
+:cBRNMobileLabArtifact rdf:type owl:Class ;
+                       rdfs:subClassOf :cBRNVehicleArtifact ;
+                       rdfs:comment "A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified."@en ;
+                       rdfs:isDefinedBy "A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified."@en ;
+                       rdfs:label "cBRNMobileLabArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact
+:cBRNPersonnelDecontaminationArtifact rdf:type owl:Class ;
+                                      rdfs:subClassOf :cBRNArtifact ;
+                                      rdfs:comment "A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel."@en ;
+                                      rdfs:isDefinedBy "A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel."@en ;
+                                      rdfs:label "cBRNPersonnelDecontaminationArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact
+:cBRNReconnaissanceVehicleArtifact rdf:type owl:Class ;
+                                   rdfs:subClassOf :cBRNVehicleArtifact ;
+                                   rdfs:comment "A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling."@en ;
+                                   rdfs:isDefinedBy "A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling."@en ;
+                                   rdfs:label "cBRNReconnaissanceVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact
+:cBRNVehicleArtifact rdf:type owl:Class ;
+                     rdfs:subClassOf :groundVehicleArtifact ;
+                     rdfs:comment "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM)."@en ;
+                     rdfs:isDefinedBy "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM)."@en ;
+                     rdfs:label "cBRNVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact
+:caterpillarExcavatorArtifact rdf:type owl:Class ;
+                              rdfs:subClassOf :groundVehicleArtifact ;
+                              rdfs:comment """A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.
+It is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access."""@en ;
+                              rdfs:isDefinedBy """A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.
+It is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access."""@en ;
+                              rdfs:label "caterpillarExcavatorArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact
+:cellsOnWheelsSystemArtifact rdf:type owl:Class ;
+                             rdfs:subClassOf :commsVehicleArtifact ;
+                             owl:disjointWith :mobileCommunicationVehicleArtifact ;
+                             rdfs:comment "A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications."@en ;
+                             rdfs:isDefinedBy "A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications."@en ;
+                             rdfs:label "cellsOnWheelsSystemArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact
+:coffinArtifact rdf:type owl:Class ;
+                rdfs:subClassOf :fieldArtifact ;
+                rdfs:comment "A coffin is a box or chest for burying a corpse."@en ;
+                rdfs:isDefinedBy "A coffin is a box or chest for burying a corpse."@en ;
+                rdfs:label "coffinArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact
+:commsVehicleArtifact rdf:type owl:Class ;
+                      rdfs:subClassOf :groundVehicleArtifact ;
+                      rdfs:comment "It describes any kind of vehicle used for providing communication services."@en ;
+                      rdfs:isDefinedBy "It describes any kind of vehicle used for providing communication services."@en ;
+                      rdfs:label "commsVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact
+:communicationArtifact rdf:type owl:Class ;
+                       rdfs:comment "It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle."@en ;
+                       rdfs:isDefinedBy "It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle."@en ;
+                       rdfs:label "communicationArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact
+:craneArtifact rdf:type owl:Class ;
+               rdfs:subClassOf :groundVehicleArtifact ;
+               rdfs:comment "A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track."@en ;
+               rdfs:isDefinedBy "A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track."@en ;
+               rdfs:label "craneArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact
+:dockLandingShipArtifact rdf:type owl:Class ;
+                         rdfs:subClassOf :marineVehicleArtifact ;
+                         rdfs:comment "It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters."@en ;
+                         rdfs:isDefinedBy "It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters."@en ;
+                         rdfs:label "dockLandingShipArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact
+:dumpTruckArtifact rdf:type owl:Class ;
+                   rdfs:subClassOf :groundVehicleArtifact ;
+                   rdfs:comment """A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.
+Heavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper)"""@en ;
+                   rdfs:isDefinedBy """A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.
+Heavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper)."""@en ;
+                   rdfs:label "dumpTruckArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact
+:emergencyAmbulanceArtifact rdf:type owl:Class ;
+                            rdfs:subClassOf :groundVehicleArtifact ;
+                            rdfs:comment "An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions."@en ;
+                            rdfs:isDefinedBy "An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions."@en ;
+                            rdfs:label "emergencyAmbulanceArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact
+:emergencyCommandPostArtifact rdf:type owl:Class ;
+                              rdfs:subClassOf :fieldArtifact ;
+                              rdfs:comment "An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization."@en ;
+                              rdfs:isDefinedBy "An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization."@en ;
+                              rdfs:label "emergencyCommandPostArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact
+:emergencyVehicleArtifact rdf:type owl:Class ;
+                          rdfs:comment "It describes any kind of vehicle used for emergency services."@en ;
+                          rdfs:isDefinedBy "It describes any kind of vehicle used for emergency services."@en ;
+                          rdfs:label "emergencyVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact
+:evacuatedCampArtifact rdf:type owl:Class ;
+                       rdfs:subClassOf :fieldArtifact ;
+                       rdfs:comment "An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc."@en ;
+                       rdfs:isDefinedBy "An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc."@en ;
+                       rdfs:label "evacuatedCampArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact
+:fieldArtifact rdf:type owl:Class ;
+               rdfs:comment "It defines a diversity of tools, field facilities or any other utensiles used in emergency zones."@en ;
+               rdfs:isDefinedBy "It defines a diversity of tools, field facilities or any other utensiles used in emergency zones."@en ;
+               rdfs:label "fieldArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact
+:fieldHospitalArtifact rdf:type owl:Class ;
+                       rdfs:subClassOf :fieldArtifact ;
+                       rdfs:comment "A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities."@en ;
+                       rdfs:isDefinedBy "A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities."@en ;
+                       rdfs:label "fieldHospitalArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact
+:fieldKitchenArtifact rdf:type owl:Class ;
+                      rdfs:subClassOf :fieldArtifact ;
+                      rdfs:comment "The place where food for a military unit in the field is prepared."@en ;
+                      rdfs:isDefinedBy "The place where food for a military unit in the field is prepared."@en ;
+                      rdfs:label "fieldKitchenArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact
+:fireExtinguisherArtifact rdf:type owl:Class ;
+                          rdfs:subClassOf :fieldArtifact ;
+                          rdfs:comment "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations."@en ;
+                          rdfs:isDefinedBy "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations."@en ;
+                          rdfs:label "fireExtinguisherArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact
+:firefightingAircraftArtifact rdf:type owl:Class ;
+                              rdfs:subClassOf :fixedWingArtifact ;
+                              owl:disjointWith :transportAircraftArtifact ;
+                              rdfs:comment "A firefighting plane is an aircraft used to combat wildfires."@en ;
+                              rdfs:isDefinedBy "A firefighting plane is an aircraft used to combat wildfires."@en ;
+                              rdfs:label "firefightingAircraftArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact
+:firefightingHelicopterArtifact rdf:type owl:Class ;
+                                rdfs:subClassOf :rotaryWingArtifact ;
+                                rdfs:comment "A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire."@en ;
+                                rdfs:isDefinedBy "A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire."@en ;
+                                rdfs:label "firefightingHelicopterArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact
+:firefightingTruckArtifact rdf:type owl:Class ;
+                           rdfs:subClassOf :groundVehicleArtifact ;
+                           rdfs:comment "A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations."@en ;
+                           rdfs:isDefinedBy "A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations."@en ;
+                           rdfs:label "firefightingTruckArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact
+:fixedWingArtifact rdf:type owl:Class ;
+                   rdfs:subClassOf :aerialVehicleArtifact ;
+                   rdfs:comment "It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft's forward airspeed and the shape of the wings."@en ;
+                   rdfs:isDefinedBy "It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft's forward airspeed and the shape of the wings."@en ;
+                   rdfs:label "fixedWingArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact
+:fuelTankerTruckArtifact rdf:type owl:Class ;
+                         rdfs:subClassOf :groundVehicleArtifact ;
+                         rdfs:comment "A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads."@en ;
+                         rdfs:isDefinedBy "A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads."@en ;
+                         rdfs:label "fuelTankerTruckArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact
+:gasTankerTruckArtifact rdf:type owl:Class ;
+                        rdfs:subClassOf :groundVehicleArtifact ;
+                        rdfs:comment "A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads."@en ;
+                        rdfs:isDefinedBy "A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads."@en ;
+                        rdfs:label "gasTankerTruckArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact
+:groundVehicleArtifact rdf:type owl:Class ;
+                       rdfs:subClassOf :emergencyVehicleArtifact ;
+                       rdfs:comment "A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water."@en ;
+                       rdfs:isDefinedBy "A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water."@en ;
+                       rdfs:label "groundVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact
+:hFRadioArtifact rdf:type owl:Class ;
+                 rdfs:subClassOf :communicationArtifact ;
+                 rdfs:comment "High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz)."@en ;
+                 rdfs:isDefinedBy "High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz)."@en ;
+                 rdfs:label "hFRadioArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact
+:hospitalShipArtifact rdf:type owl:Class ;
+                      rdfs:subClassOf :marineVehicleArtifact ;
+                      rdfs:comment "A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital."@en ;
+                      rdfs:isDefinedBy "A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital."@en ;
+                      rdfs:label "hospitalShipArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact
+:l1emergencyAmbulanceArtifact rdf:type owl:Class ;
+                              rdfs:subClassOf :emergencyAmbulanceArtifact ;
+                              rdfs:comment "A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva)."@en ;
+                              rdfs:isDefinedBy "A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva)."@en ;
+                              rdfs:label "l1emergencyAmbulanceArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact
+:l2emergencyAmbulanceArtifact rdf:type owl:Class ;
+                              rdfs:subClassOf :emergencyAmbulanceArtifact ;
+                              rdfs:comment """It is an ambulance  intended to provide basic life support and
+initial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico)."""@en ;
+                              rdfs:isDefinedBy """It is an ambulance  intended to provide basic life support and
+initial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico)."""@en ;
+                              rdfs:label "l2emergencyAmbulanceArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact
+:l3emergencyAmbulanceArtifact rdf:type owl:Class ;
+                              rdfs:subClassOf :emergencyAmbulanceArtifact ;
+                              rdfs:comment "A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance."@en ;
+                              rdfs:isDefinedBy "A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance."@en ;
+                              rdfs:label "l3emergencyAmbulanceArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact
+:landingCraftShipArtifact rdf:type owl:Class ;
+                          rdfs:subClassOf :marineVehicleArtifact ;
+                          rdfs:comment "A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore."@en ;
+                          rdfs:isDefinedBy "A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore."@en ;
+                          rdfs:label "landingCraftShipArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact
+:marineVehicleArtifact rdf:type owl:Class ;
+                       rdfs:subClassOf :emergencyVehicleArtifact ;
+                       rdfs:comment "It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground."@en ;
+                       rdfs:isDefinedBy "It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground."@en ;
+                       rdfs:label "marineVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact
+:mobileCommunicationVehicleArtifact rdf:type owl:Class ;
+                                    rdfs:subClassOf :commsVehicleArtifact ;
+                                    rdfs:comment "A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities."@en ;
+                                    rdfs:isDefinedBy "A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities."@en ;
+                                    rdfs:label "mobileCommunicationVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact
+:motorcycleArtifact rdf:type owl:Class ;
+                    rdfs:subClassOf :groundVehicleArtifact ;
+                    rdfs:comment "It is a vehicle with two wheels and an engine."@en ;
+                    rdfs:isDefinedBy "It is a vehicle with two wheels and an engine."@en ;
+                    rdfs:label "motorcycleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact
+:pickArtifact rdf:type owl:Class ;
+              rdfs:subClassOf :fieldArtifact ;
+              rdfs:comment "A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends."@en ;
+              rdfs:isDefinedBy "A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends."@en ;
+              rdfs:label "pickArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact
+:platformTransportTruckArtifact rdf:type owl:Class ;
+                                rdfs:subClassOf :groundVehicleArtifact ;
+                                rdfs:comment "A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material."@en ;
+                                rdfs:isDefinedBy "A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material."@en ;
+                                rdfs:label "platformTransportTruckArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact
+:pollutingGasMeterArtifact rdf:type owl:Class ;
+                           rdfs:subClassOf :fieldArtifact ;
+                           rdfs:comment "A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone."@en ;
+                           rdfs:isDefinedBy "A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone."@en ;
+                           rdfs:label "pollutingGasMeterArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact
+:portableFuelStationArtifact rdf:type owl:Class ;
+                             rdfs:subClassOf :fieldArtifact ;
+                             rdfs:comment "A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed."@en ;
+                             rdfs:isDefinedBy "A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed."@en ;
+                             rdfs:label "portableFuelStationArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact
+:portableGasStationArtifact rdf:type owl:Class ;
+                            rdfs:subClassOf :fieldArtifact ;
+                            rdfs:comment "A Portable Gas Station is a facility that provides natural gas to particular users and buildings."@en ;
+                            rdfs:isDefinedBy "A Portable Gas Station is a facility that provides natural gas to particular users and buildings."@en ;
+                            rdfs:label "portableGasStationArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact
+:portableSatelliteCommSystemArtifact rdf:type owl:Class ;
+                                     rdfs:subClassOf :communicationArtifact ;
+                                     rdfs:comment "A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle."@en ;
+                                     rdfs:isDefinedBy "A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle."@en ;
+                                     rdfs:label "portableSatelliteCommSystemArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact
+:portableWiMAXSystemArtifact rdf:type owl:Class ;
+                             rdfs:subClassOf :communicationArtifact ;
+                             rdfs:comment "A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity."@en ;
+                             rdfs:isDefinedBy "A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity."@en ;
+                             rdfs:label "portableWiMAXSystemArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact
+:powerSupplyGeneratorArtifact rdf:type owl:Class ;
+                              rdfs:subClassOf :fieldArtifact ;
+                              rdfs:comment "A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc."@en ;
+                              rdfs:isDefinedBy "A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc."@en ;
+                              rdfs:label "powerSupplyGeneratorArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact
+:radiactivityMeterArtifact rdf:type owl:Class ;
+                           rdfs:subClassOf :fieldArtifact ;
+                           rdfs:comment "A radiactivity meter is a device designed to measure the level of radioactivity in a zone."@en ;
+                           rdfs:isDefinedBy "A radiactivity meter is a device designed to measure the level of radioactivity in a zone."@en ;
+                           rdfs:label "radiactivityMeterArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact
+:reconnaissanceVehicleArtifact rdf:type owl:Class ;
+                               rdfs:subClassOf :groundVehicleArtifact ;
+                               rdfs:comment "An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance."@en ;
+                               rdfs:isDefinedBy "An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance."@en ;
+                               rdfs:label "reconnaissanceVehicleArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact
+:rigidBoatArtifact rdf:type owl:Class ;
+                   rdfs:subClassOf :marineVehicleArtifact ;
+                   rdfs:comment """It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or 'sponsons' around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).
+Vessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters."""@en ;
+                   rdfs:isDefinedBy """It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or 'sponsons' around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).
+Vessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters."""@en ;
+                   rdfs:label "rigidBoatArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact
+:rotaryWingArtifact rdf:type owl:Class ;
+                    rdfs:subClassOf :aerialVehicleArtifact ;
+                    rdfs:comment "It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor."@en ;
+                    rdfs:isDefinedBy "It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor."@en ;
+                    rdfs:label "rotaryWingArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact
+:rubberBoatArtifact rdf:type owl:Class ;
+                    rdfs:subClassOf :marineVehicleArtifact ;
+                    rdfs:comment "It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac."@en ;
+                    rdfs:isDefinedBy "It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac."@en ;
+                    rdfs:label "rubberBoatArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact
+:shelterArtifact rdf:type owl:Class ;
+                 rdfs:subClassOf :fieldArtifact ;
+                 rdfs:comment "A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command."@en ;
+                 rdfs:isDefinedBy "A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command."@en ;
+                 rdfs:label "shelterArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact
+:shovelArtifact rdf:type owl:Class ;
+                rdfs:subClassOf :fieldArtifact ;
+                rdfs:comment "A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material."@en ;
+                rdfs:isDefinedBy "A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material."@en ;
+                rdfs:label "shovelArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact
+:snowplowArtifact rdf:type owl:Class ;
+                  rdfs:subClassOf :groundVehicleArtifact ;
+                  rdfs:comment "A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes."@en ;
+                  rdfs:isDefinedBy "A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes."@en ;
+                  rdfs:label "snowplowArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact
+:stretcherArtifact rdf:type owl:Class ;
+                   rdfs:subClassOf :fieldArtifact ;
+                   rdfs:comment "A stretcher is a device for carrying a sick, injured, or dead person."@en ;
+                   rdfs:isDefinedBy "A stretcher is a device for carrying a sick, injured, or dead person."@en ;
+                   rdfs:label "stretcherArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact
+:tETRASystemArtifact rdf:type owl:Class ;
+                     rdfs:subClassOf :communicationArtifact ;
+                     rdfs:comment "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."@en ;
+                     rdfs:isDefinedBy "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."@en ;
+                     rdfs:label "tETRASystemArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact
+:tentArtifact rdf:type owl:Class ;
+              rdfs:subClassOf :fieldArtifact ;
+              rdfs:comment "A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for."@en ;
+              rdfs:isDefinedBy "A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for."@en ;
+              rdfs:label "tentArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact
+:transportAircraftArtifact rdf:type owl:Class ;
+                           rdfs:subClassOf :fixedWingArtifact ;
+                           rdfs:comment "A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people."@en ;
+                           rdfs:isDefinedBy "A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people."@en ;
+                           rdfs:label "transportAircraftArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact
+:transportHelicopterArtifact rdf:type owl:Class ;
+                             rdfs:subClassOf :rotaryWingArtifact ;
+                             rdfs:comment "A transport helicopter is a rotary wing aircraft used to transport people or equipment."@en ;
+                             rdfs:label "transportHelicopterArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact
+:truckArtifact rdf:type owl:Class ;
+               rdfs:subClassOf :groundVehicleArtifact ;
+               rdfs:comment "A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people."@en ;
+               rdfs:isDefinedBy "A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people."@en ;
+               rdfs:label "truckArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact
+:uAVArtifact rdf:type owl:Class ;
+             rdfs:subClassOf :aerialVehicleArtifact ;
+             rdfs:comment "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone."@en ;
+             rdfs:isDefinedBy "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone."@en ;
+             rdfs:label "uAVArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact
+:uGVArtifact rdf:type owl:Class ;
+             rdfs:subClassOf :groundVehicleArtifact ;
+             rdfs:comment "An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present."@en ;
+             rdfs:isDefinedBy "An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present."@en ;
+             rdfs:label "uGVArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact
+:uHFRadioArtifact rdf:type owl:Class ;
+                  rdfs:subClassOf :communicationArtifact ;
+                  rdfs:comment "Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz)."@en ;
+                  rdfs:isDefinedBy "Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz)."@en ;
+                  rdfs:label "uHFRadioArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact
+:uSVArtifact rdf:type owl:Class ;
+             rdfs:subClassOf :marineVehicleArtifact ;
+             rdfs:comment "Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew."@en ;
+             rdfs:isDefinedBy "Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew."@en ;
+             rdfs:label "uSVArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact
+:vHFRadioArtifact rdf:type owl:Class ;
+                  rdfs:subClassOf :communicationArtifact ;
+                  rdfs:comment "Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz)."@en ;
+                  rdfs:isDefinedBy "Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz)."@en ;
+                  rdfs:label "vHFRadioArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact
+:waterPumpingTruckArtifact rdf:type owl:Class ;
+                           rdfs:subClassOf :groundVehicleArtifact ;
+                           rdfs:comment "A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material."@en ;
+                           rdfs:isDefinedBy "A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material."@en ;
+                           rdfs:label "waterPumpingTruckArtifact"@en .
+
+
+###  http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact
+:waterTankerTruckArtifact rdf:type owl:Class ;
+                          rdfs:subClassOf :groundVehicleArtifact ;
+                          rdfs:comment "A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads."@en ;
+                          rdfs:isDefinedBy "A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads."@en ;
+                          rdfs:label "waterTankerTruckArtifact"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :aerialVehicleArtifact
+                :groundVehicleArtifact
+                :marineVehicleArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :ambulanceHelicopterArtifact
+                :firefightingHelicopterArtifact
+                :transportHelicopterArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :blanketArtifact
+                :bodyBagArtifact
+                :bunkbedArtifact
+                :coffinArtifact
+                :emergencyCommandPostArtifact
+                :evacuatedCampArtifact
+                :fieldHospitalArtifact
+                :fieldKitchenArtifact
+                :fireExtinguisherArtifact
+                :pickArtifact
+                :pollutingGasMeterArtifact
+                :portableFuelStationArtifact
+                :portableGasStationArtifact
+                :powerSupplyGeneratorArtifact
+                :radiactivityMeterArtifact
+                :shelterArtifact
+                :shovelArtifact
+                :stretcherArtifact
+                :tentArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :cBRNArtifact
+                :communicationArtifact
+                :emergencyVehicleArtifact
+                :fieldArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :cBRNIndividualProtectiveArtifact
+                :cBRNMaterielDecontaminationArtifact
+                :cBRNPersonnelDecontaminationArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :cBRNInterventionVehicleArtifact
+                :cBRNMobileLabArtifact
+                :cBRNReconnaissanceVehicleArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :dockLandingShipArtifact
+                :hospitalShipArtifact
+                :landingCraftShipArtifact
+                :rigidBoatArtifact
+                :rubberBoatArtifact
+                :uSVArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :fixedWingArtifact
+                :rotaryWingArtifact
+                :uAVArtifact
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :hFRadioArtifact
+                :portableSatelliteCommSystemArtifact
+                :portableWiMAXSystemArtifact
+                :tETRASystemArtifact
+                :uHFRadioArtifact
+                :vHFRadioArtifact
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

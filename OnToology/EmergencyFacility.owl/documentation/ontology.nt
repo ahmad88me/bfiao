@@ -1,0 +1,216 @@
+<http://localhost:8080/BFiaO/EmergencyFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://localhost:8080/BFiaO/EmergencyFacility> <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> .
+<http://localhost:8080/BFiaO/EmergencyFacility> <http://localhost:8080/BFiaO/EmergencyFacility#content_license> "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of EmergencyAgent\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility> <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en .
+<http://localhost:8080/BFiaO/EmergencyFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is designed to cover all  necessary facilities to provide support in an emergency situation."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#content_license
+<http://localhost:8080/BFiaO/EmergencyFacility#content_license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#license
+<http://localhost:8080/BFiaO/EmergencyFacility#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the address of the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the address of the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityAddress"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It provides a true if the hospital facility has a burn unit, or a false if the hospital does not have it."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityBurnUnit"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the number of beds available if we are talking about a hospital, or that can be mounted in the facility. If we are talking about a mortuary it defines the capacity of dead body to be maintained in good conditions."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityCapacity"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the city where the facility is located"@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the city where the facility is located."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityCity"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "It describes the usual use of the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It describes the usual use of the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityDescription"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the WKS coordinates of the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the WKS coordinates of the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityGeoLocation"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/2000/01/rdf-schema#comment> "It idenfies with a true if the facility has heliport capability."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It idenfies with a true if the facility has heliport capability."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityHeliportCapability"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityID
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies univocally any facility"@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies univocally any facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityID"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityName
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/2000/01/rdf-schema#comment> "It provides a name to identify any facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It provides a name to identify any facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityName"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the organism or private company which manages the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the organism or private company which manages the facility."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/2000/01/rdf-schema#label> "FacilityOperator"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#airportFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#airportFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#airportFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "A complex of runways and buildings for the take-off, landing, and maintenance of civil aircraft, with facilities for passengers and payloads"@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#airportFacility> <http://www.w3.org/2000/01/rdf-schema#label> "airportFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The headquarters of a civil protection force, where civil protection agents,  and other equipment are housed."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> <http://www.w3.org/2000/01/rdf-schema#label> "civilProtectionFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Emergency command centers are communication centers where dedicated manual and automatic facilities are located for the origination, control and transmission of information and instruction pertaining to an emergency."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyCommandCenterFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The command post is a facility that provides a mechanism for emergency responders and management to converge to effectively coordinate and discuss the ongoing response efforts during an incident."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyCommandPostFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Emergency Depot is a place for the storage of large quantities of equipment, food, or goods needed to mitigate emergency effects."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyDepotFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "The headquarters of a fire brigade, where fire engines and other equipment are housed."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The headquarters of a fire brigade, where fire engines and other equipment are housed."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> <http://www.w3.org/2000/01/rdf-schema#label> "fireStationFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "An airport or landing place for helicopters.(source: Oxford languages)"@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "an airport or landing place for helicopters"@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> <http://www.w3.org/2000/01/rdf-schema#label> "heliportFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where sick or injured people go to be treated by doctors and nurses."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A place where sick or injured people go to be treated by doctors and nurses."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> <http://www.w3.org/2000/01/rdf-schema#label> "hospitalFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary)."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A room or building, for example part of a hospital, in which dead bodies are kept before they are buried or cremated. (Source: Oxfrod Dictionary)."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> <http://www.w3.org/2000/01/rdf-schema#label> "mortuaryFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "A large natural or artificial lake used as a source of water supply."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A large natural or artificial lake used as a source of water supply."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> <http://www.w3.org/2000/01/rdf-schema#label> "reservoirFacility"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility
+<http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A building where the public can go to play many different kinds of sports, swim, etc.and it can be used as a place to keep safe evacuated people."@en .
+<http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> <http://www.w3.org/2000/01/rdf-schema#label> "sportsCenterFacility"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyFacility#airportFacility> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

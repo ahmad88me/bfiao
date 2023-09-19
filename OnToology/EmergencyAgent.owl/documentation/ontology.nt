@@ -1,0 +1,345 @@
+<http://localhost:8080/BFiaO/EmergencyAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://localhost:8080/BFiaO/EmergencyAgent> <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> .
+<http://localhost:8080/BFiaO/EmergencyAgent> <http://localhost:8080/BFiaO/EmergencyAgent#content_license> "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent> <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en .
+<http://localhost:8080/BFiaO/EmergencyAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is designed to identify the emergency agents who can act in an emergency situation."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#content_license
+<http://localhost:8080/BFiaO/EmergencyAgent#content_license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/2000/01/rdf-schema#comment> "This atribute has the geolacation of the agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "This atribute has the geolacation of the agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/2000/01/rdf-schema#label> "AgentDeployedGeolocation"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the transaction time for the completion time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the transaction time for the completion time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/2000/01/rdf-schema#label> "AgentEndUseTransctionTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the completion time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the completion time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/2000/01/rdf-schema#label> "AgentEndUseValidTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentName
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifes the name of an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifes the name of an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/2000/01/rdf-schema#label> "AgentName"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the phone of the agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the phone of the agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/2000/01/rdf-schema#label> "AgentPhone"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentRank
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the rank of an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the rank of an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/2000/01/rdf-schema#label> "AgentRank"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the transaction tiem for start time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the transaction tiem for start time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/2000/01/rdf-schema#label> "AgentStartUseTransactionTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the start time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the start time of use of an artifact by an agent."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/2000/01/rdf-schema#label> "AgentStartUseValidTime"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the identification code for the Unit."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the identification code for the Unit."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/2000/01/rdf-schema#label> "AgentUnitID"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a person who belongs to Armed Forces."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a person who belongs to Armed Forces."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#label> "armedForcesAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A military pilot who has a license to pilot aircraft and specialized in piloting firefighting aircraft."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A military pilot who has a license to pilot aircraft and specialized in piloting firefighting aircraft."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> <http://www.w3.org/2000/01/rdf-schema#label> "armedForcesFireExtinguisherPlanePilotAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A military pilot who belong to Armed Forces and has a license to pilot a helicopter."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A military pilot who belong to Armed Forces and has a license to pilot a helicopter."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#label> "armedForcesHelicopterPilotAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an agent who belongs to a BRIF."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an agent who belongs to a BRIF."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> <http://www.w3.org/2000/01/rdf-schema#label> "bRIFAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN Agent is a person with training in CBRN. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN Agent is a person with training in CBRN. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A CBRN Armed Forces Agent is a person with training in CBRN who belongs to Armed Forces. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A CBRN Armed Forces Agent is a person with training in CBRN who belongs to Armed Forces. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNArmedForcesAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A UME CBRN Agent is a person with training in CBRN who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A UME CBRN Agent is a person with training in CBRN who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> <http://www.w3.org/2000/01/rdf-schema#label> "cBRNUMEAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A person with a medical degree whose job is to treat people who are ill or hurt and who belongs to any kind of Units working in the Emergency."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A person with a medical degree whose job is to treat people who are ill or hurt and who belongs to any kind of Units working in the Emergency."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> <http://www.w3.org/2000/01/rdf-schema#label> "doctorAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A Fire Brigade Agent is a person with training in fire fighting and works in this field."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Fire Brigade Agent is a person with training in fire fighting and works in this field."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> <http://www.w3.org/2000/01/rdf-schema#label> "fireBrigadeAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a person who belongs to Guardia Civil, which is a law enforcement force, a gendarmerie corps with a military nature with a permanent vocation for services."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is a person who belongs to Guardia Civil, which is a law enforcement force, a gendarmerie corps with a military nature with a permanent vocation for services."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> <http://www.w3.org/2000/01/rdf-schema#label> "guardiaCivilAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A healthcare worker is anyone who works in a healthcare or social care setting, including healthcare students on clinical placement, frontline healthcare workers and other healthcare workers not in direct patient contact."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A healthcare worker is anyone who works in a healthcare or social care setting, including healthcare students on clinical placement, frontline healthcare workers and other healthcare workers not in direct patient contact."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> <http://www.w3.org/2000/01/rdf-schema#label> "healthCareWorkerAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#policeAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A person whose job is to enforce laws, investigate crimes, and make arrests: a member of the police."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A person whose job is to enforce laws, investigate crimes, and make arrests: a member of the police."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> <http://www.w3.org/2000/01/rdf-schema#label> "policeAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "An expert or specialist in psychology."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An expert or specialist in psychology."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> <http://www.w3.org/2000/01/rdf-schema#label> "psychologistAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an agent contracted by  regional government to work in emergencies like fires, floods, winter emergencies, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is an agent contracted by  regional government to work in emergencies like fires, floods, winter emergencies, etc."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> <http://www.w3.org/2000/01/rdf-schema#label> "regionalEmergencyAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A soldier who belongs to Signal Corps, which the part of an army in charge of communications."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A soldier who belongs to Signal Corps, which the part of an army in charge of communications."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> <http://www.w3.org/2000/01/rdf-schema#label> "signalCorpsAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A UME Agent is a person with training in different kind of emergencies who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A UME Agent is a person with training in different kind of emergencies who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> <http://www.w3.org/2000/01/rdf-schema#label> "uMEAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A person who belong to UME (Emergency Military Unit) and has a license to pilot a helicopter. A pilot is posted to UME Helicopter Unit which is a body of Army Aviation adscribed to UME. It can fly in reconnaissance missions, as post command or dropping water in a fire."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A military pilot who belong to UME (Emergency Military Unit) and has a license to pilot a helicopter. A pilot is posted to UME Helicopter Unit which is a body of Army Aviation adscribed to UME. It can fly in reconnaissance missions, as post command or dropping water in a fire."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#label> "uMEHelicopterPilotAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "Volunteer represent citizens that acts individually helping during emergencies."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Volunteer represent citizens that acts individually helping during emergencies."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A volunteer who has the right license and drives an ambulance."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A volunteer who has the right license and drives an ambulance."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerAmbulanceDriverAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A volunteer who is a driver with license to drive a bus."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A volunteer who is a driver with license to drive a bus."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerBusDriverAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A volunteer who voluntarily undertakes or expresses a willingness to undertake a service."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A volunteer who voluntarily undertakes or expresses a willingness to undertake a service."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerCitizenAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a volunteer who belongs to Civil Protection."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is a volunteer who belongs to Civil Protection."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerCivilProtectionAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines a volunteer who does not have any specific training and can be used to help in general services like food delivery, food preparation, or cleaning services."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines a volunteer who does not have any specific training and can be used to help in general services like food delivery, food preparation, or cleaning services."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerGeneralServicesAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A volunteer who belongs to Red Cross Organization. The Red Cross is an international organization that helps people who are suffering, for example as a result of war, floods, or disease."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A volunteer who belongs to Red Cross Organization. The Red Cross is an international organization that helps people who are suffering, for example as a result of war, floods, or disease."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerRedCrossAgent"@en .
+# 
+# http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A volunteer who has a driver licence to drive a truck."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A volunteer who has a driver licence to drive a truck."@en .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent> <http://www.w3.org/2000/01/rdf-schema#label> "volunteerTruckDriverAgent"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid20 <http://www.w3.org/2002/07/owl#members> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost:8080/BFiaO/EmergencyAgent#"
+     xml:base="http://localhost:8080/BFiaO/EmergencyAgent"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:EmergencyAgent="http://localhost:8080/BFiaO/EmergencyAgent#">
+    <owl:Ontology rdf:about="http://localhost:8080/BFiaO/EmergencyAgent">
+        <ns:license rdf:resource="https://spdx.org/licenses/MIT.html"/>
+        <content_license xml:lang="en">The MIT License (MIT)
+
+Copyright (c) 2022 Leopoldo Santos Santos of Strategic Sector
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</content_license>
+        <dc:creator xml:lang="en">Leopoldo Santos Santos</dc:creator>
+        <rdfs:comment xml:lang="en">This ontology is designed to identify the emergency agents who can act in an emergency situation.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#content_license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#content_license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation">
+        <rdfs:comment xml:lang="en">This atribute has the geolacation of the agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">This atribute has the geolacation of the agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentDeployedGeolocation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime">
+        <rdfs:comment xml:lang="en">It identifies the transaction time for the completion time of use of an artifact by an agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the transaction time for the completion time of use of an artifact by an agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentEndUseTransctionTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime">
+        <rdfs:comment xml:lang="en">It identifies the completion time of use of an artifact by an agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the completion time of use of an artifact by an agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentEndUseValidTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentName">
+        <rdfs:comment xml:lang="en">It identifes the name of an agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifes the name of an agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone">
+        <rdfs:comment xml:lang="en">It identifies the phone of the agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the phone of the agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentPhone</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentRank -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentRank">
+        <rdfs:comment xml:lang="en">It identifies the rank of an agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the rank of an agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentRank</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime">
+        <rdfs:comment xml:lang="en">It identifies the transaction tiem for start time of use of an artifact by an agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the transaction tiem for start time of use of an artifact by an agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentStartUseTransactionTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:comment xml:lang="en">It identifies the start time of use of an artifact by an agent.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the start time of use of an artifact by an agent.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentStartUseValidTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID -->
+
+
+    <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID">
+        <rdfs:comment xml:lang="en">It identifies the identification code for the Unit.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the identification code for the Unit.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AgentUnitID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent">
+        <rdfs:comment xml:lang="en">It is a person who belongs to Armed Forces.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a person who belongs to Armed Forces.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">armedForcesAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent">
+        <rdfs:comment xml:lang="en">A military pilot who has a license to pilot aircraft and specialized in piloting firefighting aircraft.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A military pilot who has a license to pilot aircraft and specialized in piloting firefighting aircraft.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">armedForcesFireExtinguisherPlanePilotAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent">
+        <rdfs:comment xml:lang="en">A military pilot who belong to Armed Forces and has a license to pilot a helicopter.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A military pilot who belong to Armed Forces and has a license to pilot a helicopter.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">armedForcesHelicopterPilotAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent">
+        <rdfs:comment xml:lang="en">It is an agent who belongs to a BRIF.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is an agent who belongs to a BRIF.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">bRIFAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent">
+        <rdfs:comment xml:lang="en">A CBRN Agent is a person with training in CBRN. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN Agent is a person with training in CBRN. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent">
+        <rdfs:comment xml:lang="en">A CBRN Armed Forces Agent is a person with training in CBRN who belongs to Armed Forces. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A CBRN Armed Forces Agent is a person with training in CBRN who belongs to Armed Forces. CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNArmedForcesAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent">
+        <rdfs:comment xml:lang="en">A UME CBRN Agent is a person with training in CBRN who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A UME CBRN Agent is a person with training in CBRN who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">cBRNUMEAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent">
+        <rdfs:comment xml:lang="en">A person with a medical degree whose job is to treat people who are ill or hurt and who belongs to any kind of Units working in the Emergency.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A person with a medical degree whose job is to treat people who are ill or hurt and who belongs to any kind of Units working in the Emergency.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">doctorAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent">
+        <rdfs:comment xml:lang="en">A Fire Brigade Agent is a person with training in fire fighting and works in this field.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Fire Brigade Agent is a person with training in fire fighting and works in this field.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fireBrigadeAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent">
+        <rdfs:comment xml:lang="en">Is a person who belongs to Guardia Civil, which is a law enforcement force, a gendarmerie corps with a military nature with a permanent vocation for services.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is a person who belongs to Guardia Civil, which is a law enforcement force, a gendarmerie corps with a military nature with a permanent vocation for services.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">guardiaCivilAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent">
+        <rdfs:comment xml:lang="en">A healthcare worker is anyone who works in a healthcare or social care setting, including healthcare students on clinical placement, frontline healthcare workers and other healthcare workers not in direct patient contact.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A healthcare worker is anyone who works in a healthcare or social care setting, including healthcare students on clinical placement, frontline healthcare workers and other healthcare workers not in direct patient contact.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">healthCareWorkerAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#policeAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#policeAgent">
+        <rdfs:comment xml:lang="en">A person whose job is to enforce laws, investigate crimes, and make arrests: a member of the police.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A person whose job is to enforce laws, investigate crimes, and make arrests: a member of the police.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">policeAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent">
+        <rdfs:comment xml:lang="en">An expert or specialist in psychology.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An expert or specialist in psychology.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">psychologistAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent">
+        <rdfs:comment xml:lang="en">It is an agent contracted by  regional government to work in emergencies like fires, floods, winter emergencies, etc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is an agent contracted by  regional government to work in emergencies like fires, floods, winter emergencies, etc.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">regionalEmergencyAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent">
+        <rdfs:comment xml:lang="en">A soldier who belongs to Signal Corps, which the part of an army in charge of communications.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A soldier who belongs to Signal Corps, which the part of an army in charge of communications.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">signalCorpsAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent">
+        <rdfs:comment xml:lang="en">A UME Agent is a person with training in different kind of emergencies who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A UME Agent is a person with training in different kind of emergencies who belongs to UME (Emergency Military Unit). CBRN is an acronym for Chemical, Biological, Radiological and Nuclear.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">uMEAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent">
+        <rdfs:comment xml:lang="en">A person who belong to UME (Emergency Military Unit) and has a license to pilot a helicopter. A pilot is posted to UME Helicopter Unit which is a body of Army Aviation adscribed to UME. It can fly in reconnaissance missions, as post command or dropping water in a fire.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A military pilot who belong to UME (Emergency Military Unit) and has a license to pilot a helicopter. A pilot is posted to UME Helicopter Unit which is a body of Army Aviation adscribed to UME. It can fly in reconnaissance missions, as post command or dropping water in a fire.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">uMEHelicopterPilotAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent">
+        <rdfs:comment xml:lang="en">Volunteer represent citizens that acts individually helping during emergencies.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Volunteer represent citizens that acts individually helping during emergencies.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        <rdfs:comment xml:lang="en">A volunteer who has the right license and drives an ambulance.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A volunteer who has the right license and drives an ambulance.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerAmbulanceDriverAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        <rdfs:comment xml:lang="en">A volunteer who is a driver with license to drive a bus.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A volunteer who is a driver with license to drive a bus.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerBusDriverAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        <rdfs:comment xml:lang="en">A volunteer who voluntarily undertakes or expresses a willingness to undertake a service.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A volunteer who voluntarily undertakes or expresses a willingness to undertake a service.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerCitizenAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        <rdfs:comment xml:lang="en">Is a volunteer who belongs to Civil Protection.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is a volunteer who belongs to Civil Protection.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerCivilProtectionAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        <rdfs:comment xml:lang="en">It defines a volunteer who does not have any specific training and can be used to help in general services like food delivery, food preparation, or cleaning services.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines a volunteer who does not have any specific training and can be used to help in general services like food delivery, food preparation, or cleaning services.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerGeneralServicesAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        <rdfs:comment xml:lang="en">A volunteer who belongs to Red Cross Organization. The Red Cross is an international organization that helps people who are suffering, for example as a result of war, floods, or disease.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A volunteer who belongs to Red Cross Organization. The Red Cross is an international organization that helps people who are suffering, for example as a result of war, floods, or disease.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerRedCrossAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        <rdfs:comment xml:lang="en">A volunteer who has a driver licence to drive a truck.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A volunteer who has a driver licence to drive a truck.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">volunteerTruckDriverAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#policeAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAmbulanceDriverAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerBusDriverAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerCitizenAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerCivilProtectionAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerGeneralServicesAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerRedCrossAgent"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerTruckDriverAgent"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,1724 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact"
+    } ]
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://spdx.org/licenses/MIT.html"
+  } ],
+  "http://localhost:8080/BFiaO/EmergencyArtifact#content_license" : [ {
+    "@language" : "en",
+    "@value" : "The MIT License (MIT)\n\nCopyright (c) 2023 Leopoldo Santos Santos of EmergencyAgent\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Leopoldo Santos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This ontology is designed to cover all the necessary material resources to act in an emergency situation."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Version 1.0"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactBedCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the amount of bed that a hospital or an evacuted camp can provide."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactBedCapability"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It provides a description of a specific artifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactDescription"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactDiggingDepth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the maximum capacity of digging for an excavator. It is expressed in meters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactDiggingDepth"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactEnginePower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It specifies the engine power of a vehicle in HPA."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactEnginePower"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This filed identifies univocally any kind of artifact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactID"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactInjuredTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the ability to transport injured people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactInjuredTransport"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the model used for an specific artifact."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactModel"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactOperatingStaffSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the level of the staff needed to operate an specific system or equipment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactOperatingStaffSize"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPersonnelTransportCapacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the capacity for transport of personnel in a vehicle. If the vehicle is an ambulance it identifies the maximum capacity for transporting injured people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactPersonnelTransportCapacity"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactPumpingWaterCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the amount of water or mud that a pumping equipment can extract. , expressed in cubic meters per hour."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactPumpingWaterCapability"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactRange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the time, in hours, that an artifact can be working without providing any kind of fuel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactRange"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactSaltCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the maximum amount of salt that a truck or a snowplow can transport. It is expressed im cubic meters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactSaltCapability"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactTipperCapacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the capacity of a tipper in a dump truck. It is expressed in cubic meters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactTipperCapacity"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactUnitOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the unit to which a specific artifact belongs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactUnitOwner"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ArtifactWaterCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the amount of water that a firefighting vehicle o a cistern can transport, expressed in liters (l)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ArtifactWaterCapability"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "an aeroplane, helicopter, or other machine capable of flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "an aeroplane, helicopter, or other machine capable of flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aerialVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#ambulanceHelicopterArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a helicopter  designed to providing an ambulance service for those urgent and life-threatening health conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ambulanceHelicopterArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#blanketArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A blanket is a a flat cover made of wool or similar warm material, usually used on a bed or in emergencies to warm a person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "blanketArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bodyBagArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A body bag is a large zippered bag (as of rubber or vinyl) in which a human corpse is placed especially for transportation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bodyBagArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bridgeLaunchVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A bridge launch vehicle is a combat support vehicle, sometimes regarded as a subtype of military engineering vehicle, designed to assist militaries in rapidly deploying tanks and other armoured fighting vehicles across gap-type obstacles, such as (and primarily) rivers. In emergency situations can help to reover from destroyed bridges or road infrastructures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bridgeLaunchVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bulldozerArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A bulldozer is a tractor-driven machine usually having a broad horizontal blade for moving earth."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bulldozerArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#bunkbedArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A bunk bed is one of two single beds usually placed one above the other."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A bunk bed is one of two single beds usually placed one above the other."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bunkbedArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#busArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A bus is a large motor vehicle designed to carry passengers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A bus is a large motor vehicle designed to carry passengers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "busArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN artifact defines personnel an materiel equipment used in CBRN emergencies. For those equipments which needs a vehicle we can find them in the category of Ground Vehicles."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNIndividualProtectiveArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Individual Protective Equipment usually consists of protective clothing, protective masks, decontamination and first-aid kits, chemical detectors and dosimeters in order to provide individuals with protection against CBRN (chemical, biological, radiological and nuclear) agents."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNIndividualProtectiveArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNInterventionVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM). This vehicle has been conceived to rapidly recognize CBRN aggressive agents deriving from toxic substances resulting from natural disasters, industrial disasters, road accidents or terrorist acts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNInterventionVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMaterielDecontaminationArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN decontamination equipment for materiel is an equipment designed  to remove CBRN components from equipment. The objective of the decontamination is to reduce radiation burden, salvage equipment, and materials, remove loose CBRN contaminants, and fix the remaining in place in preparation for protective storage or permanent disposal work activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNMaterielDecontaminationArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNMobileLabArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Mobile Lab for CBRN is a truck-transportable laboratory suitable for performing analysis of chemical, nuclearradiological and biological compounds, ensuring that CBRN threats can be rapidlyand accurately identified."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNMobileLabArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNPersonnelDecontaminationArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN decontamination equipment for personnel is an equipment designed  to remove CBRN components from people. The objective of the decontamination is to reduce radiation burden, and remove loose CBRN contaminants from personnel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNPersonnelDecontaminationArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNReconnaissanceVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN reconnaissance vehicle conducts surveillance, and route, zone, and area reconnaissance to determine the presence and extent of CBRN contamination using the CBRN reconnaissance techniques of search, survey, surveillance, and sampling."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNReconnaissanceVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cBRNVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A CBRN Intervention Vehicle is  an vehicle designed for the identification of CBRN aggressive agents and industrial toxics (TIC/TIM)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cBRNVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#caterpillarExcavatorArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.\nIt is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A caterpillar excavator is a bulldozer with linked metal chain fastened around the wheels of a heavy vehicle to help it to move over rough ground.\nIt is used to carry out earthworks, excavations, demolitions, etc., providing high performance. Being propelled by chains, it can work in places with a steep slope and difficult access."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "caterpillarExcavatorArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#cellsOnWheelsSystemArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Cells on Wheels system (C.O.W.) is a mobile cell site product that includes a tower and transceiver as well as all other necessary equipment, carefully constructed on a trailer or truck to provide cell phone communications."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cellsOnWheelsSystemArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#coffinArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A coffin is a box or chest for burying a corpse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A coffin is a box or chest for burying a corpse."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "coffinArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It describes any kind of vehicle used for providing communication services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It describes any kind of vehicle used for providing communication services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "commsVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines equipment used for radio and satellite communications. For those systems which are trasported in a vehicle there is an specific category in Ground Vehicle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "communicationArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#content_license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#craneArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A crane is a machine for raising, shifting, and lowering heavy weights by means of a projecting swinging arm or with the hoisting apparatus supported on an overhead track."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "craneArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#dockLandingShipArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is an amphibious warfare ship with a well dock to transport and launch landing craft and amphibious vehicles. Depending on the ship, also have bow doors to enable them to deliver vehicles directly onto a beach. Modern dock landing ships also operate helicopters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dockLandingShipArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#dumpTruckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.\nHeavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A large truck for transporting heavy loads, with a back part that can be raised at one end so that its contents fall out. Source: Cambridge Dictionary.\nHeavy vehicle with a 6X4 configuration, to support the work of earthmoving engineers. It is equipped with a hydraulic system for lifting the cargo box (tipper)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dumpTruckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An emergency ambulance is a especial vehicle designed to providing a service for those with unplanned urgent and life-threatening health conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyAmbulanceArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyCommandPostArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An emergency command post are temporary facilities and signifies the physical location of the tactical-level, on-scene emergency command and management organization."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyCommandPostArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It describes any kind of vehicle used for emergency services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It describes any kind of vehicle used for emergency services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#evacuatedCampArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An Evacuated Camp are temporary facilities built to provide immediate protection and assistance to people who have been forced to flee their homes due to any kind of disaster. This includes bed, food, medicines, medical assistance, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "evacuatedCampArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines a diversity of tools, field facilities or any other utensiles used in emergency zones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines a diversity of tools, field facilities or any other utensiles used in emergency zones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldHospitalArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A field hospital is a temporary hospital or mobile medical unit that takes care of casualties on-site before they can be safely transported to more permanent facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fieldHospitalArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldKitchenArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The place where food for a military unit in the field is prepared."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The place where food for a military unit in the field is prepared."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fieldKitchenArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fireExtinguisherArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fireExtinguisherArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#firefightingAircraftArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A firefighting plane is an aircraft used to combat wildfires."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A firefighting plane is an aircraft used to combat wildfires."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "firefightingAircraftArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#firefightingHelicopterArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A firefighting helicopter is an aircraft used to combat wildfires equiped with systems to load and throw water or other chemical compound able to extinguish fire."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "firefightingHelicopterArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#firefightingTruckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A firefighting truck is a road vehicle (usually a truck) that functions as a firefighting apparatus. The primary purposes of a fire engine include transporting firefighters and water to an incident as well as carrying equipment for firefighting operations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "firefightingTruckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft's forward airspeed and the shape of the wings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is an aircraft managed by a human pilot, such as an airplane, which is capable of flight using wings that generate lift caused by the aircraft's forward airspeed and the shape of the wings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fixedWingArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fuelTankerTruckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A fuel tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry liquids or gases on roads."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelTankerTruckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#gasTankerTruckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A gas tank truck, or tanker truck (United States usage) or tanker (United Kingdom usage), is a motor vehicle designed to carry natural gas on roads."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gasTankerTruckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A ground vehicle, also called a land vehicle, is a type of vehicle that travel on the ground/land, as opposed to an aircraft, which travel in the air, or a boat, which travel in the water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "groundVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#hFRadioArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "High frequency (HF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 3 and 30 megahertz (MHz)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hFRadioArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#hospitalShipArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A hospital ship is a ship designated for primary function as a floating medical treatment facility or hospital."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hospitalShipArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#l1emergencyAmbulanceArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A level I emergency ambulance is an ambulance equipped for high risk patientes, life risk and serious conditions (also called C). In Spain, according to Real Decreto 836/2012, this kind of ambulance is a SVA ambulance (Soporte Vital Avanzado), or mobile ICU (Intensive Care Unit), which in Spanish is a UVI Móvil (Unidad de Vigiliancia Intensiva)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "l1emergencyAmbulanceArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#l2emergencyAmbulanceArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is an ambulance  intended to provide basic life support and\ninitial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is an ambulance  intended to provide basic life support and\ninitial health care (also called B). In Spain, according to Real Decreto 836/2012 it is called a SVB ambulance (Soporte Vital Básico)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "l2emergencyAmbulanceArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#l3emergencyAmbulanceArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A level III emergency ambulance is an ambulance equipped for transport of patients and it is not an assitential ambulance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "l3emergencyAmbulanceArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyAmbulanceArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#landingCraftShipArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Landing craft is a small and medium seagoing watercraft, such as boat or barge, used to convey a people and vehicles from the sea to the shore."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "landingCraftShipArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a type of vehicle that travel on the sea or under the sea, as opposed to an aircraft, which travel in the air, or a car, which travel on the ground."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "marineVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#emergencyVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#mobileCommunicationVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A mobile communications vehicle (MCV) is a mobile self-sufficient communications vehicle capable of replacing remote radio or satellite communication facilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mobileCommunicationVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#commsVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#motorcycleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a vehicle with two wheels and an engine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a vehicle with two wheels and an engine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "motorcycleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#pickArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A pick is a tool used for digging.It is a heavy, usually long-handled iron or steel tool pointed at one or both ends."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pickArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#platformTransportTruckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A platform which can be moved by a truck without sides or a similar motorized vehicle for transporting heavy material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "platformTransportTruckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#pollutingGasMeterArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A pollutant gas meter is a device designed to measure the level of pollutant gas in a zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pollutingGasMeterArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableFuelStationArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Portable Fuel Station is a facility that provides fuel and engine lubricants for motor vehicles. Normally gasoline and diesel are distributed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portableFuelStationArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableGasStationArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Portable Gas Station is a facility that provides natural gas to particular users and buildings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Portable Gas Station is a facility that provides natural gas to particular users and buildings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portableGasStationArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableSatelliteCommSystemArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A portable satellite communications systems is a transportable self-contained communications system with the ability to receive signals from Earth and to retransmit those signals back with the use of a transponder—an integrated receiver and transmitter of radio signals. This system needs a Satellite Network Operations Center which is the facility that allows communications made form a satellite dish with a satellite reach internet or private network. According to the bandwith and working frequencies it can be transportable by hand or by a specific vehicle."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portableSatelliteCommSystemArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#portableWiMAXSystemArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A portable WiMAX system is a mobile WiMAX facility designed as a replacement candidate for cellular phone technologies such as GSM and CDMA, or can be used as an overlay to increase capacity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portableWiMAXSystemArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#powerSupplyGeneratorArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A power supply generator is a device with a fuel engine designed to provide electrical energy, which can be stored in batteries or can be directly supplied to the homes, shops, offices, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "powerSupplyGeneratorArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#radiactivityMeterArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A radiactivity meter is a device designed to measure the level of radioactivity in a zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A radiactivity meter is a device designed to measure the level of radioactivity in a zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "radiactivityMeterArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#reconnaissanceVehicleArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An emergency reconnaissance vehicle, also known as a scout vehicle, is a  vehicle used for forward reconnaissance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reconnaissanceVehicleArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rigidBoatArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or 'sponsons' around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).\nVessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a light-weight, high performance powerboats constructed with a solid hull, and inflatable tubes or 'sponsons' around the outer edge. It is also called Rigid Hulled Inflatable Boat (RHIB).\nVessel capable of navigating inland waters during floods and floods. By design and construction, it can structurally withstand the impact of floating elements swept away by the waters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rigidBoatArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is an aircraft, managed by a human pilot, with rotary wings or rotor blades, which generate lift by rotating around a vertical mast. Several rotor blades mounted on a single mast are referred to as a rotor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rotaryWingArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rubberBoatArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a small rubber boat that has air in it to keep its shape for travel on water. It is also called Rigid Inflatable Boat (RIB), rubber dinghy or Zodiac."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rubberBoatArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#shelterArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A shelter, in emergency situations, is a transportable facility designed to provide temporary home or protection against bad weather, danger or attacks. It can be also modules of a Post Command."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "shelterArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#shovelArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A shovel is a hand implement consisting of a broad scoop or a more or less hollowed out blade with a handle used to lift and throw material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "shovelArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#snowplowArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A snowplow (also snow plow, snowplough or snow plough) is a device intended for mounting on a vehicle, used for removing snow and ice from outdoor surfaces, typically those serving transportation purposes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "snowplowArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#stretcherArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A stretcher is a device for carrying a sick, injured, or dead person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A stretcher is a device for carrying a sick, injured, or dead person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "stretcherArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#tETRASystemArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tETRASystemArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#tentArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A shelter made of canvas or a similar material and supported by poles and ropes, that can be used for one person or a group of people depending of the size that it is designed for."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tentArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fieldArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#transportAircraftArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A transport aircraft, cargo aircraft or airlifter is a civilian or military-owned transport aircraft used to support emergency operations by airlifting troops, volunteers, medical services and emergency equipment. It can be used also to evacuate civilians, or can be equipped to provide asisttance to injured people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transportAircraftArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#fixedWingArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#transportHelicopterArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A transport helicopter is a rotary wing aircraft used to transport people or equipment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transportHelicopterArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#rotaryWingArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#truckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A truck (or a lorry) is a large, heavy road vehicle used for carrying goods, materials, or people."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "truckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uAVArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV. It is usually used to provide video images of the affected zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uAVArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#aerialVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uGVArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An unmanned ground vehicle (UGV) is a vehicle that operates while in contact with the ground and without an onboard human presence. UGVs can be used for many applications where it may be inconvenient, dangerous, or impossible to have a human operator present."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uGVArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uHFRadioArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Ultra High Frequency (UHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 300 and 3000 megahertz (MHz)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uHFRadioArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#uSVArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Unmanned Surface Vehicles (USVs; also known as Unmanned Surface Vessels (USVs) or (in some cases) Autonomous Surface Vehicles (ASVs),  Uncrewed Surface Vessels (USVs), or colloquially drone ships are boats or ships that operate on the surface of the water without a crew."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uSVArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#marineVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#vHFRadioArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Very High Frequency (VHF) Radio  is an equipment designed for receiving and transmitting in the range of radio frequency electromagnetic waves (radio waves) between 30 and 300 megahertz (MHz)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vHFRadioArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#communicationArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#waterPumpingTruckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A pumping truck is a vehicle that transport a water and sludge pumping equipment. It is useful to help against floods. It has been designed for the extraction and return of water loaded with suspended or dissolved material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "waterPumpingTruckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#waterTankerTruckArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A water tanker truck (United States usage) or water tanker (United Kingdom usage), is a motor vehicle designed to carry water on roads."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "waterTankerTruckArtifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyArtifact#groundVehicleArtifact"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

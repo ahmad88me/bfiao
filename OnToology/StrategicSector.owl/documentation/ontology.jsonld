@@ -1,0 +1,355 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#financialTaxSector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#foodSector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#healthCareSector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#iCTSector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#spaceSector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#transportationSector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#waterSector"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#fuelSubsector"
+    }, {
+      "@id" : "http://localhost:8080/BFiaO/StrategicSector#gasSubsector"
+    } ]
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://spdx.org/licenses/MIT.html"
+  } ],
+  "http://localhost:8080/BFiaO/StrategicSector#content_license" : [ {
+    "@language" : "en",
+    "@value" : "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Leopoldo Santos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This ontology is designed to identify the strategic sectors and the domains that each sector has. In this case the sectors are defined in the Spanish law 8/2011 in order to establishing measures for the protection of critical infrastructures."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1.0"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies univocally a sector with a number and several letters with the name of the specfic sector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies univocally a sector with a number and several letters with the name of the specfic sector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SectorCode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the name of the organization (ministry or organism) which is competent in a specific sector or domain from the point of view of emergencies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SectorCompetentOrganization"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorPoC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identies the phone of the person of contact in case of communications reltated to emergencies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identies the phone of the person of contact in case of communications reltated to emergencies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SectorPoC"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is defined as complex of processes, operations, and organizations engaged in the manufacture of chemicals and their derivatives. (Source: https://www.britannica.com/technology/chemical-industry)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chemicalIndustrySector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#content_license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#electricalSupplySubsector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The electrical supply domain includes the activities and infrastructures necessary for the generation, transportation, and distribution of electrical energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "electricalSupplySubsector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is made up of companies involved in the exploration and production, generation, refining and marketing, storage, and transportation of electricity, oil, gas, coal, and consumable fuels."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "energySector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#financialTaxSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)\nThe Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The financial system of an economy can be defined as the set of institutions, media and markets whose primary purpose is to channel the savings generated by economic agents with financing capacity to those who, at a given moment, need financing. (Source: www.edufinet.com)\nThe Spanish tax system is defined as the set of rules, means and instruments, with which the Public Administration regulates the management of the different taxes of which it is composed and that it requires as a means of financing for public spending. (Source: www.ineaf.es)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "financialTaxSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#foodSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The food sector brings together the set of economic activities linked to agricultural and livestock exploitation, on the one hand, and the food and beverage industry, on the other; all of them activities that are characterized by being processes of elaboration and transformation of the raw material. (Source: Barcelona Treball)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "foodSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#fuelSubsector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The fuel domain includes the activities and infrastructures necessary for the production/extraction, transportation, and distribution of fuel and their derivatives."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelSubsector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#gasSubsector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The gas domain includes the activities and infrastructures necessary for the production, transportation, and distribution of gas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gasSubsector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#healthCareSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The healthcare sector consists of businesses that provide medical services, manufacture medical equipment or drugs, provide medical insurance, or otherwise facilitate the provision of healthcare to patients. (Source: https://www.investopedia.com/terms/h/health_care_sector.asp)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "healthCareSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#iCTSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The Information and Communication Technology (ICT) sector is made up of the manufacturing and services sectors whose main activity is linked to development, production, commercialisation and intensive use of new technology. (Source: Eustat)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "iCTSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the industry dedicated to obtaining nuclear energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines the industry dedicated to obtaining nuclear energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nuclearIndustrySector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the activities involved in controlling a country, normally done through the ministries and some other organisms. It can be also called Government."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "publicAdministrationSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It means buildings and structures, including machinery and equipment, used or to be used primarily for research or experimentation to improve or develop new tangible goods or materials or to improve or develop the production processes thereto. (Source: https://www.lawinsider.com)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "researchFacilitySector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#spaceSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "t defines a boundless, three-dimensional extent in which objects and events occur and have relative position and direction (Source: https://www.britannica.com/science/space-physics-and-metaphysics)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "spaceSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#transportationSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The transportation sector comprises public and private companies that provide services to move people or goods, as well as transportation infrastructure for providing these services. (Source: adapted from Investopedia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transportationSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/StrategicSector#waterSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It involves all the infrastructures and resources needed to provide water to human beings consumption and for their crops and farms, as well as those dedicated to manage and tackle with sewage water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "waterSector"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

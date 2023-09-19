@@ -1,0 +1,56 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "ICTInfractructure:dataCenterICTi" "ICTInfractructure:fixedTelephoneNetworkICTi" "ICTInfractructure:fixedWiMAXICTi" "ICTInfractructure:satelliteSystemICTi" "ICTInfractructure:mobileWiMAXICTi" "ICTInfractructure:satelliteLinkICTi" "ICTInfractructure:xDSLCableICTi" "ICTInfractructure:wiMAXNetworkICTi" "ICTInfractructure:iSPICTi" "ICTInfractructure:tETRARadioSystemICTi" "ICTInfractructure:baseTransceiverStationICTi" "ICTInfractructure:communicationsLineICTi" "ICTInfractructure:nSPICTi" "ICTInfractructure:fiberOpticLineICTi" "ICTInfractructure:routingCenterICTi" ; /*classes style*/
+	"ICTInfractructure:BTSService_isProvided" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:FixedTelephoneService_isProvided" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:provides_BTSService" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:fixedWiMAXICTi" -> "ICTInfractructure:mobileWiMAXICTi" [ label = "owl:disjointWith" ];
+	"ICTInfractructure:SatelliteService_isProvided" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:provides_WiMAXService" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:provides_TETRAService" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:TETRAService_isProvided" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://localhost:8080/BFiaO/ICTInfractructure" -> "https://spdx.org/licenses/MIT.html" [ label = "ns:license" ];
+	"ICTInfractructure:provides_FixedTelephoneService" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:InternetService_isProvided" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:provides_NetworkService" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:provides_SatelliteService" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:NetworkService_isProvided" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:provides_InternetService" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"NULL" -> "ICTInfractructure:xDSLCableICTi" [ label = "rdf:first" ];
+	"NULL" -> "ICTInfractructure:dataCenterICTi" [ label = "rdf:first" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff3" [ label = "rdf:rest" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff6" [ label = "rdf:rest" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "ICTInfractructure:routingCenterICTi" [ label = "rdf:first" ];
+	"NULL" -> "ICTInfractructure:satelliteLinkICTi" [ label = "rdf:first" ];
+	"NULL" -> "ICTInfractructure:fixedTelephoneNetworkICTi" [ label = "rdf:first" ];
+	"NULL" -> "ICTInfractructure:wiMAXNetworkICTi" [ label = "rdf:first" ];
+	"NULL" -> "ICTInfractructure:nSPICTi" [ label = "rdf:first" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7fef" [ label = "rdf:rest" ];
+	"NULL" -> "ICTInfractructure:tETRARadioSystemICTi" [ label = "rdf:first" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff2" [ label = "rdf:rest" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff5" [ label = "rdf:rest" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff8" [ label = "rdf:rest" ];
+	"NULL" -> "ICTInfractructure:communicationsLineICTi" [ label = "rdf:first" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "ICTInfractructure:baseTransceiverStationICTi" [ label = "rdf:first" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ffb" [ label = "owl:members" ];
+	"NULL" -> "ICTInfractructure:satelliteSystemICTi" [ label = "rdf:first" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7fee" [ label = "rdf:rest" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff4" [ label = "rdf:rest" ];
+	"NULL" -> "ICTInfractructure:iSPICTi" [ label = "rdf:first" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff7" [ label = "rdf:rest" ];
+	"NULL" -> "ICTInfractructure:fiberOpticLineICTi" [ label = "rdf:first" ];
+	"NULL" -> "3876c3d2:18aac83b824:-7ff0" [ label = "owl:members" ];
+	"ICTInfractructure:WiMAXService_isProvided" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"ICTInfractructure:fixedTelephoneNetworkICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "ICTInfractructure:provides_FixedTelephoneService" ];
+	"ICTInfractructure:wiMAXNetworkICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "ICTInfractructure:provides_WiMAXService" ];
+	"ICTInfractructure:satelliteSystemICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "ICTInfractructure:provides_SatelliteService" ];
+	"ICTInfractructure:iSPICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "ICTInfractructure:InternetService_isProvided" ];
+	"ICTInfractructure:tETRARadioSystemICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "ICTInfractructure:provides_TETRAService" ];
+	"ICTInfractructure:nSPICTi" -> "ICTInfractructure:iSPICTi" [ label = "ICTInfractructure:provides_NetworkService" ];
+	"ICTInfractructure:baseTransceiverStationICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "ICTInfractructure:provides_BTSService" ];
+
+}

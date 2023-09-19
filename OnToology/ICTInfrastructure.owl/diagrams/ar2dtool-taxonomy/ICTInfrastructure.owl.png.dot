@@ -1,0 +1,11 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "ICTInfractructure:fixedWiMAXICTi" "ICTInfractructure:mobileWiMAXICTi" "ICTInfractructure:satelliteLinkICTi" "ICTInfractructure:xDSLCableICTi" "ICTInfractructure:wiMAXNetworkICTi" "ICTInfractructure:communicationsLineICTi" "ICTInfractructure:fiberOpticLineICTi" ; /*classes style*/
+	"ICTInfractructure:fiberOpticLineICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "rdfs:subClassOf" ];
+	"ICTInfractructure:fixedWiMAXICTi" -> "ICTInfractructure:wiMAXNetworkICTi" [ label = "rdfs:subClassOf" ];
+	"ICTInfractructure:satelliteLinkICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "rdfs:subClassOf" ];
+	"ICTInfractructure:mobileWiMAXICTi" -> "ICTInfractructure:wiMAXNetworkICTi" [ label = "rdfs:subClassOf" ];
+	"ICTInfractructure:xDSLCableICTi" -> "ICTInfractructure:communicationsLineICTi" [ label = "rdfs:subClassOf" ];
+
+}
