@@ -34,6 +34,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</content_license>
         <dc:creator>Leopoldo Santos</dc:creator>
         <rdfs:comment xml:lang="en">This ontology is designed to identify the strategic sectors and the domains that each sector has. In this case the sectors are defined in the Spanish law 8/2011 in order to establishing measures for the protection of critical infrastructures.</rdfs:comment>
+        <rdfs:label>Strategic Sector</rdfs:label>
         <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
     </owl:Ontology>
     

@@ -47,6 +47,9 @@
     "@language" : "en",
     "@value" : "This ontology is designed to cover all  necessary facilities to provide support in an emergency situation."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Emergency Facility"
+  } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
     "@value" : "Version 1.0"

@@ -3,41 +3,41 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/bfiao#ICTInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#ICTInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#airTrafficInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#airTrafficInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#chemicalPlantInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#chemicalPlantInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#electricalInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#electricalInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#foodDistributionInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#foodDistributionInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#fuelInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#fuelInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#healthCareInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#healthCareInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#hydraulicInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#hydraulicInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#naturalGasInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalGasInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#outOfServiceInfrastructureNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#outOfServiceInfrastructureNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#portInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#portInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#possibleLossOfControlDependencyNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#railwayInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#railwayInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#residentialInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#residentialInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#roadInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#roadInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#subwayInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#subwayInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#waterDesalinationInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#waterDesalinationInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#waterTreatmentInfrastructure"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#waterTreatmentInfrastructure"
     } ]
   } ]
 }, {
@@ -45,11 +45,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#naturalEcosystemNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalEcosystemNode"
     } ]
   } ]
 }, {
@@ -57,27 +57,903 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/bfiao#electricalMainCCNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#electricalMainCCNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#electricalReserveCCNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#electricalReserveCCNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#fuelMainCCNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#fuelMainCCNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#fuelReserveCCNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#fuelReserveCCNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#naturalGasMainCCNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalGasMainCCNode"
     }, {
-      "@id" : "https://w3id.org/def/bfiao#naturalGasReserveCCNode"
+      "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalGasReserveCCNode"
     } ]
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://spdx.org/licenses/MIT.html"
+  } ],
+  "http://localhost:8080/BFiaO/BFiaO#content_license" : [ {
+    "@language" : "en",
+    "@value" : "The MIT License (MIT)\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Leopoldo Santos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Copyright (c) 2023 Leopoldo Santos Santos of BFiaO.\nBFiaO is designed to provide support to decisión makers in emergency situations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "BFiaO"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent"
+  }, {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent"
+  }, {
+    "@id" : "http://localhost:8080/BFiaO/EmergencyFacility"
+  }, {
+    "@id" : "http://localhost:8080/BFiaO/StrategicSector"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"
+  }, {
+    "@id" : "http://www.obofoundry.org/ro/ro.owl"
+  }, {
+    "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/ExtendedRelationOntology"
+  }, {
+    "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/InformationEntityOntology"
+  }, {
+    "@id" : "http://www.opengis.net/ont/geosparql"
+  }, {
+    "@id" : "http://www.w3.org/2006/time#2016"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1.0"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#ICTInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the nodes of the Information and Communication Technology (ICT) sector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the nodes of the Information and Communication Technology (ICT) sector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ICTInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#affects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the node or nodes affected by an event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the node or nodes affected by an event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "affects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#isAffectedBy"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#airTrafficInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "airTrafficInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#chemicalPlantInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chemicalPlantInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#content_license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "controlCenterNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#electricalInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "electricalInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#electricalMainCCNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "electricalMainCCNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#electricalReserveCCNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "electricalReserveCCNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person who is capable of performing Intentional Acts to help in emergencies or disasters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A person who is capable of performing Intentional Acts to help in emergencies or disasters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#person"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyFacility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyVictim",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a person aisolated, harmed, injured, or killed as a result of an emergency event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A person aisolated, harmed, injured, or killed as a result of an emergency event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "emergencyVictim"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#person"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is an unforeseen Process of a natural, technological or man-made nature that affects to nodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is an unforeseen process of a natural, technological or man-made nature that affects to nodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#foodDistributionInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It involves the nodes which identifies the infrastructure necessary for the food distribution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It involves the nodes which identifies the infrastructure necessary for the food distribution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "foodDistributionInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#fuelInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#fuelMainCCNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelMainCCNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#fuelReserveCCNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fuelReserveCCNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#hasNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the relatinoship between a sector and their nodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines the relatinoship between a sector and their nodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#isNodeOf"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#hasRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the relationship between a node which belongs to a domain affected by an event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#riskInAffectedDomain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the relationship between a node which belongs to a domain affected by an event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasRisk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#isHadRisk"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#hasStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#nodeStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#isStatusKeptBy"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#healthCareInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "healthCareInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#hydraulicInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hydraulicInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "infrastructureNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#isAffectedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is the inverse object property of affects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is the inverse object property of affects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isAffectedBy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#isHadRisk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is the inverse object property of hasRisk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is the inverse object property of hasRisk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isHadRisk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#riskInAffectedDomain"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#isNodeOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is the inverse relation of hasNode."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is the inverse relation of hasNode."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isNodeOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#isStatusKeptBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It defines the status kept by a node. It s the inverse object property of hasStatus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#nodeStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It defines the status kept by a node. It s the inverse object property of hasStatus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isStatusKeptBy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalEcosystemNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "naturalEcosystemNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#node"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalGasInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "naturalGasInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalGasMainCCNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "naturalGasMainCCNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#naturalGasReserveCCNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "naturalGasReserveCCNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#controlCenterNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#node",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "node"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#nodeStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nodeStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#outOfServiceInfrastructureNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the nodes which are out of service due to an emergency in other nodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the nodes which are out of service due to an emergency in other nodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "outOfServiceInfrastructureNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#portInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#possibleLossOfControlDependencyNode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "possibleLossOf ControlDependencyNode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#railwayInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "railwayInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#residentialInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "residentialInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#riskInAffectedDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "riskInAffectedDomain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#roadInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "roadInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strategicSector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/BFO_0000027"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#subwayInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the infrastructure nodes for subway system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "It identifies the infrastructure nodes for subway system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "subwayInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#waterDesalinationInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the nodes to produce water in facilities and equipment for water desalinization."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the nodes to produce water in facilities and equipment for water desalinization."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "waterDesalinationInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
+  "@id" : "http://localhost:8080/BFiaO/BFiaO#waterTreatmentInfrastructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the nodes to treat residual water in an infrastructure for water treatment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "it identifies the nodes to treat residual water in an infrastructure for water treatment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "waterTreatmentInfrastructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#infrastructureNode"
+  } ]
+}, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.opengis.net/ont/geosparql#wktLiteral"
@@ -86,7 +962,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -95,7 +971,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -104,7 +980,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -113,7 +989,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -122,7 +998,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentRank",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -131,7 +1007,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -140,7 +1016,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -149,7 +1025,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -158,115 +1034,115 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#policeAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -275,7 +1151,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -284,7 +1160,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -293,7 +1169,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -302,7 +1178,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -311,7 +1187,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -320,7 +1196,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -329,7 +1205,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventScale",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -338,31 +1214,31 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -371,7 +1247,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -380,7 +1256,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -389,7 +1265,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -398,7 +1274,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -407,7 +1283,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.opengis.net/ont/geosparql#wktLiteral"
@@ -416,7 +1292,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -425,7 +1301,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -434,7 +1310,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -443,7 +1319,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -452,73 +1328,73 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#airportFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -527,7 +1403,7 @@
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -536,7 +1412,7 @@
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorPoC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -545,73 +1421,73 @@
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#financialTaxSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#foodSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#healthCareSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#iCTSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#spaceSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#transportationSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#waterSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
+    "@id" : "http://localhost:8080/BFiaO/BFiaO#strategicSector"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -653,881 +1529,5 @@
   "@id" : "http://www.w3.org/2006/time#TimeZone",
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000038"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#ICTInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the nodes of the Information and Communication Technology (ICT) sector."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the nodes of the Information and Communication Technology (ICT) sector."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "ICTInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#affects",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the node or nodes affected by an event."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the node or nodes affected by an event."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "affects"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#isAffectedBy"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#airTrafficInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "airTrafficInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#chemicalPlantInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "chemicalPlantInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#content_license",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#controlCenterNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "controlCenterNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#electricalInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "electricalInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#electricalMainCCNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "electricalMainCCNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#electricalReserveCCNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "electricalReserveCCNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#emergencyAgent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A person who is capable of performing Intentional Acts to help in emergencies or disasters."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A person who is capable of performing Intentional Acts to help in emergencies or disasters."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "emergencyAgent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#person"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#emergencyFacility",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "emergencyFacility"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#emergencyVictim",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "a person aisolated, harmed, injured, or killed as a result of an emergency event."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A person aisolated, harmed, injured, or killed as a result of an emergency event."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "emergencyVictim"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#person"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#event",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Is an unforeseen Process of a natural, technological or man-made nature that affects to nodes."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Is an unforeseen process of a natural, technological or man-made nature that affects to nodes."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "event"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#foodDistributionInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It involves the nodes which identifies the infrastructure necessary for the food distribution."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It involves the nodes which identifies the infrastructure necessary for the food distribution."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "foodDistributionInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#fuelInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "fuelInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#fuelMainCCNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "fuelMainCCNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#fuelReserveCCNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "fuelReserveCCNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#hasNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It defines the relatinoship between a sector and their nodes."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It defines the relatinoship between a sector and their nodes."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "hasNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#isNodeOf"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#hasRisk",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the relationship between a node which belongs to a domain affected by an event."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#riskInAffectedDomain"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the relationship between a node which belongs to a domain affected by an event."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "hasRisk"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#isHadRisk"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#hasStatus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "hasStatus"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#nodeStatus"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#isStatusKeptBy"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#healthCareInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "healthCareInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#hydraulicInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "hydraulicInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#infrastructureNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "infrastructureNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#isAffectedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Is the inverse object property of affects."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Is the inverse object property of affects."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "isAffectedBy"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#event"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#isHadRisk",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Is the inverse object property of hasRisk."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Is the inverse object property of hasRisk."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "isHadRisk"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#riskInAffectedDomain"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#isNodeOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Is the inverse relation of hasNode."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Is the inverse relation of hasNode."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "isNodeOf"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#strategicSector"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#isStatusKeptBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It defines the status kept by a node. It s the inverse object property of hasStatus."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/bfiao#nodeStatus"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It defines the status kept by a node. It s the inverse object property of hasStatus."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "isStatusKeptBy"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#naturalEcosystemNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "naturalEcosystemNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#node"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#naturalGasInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "naturalGasInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#naturalGasMainCCNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "naturalGasMainCCNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#naturalGasReserveCCNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "naturalGasReserveCCNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#node",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "node"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#nodeStatus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "nodeStatus"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#outOfServiceInfrastructureNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the nodes which are out of service due to an emergency in other nodes."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the nodes which are out of service due to an emergency in other nodes."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "outOfServiceInfrastructureNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#portInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "portInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "possibleLossOf ControlDependencyNode"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#railwayInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "railwayInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#residentialInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "residentialInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#riskInAffectedDomain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "riskInAffectedDomain"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#roadInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "roadInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#strategicSector",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "strategicSector"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.obolibrary.org/obo/BFO_0000027"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#subwayInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the infrastructure nodes for subway system."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "It identifies the infrastructure nodes for subway system."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "subwayInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#waterDesalinationInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the nodes to produce water in facilities and equipment for water desalinization."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the nodes to produce water in facilities and equipment for water desalinization."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "waterDesalinationInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao#waterTreatmentInfrastructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the nodes to treat residual water in an infrastructure for water treatment."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "it identifies the nodes to treat residual water in an infrastructure for water treatment."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "waterTreatmentInfrastructure"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/bfiao-bfiao",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://creativecommons.org/ns#license" : [ {
-    "@id" : "https://spdx.org/licenses/MIT.html"
-  } ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "Leopoldo Santos"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Copyright (c) 2023 Leopoldo Santos Santos of BFiaO.\nBFiaO is designed to provide support to decisión makers in emergency situations."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "BFIAO"
-  } ],
-  "http://www.w3.org/2002/07/owl#imports" : [ {
-    "@id" : "http://localhost:8080/BFiaO/EmergencyAgent"
-  }, {
-    "@id" : "http://localhost:8080/BFiaO/EmergencyEvent"
-  }, {
-    "@id" : "http://localhost:8080/BFiaO/EmergencyFacility"
-  }, {
-    "@id" : "http://localhost:8080/BFiaO/StrategicSector"
-  }, {
-    "@id" : "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"
-  }, {
-    "@id" : "http://www.obofoundry.org/ro/ro.owl"
-  }, {
-    "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/ExtendedRelationOntology"
-  }, {
-    "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/InformationEntityOntology"
-  }, {
-    "@id" : "http://www.opengis.net/ont/geosparql"
-  }, {
-    "@id" : "http://www.w3.org/2006/time#2016"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@language" : "en",
-    "@value" : "Version 1.0"
-  } ],
-  "https://w3id.org/def/bfiao#content_license" : [ {
-    "@language" : "en",
-    "@value" : "The MIT License (MIT)\n\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
   } ]
 } ]

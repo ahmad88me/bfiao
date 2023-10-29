@@ -31,6 +31,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE."""@en ;
                                                  <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" ;
                                                  rdfs:comment "This ontology is designed to cover all the necessary material resources to act in an emergency situation." ;
+                                                 rdfs:label "Emergency Artifact" ;
                                                  owl:versionInfo "Version 1.0" .
 
 #################################################################

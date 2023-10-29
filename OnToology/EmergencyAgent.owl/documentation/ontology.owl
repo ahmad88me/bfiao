@@ -34,6 +34,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</content_license>
         <dc:creator xml:lang="en">Leopoldo Santos Santos</dc:creator>
         <rdfs:comment xml:lang="en">This ontology is designed to identify the emergency agents who can act in an emergency situation.</rdfs:comment>
+        <rdfs:label>Emergency Agent</rdfs:label>
         <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
     </owl:Ontology>
     

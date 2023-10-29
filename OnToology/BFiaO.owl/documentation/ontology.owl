@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/def/bfiao-bfiao#"
-     xml:base="https://w3id.org/def/bfiao-bfiao"
+<rdf:RDF xmlns="http://localhost:8080/BFiaO/BFiaO#"
+     xml:base="http://localhost:8080/BFiaO/BFiaO"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://creativecommons.org/ns#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -11,10 +11,10 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:bfiao="https://w3id.org/def/bfiao#"
+     xmlns:BFiaO="http://localhost:8080/BFiaO/BFiaO#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
-    <owl:Ontology rdf:about="https://w3id.org/def/bfiao-bfiao">
+    <owl:Ontology rdf:about="http://localhost:8080/BFiaO/BFiaO">
         <owl:imports rdf:resource="http://localhost:8080/BFiaO/EmergencyAgent"/>
         <owl:imports rdf:resource="http://localhost:8080/BFiaO/EmergencyEvent"/>
         <owl:imports rdf:resource="http://localhost:8080/BFiaO/EmergencyFacility"/>
@@ -26,13 +26,7 @@
         <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time#2016"/>
         <ns:license rdf:resource="https://spdx.org/licenses/MIT.html"/>
-        <dc:creator>Leopoldo Santos</dc:creator>
-        <rdfs:comment xml:lang="en">Copyright (c) 2023 Leopoldo Santos Santos of BFiaO.
-BFiaO is designed to provide support to decisión makers in emergency situations.</rdfs:comment>
-        <rdfs:label>BFIAO</rdfs:label>
-        <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
-        <bfiao:content_license xml:lang="en">The MIT License (MIT)
-
+        <content_license xml:lang="en">The MIT License (MIT)
 
 Copyright (c) 2022 Leopoldo Santos Santos of Strategic Sector
 
@@ -52,7 +46,12 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.</bfiao:content_license>
+THE SOFTWARE.</content_license>
+        <dc:creator>Leopoldo Santos</dc:creator>
+        <rdfs:comment xml:lang="en">Copyright (c) 2023 Leopoldo Santos Santos of BFiaO.
+BFiaO is designed to provide support to decisión makers in emergency situations.</rdfs:comment>
+        <rdfs:label>BFiaO</rdfs:label>
+        <owl:versionInfo xml:lang="en">Version 1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -73,6 +72,13 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#content_license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#content_license"/>
     
 
 
@@ -97,13 +103,6 @@ THE SOFTWARE.</bfiao:content_license>
     
 
 
-    <!-- https://w3id.org/def/bfiao#content_license -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/def/bfiao#content_license"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -116,11 +115,119 @@ THE SOFTWARE.</bfiao:content_license>
     
 
 
+    <!-- http://localhost:8080/BFiaO/BFiaO#affects -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#affects">
+        <owl:inverseOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#isAffectedBy"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:comment xml:lang="en">it identifies the node or nodes affected by an event.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">it identifies the node or nodes affected by an event.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">affects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#hasNode -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#hasNode">
+        <owl:inverseOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#isNodeOf"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:comment xml:lang="en">It defines the relatinoship between a sector and their nodes.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines the relatinoship between a sector and their nodes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasNode</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#hasRisk -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#hasRisk">
+        <owl:inverseOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#isHadRisk"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#riskInAffectedDomain"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:comment xml:lang="en">It identifies the relationship between a node which belongs to a domain affected by an event.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the relationship between a node which belongs to a domain affected by an event.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasRisk</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#hasStatus -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#hasStatus">
+        <owl:inverseOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#isStatusKeptBy"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#nodeStatus"/>
+        <rdfs:comment xml:lang="en">It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasStatus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#isAffectedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#isAffectedBy">
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
+        <rdfs:comment xml:lang="en">Is the inverse object property of affects.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is the inverse object property of affects.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isAffectedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#isHadRisk -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#isHadRisk">
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#riskInAffectedDomain"/>
+        <rdfs:comment xml:lang="en">Is the inverse object property of hasRisk.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is the inverse object property of hasRisk.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isHadRisk</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#isNodeOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#isNodeOf">
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
+        <rdfs:comment xml:lang="en">Is the inverse relation of hasNode.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is the inverse relation of hasNode.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isNodeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#isStatusKeptBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/BFiaO#isStatusKeptBy">
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#nodeStatus"/>
+        <rdfs:range rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:comment xml:lang="en">It defines the status kept by a node. It s the inverse object property of hasStatus.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines the status kept by a node. It s the inverse object property of hasStatus.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">isStatusKeptBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation -->
 
 
     <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#wktLiteral"/>
     </owl:ObjectProperty>
     
@@ -130,116 +237,8 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:ObjectProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#wktLiteral"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#affects -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#affects">
-        <owl:inverseOf rdf:resource="https://w3id.org/def/bfiao#isAffectedBy"/>
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:comment xml:lang="en">it identifies the node or nodes affected by an event.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">it identifies the node or nodes affected by an event.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">affects</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#hasNode -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#hasNode">
-        <owl:inverseOf rdf:resource="https://w3id.org/def/bfiao#isNodeOf"/>
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:comment xml:lang="en">It defines the relatinoship between a sector and their nodes.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It defines the relatinoship between a sector and their nodes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">hasNode</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#hasRisk -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#hasRisk">
-        <owl:inverseOf rdf:resource="https://w3id.org/def/bfiao#isHadRisk"/>
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#riskInAffectedDomain"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:comment xml:lang="en">It identifies the relationship between a node which belongs to a domain affected by an event.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifies the relationship between a node which belongs to a domain affected by an event.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">hasRisk</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#hasStatus -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#hasStatus">
-        <owl:inverseOf rdf:resource="https://w3id.org/def/bfiao#isStatusKeptBy"/>
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#nodeStatus"/>
-        <rdfs:comment xml:lang="en">It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">hasStatus</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#isAffectedBy -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#isAffectedBy">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#event"/>
-        <rdfs:comment xml:lang="en">Is the inverse object property of affects.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Is the inverse object property of affects.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">isAffectedBy</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#isHadRisk -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#isHadRisk">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#riskInAffectedDomain"/>
-        <rdfs:comment xml:lang="en">Is the inverse object property of hasRisk.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Is the inverse object property of hasRisk.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">isHadRisk</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#isNodeOf -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#isNodeOf">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
-        <rdfs:comment xml:lang="en">Is the inverse relation of hasNode.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Is the inverse relation of hasNode.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">isNodeOf</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#isStatusKeptBy -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/bfiao#isStatusKeptBy">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#nodeStatus"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:comment xml:lang="en">It defines the status kept by a node. It s the inverse object property of hasStatus.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It defines the status kept by a node. It s the inverse object property of hasStatus.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">isStatusKeptBy</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -267,7 +266,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
@@ -277,7 +276,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
@@ -287,7 +286,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentName">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -297,7 +296,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
@@ -307,7 +306,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentRank">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -317,7 +316,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
@@ -327,7 +326,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
@@ -337,7 +336,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -347,7 +346,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventDescription">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -357,7 +356,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
@@ -367,7 +366,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
@@ -377,7 +376,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventID">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -387,7 +386,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -397,7 +396,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
@@ -407,7 +406,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventName">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -417,7 +416,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#EventScale">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
@@ -427,7 +426,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -437,7 +436,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
@@ -447,7 +446,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
@@ -457,7 +456,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -467,7 +466,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -477,7 +476,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
     
@@ -487,7 +486,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityID">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -497,7 +496,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityName">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -507,7 +506,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -517,7 +516,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#SectorCode">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -527,7 +526,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -537,7 +536,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:DatatypeProperty rdf:about="http://localhost:8080/BFiaO/StrategicSector#SectorPoC">
-        <rdfs:domain rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:domain rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
@@ -555,11 +554,447 @@ THE SOFTWARE.</bfiao:content_license>
     
 
 
+    <!-- http://localhost:8080/BFiaO/BFiaO#ICTInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#ICTInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It identifies the nodes of the Information and Communication Technology (ICT) sector.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the nodes of the Information and Communication Technology (ICT) sector.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ICTInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#airTrafficInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#airTrafficInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the air traffic.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the air traffic.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">airTrafficInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#chemicalPlantInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#chemicalPlantInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">chemicalPlantInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#controlCenterNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#controlCenterNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:comment xml:lang="en">A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">controlCenterNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#electricalInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#electricalInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">electricalInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#electricalMainCCNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#electricalMainCCNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#controlCenterNode"/>
+        <rdfs:comment xml:lang="en">Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">electricalMainCCNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#electricalReserveCCNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#electricalReserveCCNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#controlCenterNode"/>
+        <rdfs:comment xml:lang="en">Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">electricalReserveCCNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#emergencyAgent -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#emergencyAgent">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#person"/>
+        <rdfs:comment xml:lang="en">A person who is capable of performing Intentional Acts to help in emergencies or disasters.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A person who is capable of performing Intentional Acts to help in emergencies or disasters.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyAgent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#emergencyFacility -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#emergencyFacility">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:comment xml:lang="en">It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyFacility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#emergencyVictim -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#emergencyVictim">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#person"/>
+        <rdfs:comment xml:lang="en">a person aisolated, harmed, injured, or killed as a result of an emergency event.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A person aisolated, harmed, injured, or killed as a result of an emergency event.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">emergencyVictim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#event -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#event">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:comment xml:lang="en">Is an unforeseen Process of a natural, technological or man-made nature that affects to nodes.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is an unforeseen process of a natural, technological or man-made nature that affects to nodes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#foodDistributionInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#foodDistributionInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It involves the nodes which identifies the infrastructure necessary for the food distribution.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It involves the nodes which identifies the infrastructure necessary for the food distribution.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">foodDistributionInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#fuelInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#fuelInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#fuelMainCCNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#fuelMainCCNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#controlCenterNode"/>
+        <rdfs:comment xml:lang="en">An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelMainCCNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#fuelReserveCCNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#fuelReserveCCNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#controlCenterNode"/>
+        <rdfs:comment xml:lang="en">An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">fuelReserveCCNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#healthCareInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#healthCareInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">healthCareInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#hydraulicInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#hydraulicInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hydraulicInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#infrastructureNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#infrastructureNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:comment xml:lang="en">Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">infrastructureNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#naturalEcosystemNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalEcosystemNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#node"/>
+        <rdfs:comment xml:lang="en">A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">naturalEcosystemNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#naturalGasInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalGasInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">naturalGasInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#naturalGasMainCCNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalGasMainCCNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#controlCenterNode"/>
+        <rdfs:comment xml:lang="en">A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">naturalGasMainCCNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#naturalGasReserveCCNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalGasReserveCCNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#controlCenterNode"/>
+        <rdfs:comment xml:lang="en">A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">naturalGasReserveCCNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#node -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#node">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:comment xml:lang="en">Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#nodeStatus -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#nodeStatus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:comment xml:lang="en">It represents the status of a node (active or inactive), and how it has evolved with time and events. 
+Example: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It represents the status of a node (active or inactive), and how it has evolved with time and events. 
+Example: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">nodeStatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#outOfServiceInfrastructureNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#outOfServiceInfrastructureNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">it identifies the nodes which are out of service due to an emergency in other nodes.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">it identifies the nodes which are out of service due to an emergency in other nodes.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">outOfServiceInfrastructureNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#person -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#person">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:comment xml:lang="en">A human being regarded as an individual. (source: Oxford Dictionary).
+https://en.wikipedia.org/wiki/Human</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A human being regarded as an individual. (source: Oxford Dictionary).
+https://en.wikipedia.org/wiki/Human</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#portInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#portInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the port traffic.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the port traffic.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">portInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#possibleLossOfControlDependencyNode -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#possibleLossOfControlDependencyNode">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">possibleLossOf ControlDependencyNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#railwayInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#railwayInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">railwayInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#residentialInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#residentialInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">residentialInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#riskInAffectedDomain -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#riskInAffectedDomain">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem"/>
+        <rdfs:comment xml:lang="en">It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (&gt;75%), MEDIUM (between 35% and 75%) or LOW (&lt; 35%).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (&gt;75%), MEDIUM (between 35% and 75%) or LOW (&lt; 35%).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">riskInAffectedDomain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#roadInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#roadInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/).</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">roadInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#strategicSector -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#strategicSector">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:comment xml:lang="en">It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">strategicSector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#subwayInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#subwayInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">It identifies the infrastructure nodes for subway system.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">It identifies the infrastructure nodes for subway system.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">subwayInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#waterDesalinationInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#waterDesalinationInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">it identifies the nodes to produce water in facilities and equipment for water desalinization.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">it identifies the nodes to produce water in facilities and equipment for water desalinization.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">waterDesalinationInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost:8080/BFiaO/BFiaO#waterTreatmentInfrastructure -->
+
+
+    <owl:Class rdf:about="http://localhost:8080/BFiaO/BFiaO#waterTreatmentInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+        <rdfs:comment xml:lang="en">it identifies the nodes to treat residual water in an infrastructure for water treatment.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">it identifies the nodes to treat residual water in an infrastructure for water treatment.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">waterTreatmentInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent -->
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -568,7 +1003,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -577,7 +1012,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -586,7 +1021,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -595,7 +1030,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -604,7 +1039,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -613,7 +1048,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -622,7 +1057,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -631,7 +1066,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -640,7 +1075,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -649,7 +1084,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -658,7 +1093,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#policeAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -667,7 +1102,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -676,7 +1111,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -685,7 +1120,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -694,7 +1129,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -703,7 +1138,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -712,7 +1147,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyAgent"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyAgent"/>
     </owl:Class>
     
 
@@ -721,7 +1156,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
     </owl:Class>
     
 
@@ -730,7 +1165,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
     </owl:Class>
     
 
@@ -739,7 +1174,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#socialEvent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
     </owl:Class>
     
 
@@ -748,7 +1183,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#event"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#event"/>
     </owl:Class>
     
 
@@ -757,7 +1192,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#airportFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -766,7 +1201,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -775,7 +1210,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -784,7 +1219,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -793,7 +1228,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -802,7 +1237,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -811,7 +1246,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -820,7 +1255,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -829,7 +1264,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -838,7 +1273,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -847,7 +1282,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#emergencyFacility"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#emergencyFacility"/>
     </owl:Class>
     
 
@@ -856,7 +1291,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -865,7 +1300,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#energySector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -874,7 +1309,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#financialTaxSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -883,7 +1318,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#foodSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -892,7 +1327,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#healthCareSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -901,7 +1336,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#iCTSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -910,7 +1345,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -919,7 +1354,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -928,7 +1363,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -937,7 +1372,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#spaceSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -946,7 +1381,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#transportationSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -955,7 +1390,7 @@ THE SOFTWARE.</bfiao:content_license>
 
 
     <owl:Class rdf:about="http://localhost:8080/BFiaO/StrategicSector#waterSector">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#strategicSector"/>
+        <rdfs:subClassOf rdf:resource="http://localhost:8080/BFiaO/BFiaO#strategicSector"/>
     </owl:Class>
     
 
@@ -1019,442 +1454,6 @@ THE SOFTWARE.</bfiao:content_license>
     
 
 
-    <!-- https://w3id.org/def/bfiao#ICTInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#ICTInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It identifies the nodes of the Information and Communication Technology (ICT) sector.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifies the nodes of the Information and Communication Technology (ICT) sector.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">ICTInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#airTrafficInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#airTrafficInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the air traffic.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the air traffic.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">airTrafficInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#chemicalPlantInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#chemicalPlantInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">chemicalPlantInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#controlCenterNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#controlCenterNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:comment xml:lang="en">A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster).</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">controlCenterNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#electricalInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#electricalInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">electricalInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#electricalMainCCNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#electricalMainCCNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#controlCenterNode"/>
-        <rdfs:comment xml:lang="en">Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">electricalMainCCNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#electricalReserveCCNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#electricalReserveCCNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#controlCenterNode"/>
-        <rdfs:comment xml:lang="en">Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">electricalReserveCCNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#emergencyAgent -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#emergencyAgent">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#person"/>
-        <rdfs:comment xml:lang="en">A person who is capable of performing Intentional Acts to help in emergencies or disasters.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A person who is capable of performing Intentional Acts to help in emergencies or disasters.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">emergencyAgent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#emergencyFacility -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#emergencyFacility">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:comment xml:lang="en">It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">emergencyFacility</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#emergencyVictim -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#emergencyVictim">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#person"/>
-        <rdfs:comment xml:lang="en">a person aisolated, harmed, injured, or killed as a result of an emergency event.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A person aisolated, harmed, injured, or killed as a result of an emergency event.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">emergencyVictim</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#event -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#event">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:comment xml:lang="en">Is an unforeseen Process of a natural, technological or man-made nature that affects to nodes.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Is an unforeseen process of a natural, technological or man-made nature that affects to nodes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">event</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#foodDistributionInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#foodDistributionInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It involves the nodes which identifies the infrastructure necessary for the food distribution.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It involves the nodes which identifies the infrastructure necessary for the food distribution.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">foodDistributionInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#fuelInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#fuelInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">fuelInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#fuelMainCCNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#fuelMainCCNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#controlCenterNode"/>
-        <rdfs:comment xml:lang="en">An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">fuelMainCCNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#fuelReserveCCNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#fuelReserveCCNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#controlCenterNode"/>
-        <rdfs:comment xml:lang="en">An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">fuelReserveCCNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#healthCareInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#healthCareInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com).</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">healthCareInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#hydraulicInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#hydraulicInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">hydraulicInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#infrastructureNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#infrastructureNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:comment xml:lang="en">Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.).</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">infrastructureNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#naturalEcosystemNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#naturalEcosystemNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#node"/>
-        <rdfs:comment xml:lang="en">A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">naturalEcosystemNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#naturalGasInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#naturalGasInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">naturalGasInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#naturalGasMainCCNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#naturalGasMainCCNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#controlCenterNode"/>
-        <rdfs:comment xml:lang="en">A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">naturalGasMainCCNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#naturalGasReserveCCNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#naturalGasReserveCCNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#controlCenterNode"/>
-        <rdfs:comment xml:lang="en">A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">naturalGasReserveCCNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#node -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#node">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:comment xml:lang="en">Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">node</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#nodeStatus -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#nodeStatus">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <rdfs:comment xml:lang="en">It represents the status of a node (active or inactive), and how it has evolved with time and events. 
-Example: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It represents the status of a node (active or inactive), and how it has evolved with time and events. 
-Example: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted).</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">nodeStatus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#outOfServiceInfrastructureNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#outOfServiceInfrastructureNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">it identifies the nodes which are out of service due to an emergency in other nodes.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">it identifies the nodes which are out of service due to an emergency in other nodes.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">outOfServiceInfrastructureNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#person -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#person">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:comment xml:lang="en">A human being regarded as an individual. (source: Oxford Dictionary).
-https://en.wikipedia.org/wiki/Human</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A human being regarded as an individual. (source: Oxford Dictionary).
-https://en.wikipedia.org/wiki/Human</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">person</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#portInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#portInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the port traffic.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifes all the infrastructure, systems and facilities necessary to manage the port traffic.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">portInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">possibleLossOf ControlDependencyNode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#railwayInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#railwayInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines).</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">railwayInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#residentialInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#residentialInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">residentialInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#riskInAffectedDomain -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#riskInAffectedDomain">
-        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem"/>
-        <rdfs:comment xml:lang="en">It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (&gt;75%), MEDIUM (between 35% and 75%) or LOW (&lt; 35%).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (&gt;75%), MEDIUM (between 35% and 75%) or LOW (&lt; 35%).</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">riskInAffectedDomain</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#roadInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#roadInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/).</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">roadInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#strategicSector -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#strategicSector">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <rdfs:comment xml:lang="en">It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011).</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">strategicSector</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#subwayInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#subwayInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">It identifies the infrastructure nodes for subway system.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">It identifies the infrastructure nodes for subway system.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">subwayInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#waterDesalinationInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#waterDesalinationInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">it identifies the nodes to produce water in facilities and equipment for water desalinization.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">it identifies the nodes to produce water in facilities and equipment for water desalinization.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">waterDesalinationInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/bfiao#waterTreatmentInfrastructure -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/bfiao#waterTreatmentInfrastructure">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/bfiao#infrastructureNode"/>
-        <rdfs:comment xml:lang="en">it identifies the nodes to treat residual water in an infrastructure for water treatment.</rdfs:comment>
-        <rdfs:isDefinedBy xml:lang="en">it identifies the nodes to treat residual water in an infrastructure for water treatment.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">waterTreatmentInfrastructure</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1467,43 +1466,43 @@ https://en.wikipedia.org/wiki/Human</rdfs:isDefinedBy>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#ICTInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#airTrafficInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#chemicalPlantInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#electricalInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#foodDistributionInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#fuelInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#healthCareInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#hydraulicInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#naturalGasInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#outOfServiceInfrastructureNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#portInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#railwayInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#residentialInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#roadInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#subwayInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#waterDesalinationInfrastructure"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#waterTreatmentInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#ICTInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#airTrafficInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#chemicalPlantInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#electricalInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#foodDistributionInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#fuelInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#healthCareInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#hydraulicInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalGasInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#outOfServiceInfrastructureNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#portInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#possibleLossOfControlDependencyNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#railwayInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#residentialInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#roadInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#subwayInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#waterDesalinationInfrastructure"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#waterTreatmentInfrastructure"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#controlCenterNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#infrastructureNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#naturalEcosystemNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#controlCenterNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#infrastructureNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalEcosystemNode"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#electricalMainCCNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#electricalReserveCCNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#fuelMainCCNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#fuelReserveCCNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#naturalGasMainCCNode"/>
-            <rdf:Description rdf:about="https://w3id.org/def/bfiao#naturalGasReserveCCNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#electricalMainCCNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#electricalReserveCCNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#fuelMainCCNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#fuelReserveCCNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalGasMainCCNode"/>
+            <rdf:Description rdf:about="http://localhost:8080/BFiaO/BFiaO#naturalGasReserveCCNode"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>

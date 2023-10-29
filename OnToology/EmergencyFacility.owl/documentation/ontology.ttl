@@ -31,6 +31,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE."""@en ;
                                                  <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en ;
                                                  rdfs:comment "This ontology is designed to cover all  necessary facilities to provide support in an emergency situation."@en ;
+                                                 rdfs:label "Emergency Facility" ;
                                                  owl:versionInfo "Version 1.0"@en .
 
 #################################################################
