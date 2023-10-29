@@ -3,41 +3,41 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#ICTInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#airTrafficInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#chemicalPlantInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#electricalInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#foodDistributionInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#fuelInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#healthCareInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#hydraulicInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#naturalGasInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode"
+      "@id" : "https://w3id.org/def/bfiao#outOfServiceInfrastructureNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#portInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#portInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode"
+      "@id" : "https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#railwayInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#residentialInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#roadInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#subwayInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#waterDesalinationInfrastructure"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure"
+      "@id" : "https://w3id.org/def/bfiao#waterTreatmentInfrastructure"
     } ]
   } ]
 }, {
@@ -45,11 +45,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode"
+      "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+      "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode"
+      "@id" : "https://w3id.org/def/bfiao#naturalEcosystemNode"
     } ]
   } ]
 }, {
@@ -57,17 +57,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode"
+      "@id" : "https://w3id.org/def/bfiao#electricalMainCCNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode"
+      "@id" : "https://w3id.org/def/bfiao#electricalReserveCCNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode"
+      "@id" : "https://w3id.org/def/bfiao#fuelMainCCNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode"
+      "@id" : "https://w3id.org/def/bfiao#fuelReserveCCNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode"
+      "@id" : "https://w3id.org/def/bfiao#naturalGasMainCCNode"
     }, {
-      "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode"
+      "@id" : "https://w3id.org/def/bfiao#naturalGasReserveCCNode"
     } ]
   } ]
 }, {
@@ -77,7 +77,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.opengis.net/ont/geosparql#wktLiteral"
@@ -86,7 +86,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -95,7 +95,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -104,7 +104,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -113,7 +113,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -122,7 +122,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentRank",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -131,7 +131,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -140,7 +140,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -149,7 +149,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -158,115 +158,115 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#policeAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent"
+    "@id" : "https://w3id.org/def/bfiao#emergencyAgent"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -275,7 +275,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -284,7 +284,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -293,7 +293,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -302,7 +302,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -311,7 +311,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
@@ -320,7 +320,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -329,7 +329,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#EventScale",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -338,31 +338,31 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#socialEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -371,7 +371,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -380,7 +380,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -389,7 +389,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -398,7 +398,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -407,7 +407,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.opengis.net/ont/geosparql#wktLiteral"
@@ -416,7 +416,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -425,7 +425,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -434,7 +434,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -443,7 +443,7 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -452,73 +452,73 @@
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#airportFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility"
+    "@id" : "https://w3id.org/def/bfiao#emergencyFacility"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCode",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -527,7 +527,7 @@
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -536,7 +536,7 @@
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#SectorPoC",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -545,73 +545,73 @@
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#energySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#financialTaxSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#foodSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#healthCareSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#iCTSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#spaceSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#transportationSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://localhost:8080/BFiaO/StrategicSector#waterSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -655,7 +655,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000038"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#ICTInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -670,17 +670,17 @@
     "@value" : "ICTInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#affects",
+  "@id" : "https://w3id.org/def/bfiao#affects",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "it identifies the node or nodes affected by an event."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -691,13 +691,13 @@
     "@value" : "affects"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#isAffectedBy"
+    "@id" : "https://w3id.org/def/bfiao#isAffectedBy"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#airTrafficInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -712,10 +712,10 @@
     "@value" : "airTrafficInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#chemicalPlantInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -730,13 +730,13 @@
     "@value" : "chemicalPlantInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#content_license",
+  "@id" : "https://w3id.org/def/bfiao#content_license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode",
+  "@id" : "https://w3id.org/def/bfiao#controlCenterNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -751,10 +751,10 @@
     "@value" : "controlCenterNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#electricalInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -769,10 +769,10 @@
     "@value" : "electricalInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode",
+  "@id" : "https://w3id.org/def/bfiao#electricalMainCCNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -787,10 +787,10 @@
     "@value" : "electricalMainCCNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode"
+    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode",
+  "@id" : "https://w3id.org/def/bfiao#electricalReserveCCNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -805,10 +805,10 @@
     "@value" : "electricalReserveCCNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode"
+    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyAgent",
+  "@id" : "https://w3id.org/def/bfiao#emergencyAgent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -823,10 +823,10 @@
     "@value" : "emergencyAgent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#person"
+    "@id" : "https://w3id.org/def/bfiao#person"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyFacility",
+  "@id" : "https://w3id.org/def/bfiao#emergencyFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -844,7 +844,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#emergencyVictim",
+  "@id" : "https://w3id.org/def/bfiao#emergencyVictim",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -859,10 +859,10 @@
     "@value" : "emergencyVictim"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#person"
+    "@id" : "https://w3id.org/def/bfiao#person"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#event",
+  "@id" : "https://w3id.org/def/bfiao#event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -880,7 +880,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#foodDistributionInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -895,10 +895,10 @@
     "@value" : "foodDistributionInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#fuelInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -913,10 +913,10 @@
     "@value" : "fuelInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode",
+  "@id" : "https://w3id.org/def/bfiao#fuelMainCCNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -931,10 +931,10 @@
     "@value" : "fuelMainCCNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode"
+    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode",
+  "@id" : "https://w3id.org/def/bfiao#fuelReserveCCNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -949,17 +949,17 @@
     "@value" : "fuelReserveCCNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode"
+    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#hasNode",
+  "@id" : "https://w3id.org/def/bfiao#hasNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It defines the relatinoship between a sector and their nodes."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -970,20 +970,20 @@
     "@value" : "hasNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#isNodeOf"
+    "@id" : "https://w3id.org/def/bfiao#isNodeOf"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#hasRisk",
+  "@id" : "https://w3id.org/def/bfiao#hasRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It identifies the relationship between a node which belongs to a domain affected by an event."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain"
+    "@id" : "https://w3id.org/def/bfiao#riskInAffectedDomain"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -994,20 +994,20 @@
     "@value" : "hasRisk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#isHadRisk"
+    "@id" : "https://w3id.org/def/bfiao#isHadRisk"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#hasStatus",
+  "@id" : "https://w3id.org/def/bfiao#hasStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -1018,13 +1018,13 @@
     "@value" : "hasStatus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#nodeStatus"
+    "@id" : "https://w3id.org/def/bfiao#nodeStatus"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy"
+    "@id" : "https://w3id.org/def/bfiao#isStatusKeptBy"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#healthCareInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1039,10 +1039,10 @@
     "@value" : "healthCareInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#hydraulicInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1057,10 +1057,10 @@
     "@value" : "hydraulicInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode",
+  "@id" : "https://w3id.org/def/bfiao#infrastructureNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1075,17 +1075,17 @@
     "@value" : "infrastructureNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#isAffectedBy",
+  "@id" : "https://w3id.org/def/bfiao#isAffectedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Is the inverse object property of affects."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -1096,17 +1096,17 @@
     "@value" : "isAffectedBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#event"
+    "@id" : "https://w3id.org/def/bfiao#event"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#isHadRisk",
+  "@id" : "https://w3id.org/def/bfiao#isHadRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Is the inverse object property of hasRisk."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -1117,17 +1117,17 @@
     "@value" : "isHadRisk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain"
+    "@id" : "https://w3id.org/def/bfiao#riskInAffectedDomain"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#isNodeOf",
+  "@id" : "https://w3id.org/def/bfiao#isNodeOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Is the inverse relation of hasNode."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -1138,17 +1138,17 @@
     "@value" : "isNodeOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector"
+    "@id" : "https://w3id.org/def/bfiao#strategicSector"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy",
+  "@id" : "https://w3id.org/def/bfiao#isStatusKeptBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It defines the status kept by a node. It s the inverse object property of hasStatus."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#nodeStatus"
+    "@id" : "https://w3id.org/def/bfiao#nodeStatus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@language" : "en",
@@ -1159,10 +1159,10 @@
     "@value" : "isStatusKeptBy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode",
+  "@id" : "https://w3id.org/def/bfiao#naturalEcosystemNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1177,10 +1177,10 @@
     "@value" : "naturalEcosystemNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#node"
+    "@id" : "https://w3id.org/def/bfiao#node"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#naturalGasInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1195,10 +1195,10 @@
     "@value" : "naturalGasInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode",
+  "@id" : "https://w3id.org/def/bfiao#naturalGasMainCCNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1213,10 +1213,10 @@
     "@value" : "naturalGasMainCCNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode"
+    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode",
+  "@id" : "https://w3id.org/def/bfiao#naturalGasReserveCCNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1231,10 +1231,10 @@
     "@value" : "naturalGasReserveCCNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#controlCenterNode"
+    "@id" : "https://w3id.org/def/bfiao#controlCenterNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#node",
+  "@id" : "https://w3id.org/def/bfiao#node",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1252,7 +1252,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#nodeStatus",
+  "@id" : "https://w3id.org/def/bfiao#nodeStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1270,7 +1270,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode",
+  "@id" : "https://w3id.org/def/bfiao#outOfServiceInfrastructureNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1285,10 +1285,10 @@
     "@value" : "outOfServiceInfrastructureNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#person",
+  "@id" : "https://w3id.org/def/bfiao#person",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1306,7 +1306,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000030"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#portInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#portInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1321,10 +1321,10 @@
     "@value" : "portInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode",
+  "@id" : "https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1339,10 +1339,10 @@
     "@value" : "possibleLossOf ControlDependencyNode"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#railwayInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1357,10 +1357,10 @@
     "@value" : "railwayInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#residentialInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1375,10 +1375,10 @@
     "@value" : "residentialInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain",
+  "@id" : "https://w3id.org/def/bfiao#riskInAffectedDomain",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1396,7 +1396,7 @@
     "@id" : "http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#roadInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1411,10 +1411,10 @@
     "@value" : "roadInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#strategicSector",
+  "@id" : "https://w3id.org/def/bfiao#strategicSector",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1432,7 +1432,7 @@
     "@id" : "http://purl.obolibrary.org/obo/BFO_0000027"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#subwayInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1447,10 +1447,10 @@
     "@value" : "subwayInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#waterDesalinationInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1465,10 +1465,10 @@
     "@value" : "waterDesalinationInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure",
+  "@id" : "https://w3id.org/def/bfiao#waterTreatmentInfrastructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1483,10 +1483,10 @@
     "@value" : "waterTreatmentInfrastructure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/BFiaO/BFiaO#infrastructureNode"
+    "@id" : "https://w3id.org/def/bfiao#infrastructureNode"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/bfiao",
+  "@id" : "https://w3id.org/def/bfiao-bfiao",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://creativecommons.org/ns#license" : [ {
     "@id" : "https://spdx.org/licenses/MIT.html"
@@ -1526,7 +1526,7 @@
     "@language" : "en",
     "@value" : "Version 1.0"
   } ],
-  "https://w3id.org/def/BFiaO/BFiaO#content_license" : [ {
+  "https://w3id.org/def/bfiao#content_license" : [ {
     "@language" : "en",
     "@value" : "The MIT License (MIT)\n\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."
   } ]

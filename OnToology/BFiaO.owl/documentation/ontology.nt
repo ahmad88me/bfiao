@@ -1,20 +1,20 @@
-<https://w3id.org/def/bfiao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/EmergencyAgent> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/EmergencyEvent> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/EmergencyFacility> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/StrategicSector> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.obofoundry.org/ro/ro.owl> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/ExtendedRelationOntology> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/InformationEntityOntology> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/geosparql> .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time#2016> .
-<https://w3id.org/def/bfiao> <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> .
-<https://w3id.org/def/bfiao> <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2000/01/rdf-schema#comment> "Copyright (c) 2023 Leopoldo Santos Santos of BFiaO.\nBFiaO is designed to provide support to decisión makers in emergency situations."@en .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2000/01/rdf-schema#label> "BFIAO" .
-<https://w3id.org/def/bfiao> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0"@en .
-<https://w3id.org/def/bfiao> <https://w3id.org/def/BFiaO/BFiaO#content_license> "The MIT License (MIT)\n\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."@en .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/EmergencyAgent> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/EmergencyEvent> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/EmergencyFacility> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://localhost:8080/BFiaO/StrategicSector> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.obofoundry.org/ro/ro.owl> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/ExtendedRelationOntology> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2020-09-23/InformationEntityOntology> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/geosparql> .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2006/time#2016> .
+<https://w3id.org/def/bfiao-bfiao> <http://creativecommons.org/ns#license> <https://spdx.org/licenses/MIT.html> .
+<https://w3id.org/def/bfiao-bfiao> <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2000/01/rdf-schema#comment> "Copyright (c) 2023 Leopoldo Santos Santos of BFiaO.\nBFiaO is designed to provide support to decisión makers in emergency situations."@en .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2000/01/rdf-schema#label> "BFIAO" .
+<https://w3id.org/def/bfiao-bfiao> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0"@en .
+<https://w3id.org/def/bfiao-bfiao> <https://w3id.org/def/bfiao#content_license> "The MIT License (MIT)\n\n\nCopyright (c) 2022 Leopoldo Santos Santos of Strategic Sector\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE."@en .
 # 
 # 
 # #################################################################
@@ -36,8 +36,8 @@
 # http://purl.org/dc/terms/rights
 <http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#content_license
-<https://w3id.org/def/BFiaO/BFiaO#content_license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# https://w3id.org/def/bfiao#content_license
+<https://w3id.org/def/bfiao#content_license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -50,81 +50,81 @@
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentDeployedGeolocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#wktLiteral> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityGeoLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#wktLiteral> .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#affects
-<https://w3id.org/def/BFiaO/BFiaO#affects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#affects> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/BFiaO/BFiaO#isAffectedBy> .
-<https://w3id.org/def/BFiaO/BFiaO#affects> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
-<https://w3id.org/def/BFiaO/BFiaO#affects> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#affects> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the node or nodes affected by an event."@en .
-<https://w3id.org/def/BFiaO/BFiaO#affects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the node or nodes affected by an event."@en .
-<https://w3id.org/def/BFiaO/BFiaO#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affects"@en .
+# https://w3id.org/def/bfiao#affects
+<https://w3id.org/def/bfiao#affects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#affects> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/bfiao#isAffectedBy> .
+<https://w3id.org/def/bfiao#affects> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
+<https://w3id.org/def/bfiao#affects> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#affects> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the node or nodes affected by an event."@en .
+<https://w3id.org/def/bfiao#affects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the node or nodes affected by an event."@en .
+<https://w3id.org/def/bfiao#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affects"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#hasNode
-<https://w3id.org/def/BFiaO/BFiaO#hasNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#hasNode> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/BFiaO/BFiaO#isNodeOf> .
-<https://w3id.org/def/BFiaO/BFiaO#hasNode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
-<https://w3id.org/def/BFiaO/BFiaO#hasNode> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#hasNode> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the relatinoship between a sector and their nodes."@en .
-<https://w3id.org/def/BFiaO/BFiaO#hasNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the relatinoship between a sector and their nodes."@en .
-<https://w3id.org/def/BFiaO/BFiaO#hasNode> <http://www.w3.org/2000/01/rdf-schema#label> "hasNode"@en .
+# https://w3id.org/def/bfiao#hasNode
+<https://w3id.org/def/bfiao#hasNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#hasNode> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/bfiao#isNodeOf> .
+<https://w3id.org/def/bfiao#hasNode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#strategicSector> .
+<https://w3id.org/def/bfiao#hasNode> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#hasNode> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the relatinoship between a sector and their nodes."@en .
+<https://w3id.org/def/bfiao#hasNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the relatinoship between a sector and their nodes."@en .
+<https://w3id.org/def/bfiao#hasNode> <http://www.w3.org/2000/01/rdf-schema#label> "hasNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#hasRisk
-<https://w3id.org/def/BFiaO/BFiaO#hasRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#hasRisk> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/BFiaO/BFiaO#isHadRisk> .
-<https://w3id.org/def/BFiaO/BFiaO#hasRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain> .
-<https://w3id.org/def/BFiaO/BFiaO#hasRisk> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#hasRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the relationship between a node which belongs to a domain affected by an event."@en .
-<https://w3id.org/def/BFiaO/BFiaO#hasRisk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the relationship between a node which belongs to a domain affected by an event."@en .
-<https://w3id.org/def/BFiaO/BFiaO#hasRisk> <http://www.w3.org/2000/01/rdf-schema#label> "hasRisk"@en .
+# https://w3id.org/def/bfiao#hasRisk
+<https://w3id.org/def/bfiao#hasRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#hasRisk> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/bfiao#isHadRisk> .
+<https://w3id.org/def/bfiao#hasRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#riskInAffectedDomain> .
+<https://w3id.org/def/bfiao#hasRisk> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#hasRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the relationship between a node which belongs to a domain affected by an event."@en .
+<https://w3id.org/def/bfiao#hasRisk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the relationship between a node which belongs to a domain affected by an event."@en .
+<https://w3id.org/def/bfiao#hasRisk> <http://www.w3.org/2000/01/rdf-schema#label> "hasRisk"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#hasStatus
-<https://w3id.org/def/BFiaO/BFiaO#hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#hasStatus> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy> .
-<https://w3id.org/def/BFiaO/BFiaO#hasStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#hasStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#nodeStatus> .
-<https://w3id.org/def/BFiaO/BFiaO#hasStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."@en .
-<https://w3id.org/def/BFiaO/BFiaO#hasStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."@en .
-<https://w3id.org/def/BFiaO/BFiaO#hasStatus> <http://www.w3.org/2000/01/rdf-schema#label> "hasStatus"@en .
+# https://w3id.org/def/bfiao#hasStatus
+<https://w3id.org/def/bfiao#hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#hasStatus> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/bfiao#isStatusKeptBy> .
+<https://w3id.org/def/bfiao#hasStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#hasStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#nodeStatus> .
+<https://w3id.org/def/bfiao#hasStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."@en .
+<https://w3id.org/def/bfiao#hasStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the status of a specific node. It keeps the traceability of all the different status that a node has had."@en .
+<https://w3id.org/def/bfiao#hasStatus> <http://www.w3.org/2000/01/rdf-schema#label> "hasStatus"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#isAffectedBy
-<https://w3id.org/def/BFiaO/BFiaO#isAffectedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#event> .
-<https://w3id.org/def/BFiaO/BFiaO#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the inverse object property of affects."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is the inverse object property of affects."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isAffectedBy"@en .
+# https://w3id.org/def/bfiao#isAffectedBy
+<https://w3id.org/def/bfiao#isAffectedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#event> .
+<https://w3id.org/def/bfiao#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the inverse object property of affects."@en .
+<https://w3id.org/def/bfiao#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is the inverse object property of affects."@en .
+<https://w3id.org/def/bfiao#isAffectedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isAffectedBy"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#isHadRisk
-<https://w3id.org/def/BFiaO/BFiaO#isHadRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain> .
-<https://w3id.org/def/BFiaO/BFiaO#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the inverse object property of hasRisk."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is the inverse object property of hasRisk."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#label> "isHadRisk"@en .
+# https://w3id.org/def/bfiao#isHadRisk
+<https://w3id.org/def/bfiao#isHadRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#riskInAffectedDomain> .
+<https://w3id.org/def/bfiao#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the inverse object property of hasRisk."@en .
+<https://w3id.org/def/bfiao#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is the inverse object property of hasRisk."@en .
+<https://w3id.org/def/bfiao#isHadRisk> <http://www.w3.org/2000/01/rdf-schema#label> "isHadRisk"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#isNodeOf
-<https://w3id.org/def/BFiaO/BFiaO#isNodeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
-<https://w3id.org/def/BFiaO/BFiaO#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the inverse relation of hasNode."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is the inverse relation of hasNode."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#label> "isNodeOf"@en .
+# https://w3id.org/def/bfiao#isNodeOf
+<https://w3id.org/def/bfiao#isNodeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#strategicSector> .
+<https://w3id.org/def/bfiao#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the inverse relation of hasNode."@en .
+<https://w3id.org/def/bfiao#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is the inverse relation of hasNode."@en .
+<https://w3id.org/def/bfiao#isNodeOf> <http://www.w3.org/2000/01/rdf-schema#label> "isNodeOf"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy
-<https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#nodeStatus> .
-<https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the status kept by a node. It s the inverse object property of hasStatus."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the status kept by a node. It s the inverse object property of hasStatus."@en .
-<https://w3id.org/def/BFiaO/BFiaO#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#label> "isStatusKeptBy"@en .
+# https://w3id.org/def/bfiao#isStatusKeptBy
+<https://w3id.org/def/bfiao#isStatusKeptBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/bfiao#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#nodeStatus> .
+<https://w3id.org/def/bfiao#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the status kept by a node. It s the inverse object property of hasStatus."@en .
+<https://w3id.org/def/bfiao#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the status kept by a node. It s the inverse object property of hasStatus."@en .
+<https://w3id.org/def/bfiao#isStatusKeptBy> <http://www.w3.org/2000/01/rdf-schema#label> "isStatusKeptBy"@en .
 # 
 # 
 # 
@@ -140,142 +140,142 @@
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseTransctionTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentEndUseValidTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentName
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentPhone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentRank
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentRank> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseTransactionTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentStartUseValidTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyAgent> .
 <http://localhost:8080/BFiaO/EmergencyAgent#AgentUnitID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventDescription
 <http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime
 <http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventFinalTransactionTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime
 <http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventFinalValidTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventID
 <http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime
 <http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventInitialTransactionTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime
 <http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventInitialValidTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventName
 <http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#EventScale
 <http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#event> .
 <http://localhost:8080/BFiaO/EmergencyEvent#EventScale> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityBurnUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityCapacity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityHeliportCapability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityID
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityName
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#emergencyFacility> .
 <http://localhost:8080/BFiaO/EmergencyFacility#FacilityOperator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#SectorCode
 <http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#strategicSector> .
 <http://localhost:8080/BFiaO/StrategicSector#SectorCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization
 <http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#strategicSector> .
 <http://localhost:8080/BFiaO/StrategicSector#SectorCompetentOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#SectorPoC
 <http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/bfiao#strategicSector> .
 <http://localhost:8080/BFiaO/StrategicSector#SectorPoC> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # 
@@ -289,183 +289,183 @@
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesFireExtinguisherPlanePilotAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#armedForcesHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#bRIFAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNArmedForcesAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#cBRNUMEAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#doctorAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#fireBrigadeAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#guardiaCivilAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#healthCareWorkerAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#policeAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#policeAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#psychologistAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#regionalEmergencyAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#signalCorpsAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#uMEHelicopterPilotAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent
 <http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> .
+<http://localhost:8080/BFiaO/EmergencyAgent#volunteerAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyAgent> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent
 <http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#biologicalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#event> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent
 <http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#naturalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#event> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#socialEvent
 <http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#socialEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#event> .
 # 
 # http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent
 <http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#event> .
+<http://localhost:8080/BFiaO/EmergencyEvent#technologicalEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#event> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#airportFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#airportFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#airportFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#airportFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#civilProtectionFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandCenterFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyCommandPostFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#emergencyDepotFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#fireStationFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#heliportFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#hospitalFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#mortuaryFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#reservoirFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility
 <http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> .
+<http://localhost:8080/BFiaO/EmergencyFacility#sportsCenterFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#emergencyFacility> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector
 <http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#chemicalIndustrySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#energySector
 <http://localhost:8080/BFiaO/StrategicSector#energySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#energySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#energySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#financialTaxSector
 <http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#financialTaxSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#foodSector
 <http://localhost:8080/BFiaO/StrategicSector#foodSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#foodSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#foodSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#healthCareSector
 <http://localhost:8080/BFiaO/StrategicSector#healthCareSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#healthCareSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#healthCareSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#iCTSector
 <http://localhost:8080/BFiaO/StrategicSector#iCTSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#iCTSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#iCTSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector
 <http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#nuclearIndustrySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector
 <http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#publicAdministrationSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector
 <http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#researchFacilitySector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#spaceSector
 <http://localhost:8080/BFiaO/StrategicSector#spaceSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#spaceSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#spaceSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#transportationSector
 <http://localhost:8080/BFiaO/StrategicSector#transportationSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#transportationSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#transportationSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://localhost:8080/BFiaO/StrategicSector#waterSector
 <http://localhost:8080/BFiaO/StrategicSector#waterSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://localhost:8080/BFiaO/StrategicSector#waterSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#strategicSector> .
+<http://localhost:8080/BFiaO/StrategicSector#waterSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#strategicSector> .
 # 
 # http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem
 <http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -489,257 +489,257 @@
 # http://www.w3.org/2006/time#TimeZone
 <http://www.w3.org/2006/time#TimeZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000038> .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the nodes of the Information and Communication Technology (ICT) sector."@en .
-<https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the nodes of the Information and Communication Technology (ICT) sector."@en .
-<https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "ICTInfrastructure"@en .
+# https://w3id.org/def/bfiao#ICTInfrastructure
+<https://w3id.org/def/bfiao#ICTInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the nodes of the Information and Communication Technology (ICT) sector."@en .
+<https://w3id.org/def/bfiao#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the nodes of the Information and Communication Technology (ICT) sector."@en .
+<https://w3id.org/def/bfiao#ICTInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "ICTInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."@en .
-<https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."@en .
-<https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "airTrafficInfrastructure"@en .
+# https://w3id.org/def/bfiao#airTrafficInfrastructure
+<https://w3id.org/def/bfiao#airTrafficInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."@en .
+<https://w3id.org/def/bfiao#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifes all the infrastructure, systems and facilities necessary to manage the air traffic."@en .
+<https://w3id.org/def/bfiao#airTrafficInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "airTrafficInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."@en .
-<https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."@en .
-<https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "chemicalPlantInfrastructure"@en .
+# https://w3id.org/def/bfiao#chemicalPlantInfrastructure
+<https://w3id.org/def/bfiao#chemicalPlantInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."@en .
+<https://w3id.org/def/bfiao#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifes the chemical plants used to manufacture petroleum products, as well as explosive productos, fertilizer products, pharmaceutical products, etc."@en .
+<https://w3id.org/def/bfiao#chemicalPlantInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "chemicalPlantInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#controlCenterNode
-<https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#label> "controlCenterNode"@en .
+# https://w3id.org/def/bfiao#controlCenterNode
+<https://w3id.org/def/bfiao#controlCenterNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."@en .
+<https://w3id.org/def/bfiao#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A control center is an installation or activity from which a series of operations is directed. (source: Merriam-Webster)."@en .
+<https://w3id.org/def/bfiao#controlCenterNode> <http://www.w3.org/2000/01/rdf-schema#label> "controlCenterNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."@en .
-<https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."@en .
-<https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "electricalInfrastructure"@en .
+# https://w3id.org/def/bfiao#electricalInfrastructure
+<https://w3id.org/def/bfiao#electricalInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."@en .
+<https://w3id.org/def/bfiao#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "The electrical infrastructure nodes includes the facilities and equipment necessary for the generation, transportation, and distribution of electrical energy."@en .
+<https://w3id.org/def/bfiao#electricalInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "electricalInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode
-<https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> .
-<https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."@en .
-<https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."@en .
-<https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "electricalMainCCNode"@en .
+# https://w3id.org/def/bfiao#electricalMainCCNode
+<https://w3id.org/def/bfiao#electricalMainCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#controlCenterNode> .
+<https://w3id.org/def/bfiao#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."@en .
+<https://w3id.org/def/bfiao#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Electrical Main Control Center is the node responsible for the coordinated operation and real-time monitoring for the generation and transmission facilities of the national electricity system."@en .
+<https://w3id.org/def/bfiao#electricalMainCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "electricalMainCCNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode
-<https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> .
-<https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."@en .
-<https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."@en .
-<https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "electricalReserveCCNode"@en .
+# https://w3id.org/def/bfiao#electricalReserveCCNode
+<https://w3id.org/def/bfiao#electricalReserveCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#controlCenterNode> .
+<https://w3id.org/def/bfiao#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."@en .
+<https://w3id.org/def/bfiao#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Electrical Reserve Control Center is the node responsible for taking the control of operations in case there is a failure in the Main Control Center."@en .
+<https://w3id.org/def/bfiao#electricalReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "electricalReserveCCNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#emergencyAgent
-<https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#person> .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A person who is capable of performing Intentional Acts to help in emergencies or disasters."@en .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A person who is capable of performing Intentional Acts to help in emergencies or disasters."@en .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyAgent"@en .
+# https://w3id.org/def/bfiao#emergencyAgent
+<https://w3id.org/def/bfiao#emergencyAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#person> .
+<https://w3id.org/def/bfiao#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#comment> "A person who is capable of performing Intentional Acts to help in emergencies or disasters."@en .
+<https://w3id.org/def/bfiao#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A person who is capable of performing Intentional Acts to help in emergencies or disasters."@en .
+<https://w3id.org/def/bfiao#emergencyAgent> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyAgent"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#emergencyFacility
-<https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."@en .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."@en .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyFacility"@en .
+# https://w3id.org/def/bfiao#emergencyFacility
+<https://w3id.org/def/bfiao#emergencyFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
+<https://w3id.org/def/bfiao#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."@en .
+<https://w3id.org/def/bfiao#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies those nodes that can be used also as facilities for helping to mitigate the effects of the emergency or can be a place to manage the emergency itself."@en .
+<https://w3id.org/def/bfiao#emergencyFacility> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyFacility"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#emergencyVictim
-<https://w3id.org/def/BFiaO/BFiaO#emergencyVictim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#person> .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#comment> "a person aisolated, harmed, injured, or killed as a result of an emergency event."@en .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A person aisolated, harmed, injured, or killed as a result of an emergency event."@en .
-<https://w3id.org/def/BFiaO/BFiaO#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyVictim"@en .
+# https://w3id.org/def/bfiao#emergencyVictim
+<https://w3id.org/def/bfiao#emergencyVictim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#person> .
+<https://w3id.org/def/bfiao#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#comment> "a person aisolated, harmed, injured, or killed as a result of an emergency event."@en .
+<https://w3id.org/def/bfiao#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A person aisolated, harmed, injured, or killed as a result of an emergency event."@en .
+<https://w3id.org/def/bfiao#emergencyVictim> <http://www.w3.org/2000/01/rdf-schema#label> "emergencyVictim"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#event
-<https://w3id.org/def/BFiaO/BFiaO#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
-<https://w3id.org/def/BFiaO/BFiaO#event> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an unforeseen Process of a natural, technological or man-made nature that affects to nodes."@en .
-<https://w3id.org/def/BFiaO/BFiaO#event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is an unforeseen process of a natural, technological or man-made nature that affects to nodes."@en .
-<https://w3id.org/def/BFiaO/BFiaO#event> <http://www.w3.org/2000/01/rdf-schema#label> "event"@en .
+# https://w3id.org/def/bfiao#event
+<https://w3id.org/def/bfiao#event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://w3id.org/def/bfiao#event> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an unforeseen Process of a natural, technological or man-made nature that affects to nodes."@en .
+<https://w3id.org/def/bfiao#event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is an unforeseen process of a natural, technological or man-made nature that affects to nodes."@en .
+<https://w3id.org/def/bfiao#event> <http://www.w3.org/2000/01/rdf-schema#label> "event"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It involves the nodes which identifies the infrastructure necessary for the food distribution."@en .
-<https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It involves the nodes which identifies the infrastructure necessary for the food distribution."@en .
-<https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "foodDistributionInfrastructure"@en .
+# https://w3id.org/def/bfiao#foodDistributionInfrastructure
+<https://w3id.org/def/bfiao#foodDistributionInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It involves the nodes which identifies the infrastructure necessary for the food distribution."@en .
+<https://w3id.org/def/bfiao#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It involves the nodes which identifies the infrastructure necessary for the food distribution."@en .
+<https://w3id.org/def/bfiao#foodDistributionInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "foodDistributionInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."@en .
-<https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."@en .
-<https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "fuelInfrastructure"@en .
+# https://w3id.org/def/bfiao#fuelInfrastructure
+<https://w3id.org/def/bfiao#fuelInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."@en .
+<https://w3id.org/def/bfiao#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It defines the main components that are necessary for the generation, refined, storage, trnasport and distribution of fuel products and their derivatives."@en .
+<https://w3id.org/def/bfiao#fuelInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "fuelInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode
-<https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> .
-<https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
-<https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
-<https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "fuelMainCCNode"@en .
+# https://w3id.org/def/bfiao#fuelMainCCNode
+<https://w3id.org/def/bfiao#fuelMainCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#controlCenterNode> .
+<https://w3id.org/def/bfiao#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
+<https://w3id.org/def/bfiao#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An Fuel Main Control Center is the node which is the main facility used to manage the operation and supervision of  oil and refined petroleum products transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
+<https://w3id.org/def/bfiao#fuelMainCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "fuelMainCCNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode
-<https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> .
-<https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
-<https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
-<https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "fuelReserveCCNode"@en .
+# https://w3id.org/def/bfiao#fuelReserveCCNode
+<https://w3id.org/def/bfiao#fuelReserveCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#controlCenterNode> .
+<https://w3id.org/def/bfiao#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
+<https://w3id.org/def/bfiao#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "An Fuel Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
+<https://w3id.org/def/bfiao#fuelReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "fuelReserveCCNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "healthCareInfrastructure"@en .
+# https://w3id.org/def/bfiao#healthCareInfrastructure
+<https://w3id.org/def/bfiao#healthCareInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."@en .
+<https://w3id.org/def/bfiao#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It involves the individuals, facilities, and buildings required to deliver world-class health care. This complex term includes the components comprising basic hospital delivery of services, including both structural and maintenance of facilities. (source: https://facilityexecutive.com)."@en .
+<https://w3id.org/def/bfiao#healthCareInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "healthCareInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)"@en .
-<https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "hydraulicInfrastructure"@en .
+# https://w3id.org/def/bfiao#hydraulicInfrastructure
+<https://w3id.org/def/bfiao#hydraulicInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)."@en .
+<https://w3id.org/def/bfiao#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is a construction, in the field of civil engineering, agricultural engineering and hydraulic engineering, where the dominant element has to do with water. (Source: Wikipedia)"@en .
+<https://w3id.org/def/bfiao#hydraulicInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "hydraulicInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#infrastructureNode
-<https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#comment> "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#label> "infrastructureNode"@en .
+# https://w3id.org/def/bfiao#infrastructureNode
+<https://w3id.org/def/bfiao#infrastructureNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#comment> "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."@en .
+<https://w3id.org/def/bfiao#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is any physycal structure which provides services or energy for the operation of a society (e.g. roads, water, power supply, natural gas, etc.)."@en .
+<https://w3id.org/def/bfiao#infrastructureNode> <http://www.w3.org/2000/01/rdf-schema#label> "infrastructureNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode
-<https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#node> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#label> "naturalEcosystemNode"@en .
+# https://w3id.org/def/bfiao#naturalEcosystemNode
+<https://w3id.org/def/bfiao#naturalEcosystemNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#node> .
+<https://w3id.org/def/bfiao#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"@en .
+<https://w3id.org/def/bfiao#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A natural ecosystem is an environment where plants, animals and other organisms interact with one another and their physical environment. The term node can refer to a specific location, such as a rainforest or coral reef. (source: https://infinitylearn.com/surge/biology/what-is-a-natural-ecosystem/)"@en .
+<https://w3id.org/def/bfiao#naturalEcosystemNode> <http://www.w3.org/2000/01/rdf-schema#label> "naturalEcosystemNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "naturalGasInfrastructure"@en .
+# https://w3id.org/def/bfiao#naturalGasInfrastructure
+<https://w3id.org/def/bfiao#naturalGasInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."@en .
+<https://w3id.org/def/bfiao#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Natural Gas Infrastructure defines the main components that are necessary for the generation, storage, transport and distribution of natural gas."@en .
+<https://w3id.org/def/bfiao#naturalGasInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "naturalGasInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "naturalGasMainCCNode"@en .
+# https://w3id.org/def/bfiao#naturalGasMainCCNode
+<https://w3id.org/def/bfiao#naturalGasMainCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#controlCenterNode> .
+<https://w3id.org/def/bfiao#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
+<https://w3id.org/def/bfiao#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Gas Main Control Center is the node which is the main facility to manage the operation and supervision of  Gas System transmission facilities, in real time, 24 hours a day, 365 days a year."@en .
+<https://w3id.org/def/bfiao#naturalGasMainCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "naturalGasMainCCNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
-<https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "naturalGasReserveCCNode"@en .
+# https://w3id.org/def/bfiao#naturalGasReserveCCNode
+<https://w3id.org/def/bfiao#naturalGasReserveCCNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#controlCenterNode> .
+<https://w3id.org/def/bfiao#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#comment> "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
+<https://w3id.org/def/bfiao#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A Gas Reserve Control Center is the node which is a facility equipped with equivalent technical resources as the Main Control Centre and designed to take control just in case the Main Control Center has an operation failure."@en .
+<https://w3id.org/def/bfiao#naturalGasReserveCCNode> <http://www.w3.org/2000/01/rdf-schema#label> "naturalGasReserveCCNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#node
-<https://w3id.org/def/BFiaO/BFiaO#node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
-<https://w3id.org/def/BFiaO/BFiaO#node> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."@en .
-<https://w3id.org/def/BFiaO/BFiaO#node> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."@en .
-<https://w3id.org/def/BFiaO/BFiaO#node> <http://www.w3.org/2000/01/rdf-schema#label> "node"@en .
+# https://w3id.org/def/bfiao#node
+<https://w3id.org/def/bfiao#node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
+<https://w3id.org/def/bfiao#node> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."@en .
+<https://w3id.org/def/bfiao#node> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Is an object of material entity crucial for a sector to work which is able to produce, storage or use resources required for proper operation for the economy, security or natural environment of a geopolitical region to function."@en .
+<https://w3id.org/def/bfiao#node> <http://www.w3.org/2000/01/rdf-schema#label> "node"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#nodeStatus
-<https://w3id.org/def/BFiaO/BFiaO#nodeStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000016> .
-<https://w3id.org/def/BFiaO/BFiaO#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#label> "nodeStatus"@en .
+# https://w3id.org/def/bfiao#nodeStatus
+<https://w3id.org/def/bfiao#nodeStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000016> .
+<https://w3id.org/def/bfiao#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."@en .
+<https://w3id.org/def/bfiao#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It represents the status of a node (active or inactive), and how it has evolved with time and events. \nExample: If the node changes its data property hasNodeAvtiveStatus, because the node is affected by and event, from true to false, it causes the effect of NodeOutOfService, so an instance of this kind of effect has to be included (asserted)."@en .
+<https://w3id.org/def/bfiao#nodeStatus> <http://www.w3.org/2000/01/rdf-schema#label> "nodeStatus"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode
-<https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the nodes which are out of service due to an emergency in other nodes."@en .
-<https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the nodes which are out of service due to an emergency in other nodes."@en .
-<https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#label> "outOfServiceInfrastructureNode"@en .
+# https://w3id.org/def/bfiao#outOfServiceInfrastructureNode
+<https://w3id.org/def/bfiao#outOfServiceInfrastructureNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the nodes which are out of service due to an emergency in other nodes."@en .
+<https://w3id.org/def/bfiao#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the nodes which are out of service due to an emergency in other nodes."@en .
+<https://w3id.org/def/bfiao#outOfServiceInfrastructureNode> <http://www.w3.org/2000/01/rdf-schema#label> "outOfServiceInfrastructureNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#person
-<https://w3id.org/def/BFiaO/BFiaO#person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
-<https://w3id.org/def/BFiaO/BFiaO#person> <http://www.w3.org/2000/01/rdf-schema#comment> "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"@en .
-<https://w3id.org/def/BFiaO/BFiaO#person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"@en .
-<https://w3id.org/def/BFiaO/BFiaO#person> <http://www.w3.org/2000/01/rdf-schema#label> "person"@en .
+# https://w3id.org/def/bfiao#person
+<https://w3id.org/def/bfiao#person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
+<https://w3id.org/def/bfiao#person> <http://www.w3.org/2000/01/rdf-schema#comment> "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"@en .
+<https://w3id.org/def/bfiao#person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A human being regarded as an individual. (source: Oxford Dictionary).\nhttps://en.wikipedia.org/wiki/Human"@en .
+<https://w3id.org/def/bfiao#person> <http://www.w3.org/2000/01/rdf-schema#label> "person"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#portInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#portInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."@en .
-<https://w3id.org/def/BFiaO/BFiaO#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."@en .
-<https://w3id.org/def/BFiaO/BFiaO#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "portInfrastructure"@en .
+# https://w3id.org/def/bfiao#portInfrastructure
+<https://w3id.org/def/bfiao#portInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."@en .
+<https://w3id.org/def/bfiao#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifes all the infrastructure, systems and facilities necessary to manage the port traffic."@en .
+<https://w3id.org/def/bfiao#portInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "portInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode
-<https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#comment> "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."@en .
-<https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."@en .
-<https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#label> "possibleLossOf ControlDependencyNode"@en .
+# https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode
+<https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#comment> "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."@en .
+<https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It will keep the nodes which has a failure in functional chain due to a loss of conectivity in the ICT infrastructure. So, if the functional chain does not work, the control dependency will be lost."@en .
+<https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode> <http://www.w3.org/2000/01/rdf-schema#label> "possibleLossOf ControlDependencyNode"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "railwayInfrastructure"@en .
+# https://w3id.org/def/bfiao#railwayInfrastructure
+<https://w3id.org/def/bfiao#railwayInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."@en .
+<https://w3id.org/def/bfiao#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "A point spatial object which represents a significant point along the railway network or defines an intersection of railway tracks used to describe its connectivity and It also identifies the infrastructure nodes for railway system. (Source: INSPIRE D2.8.I.7 Data Specification on Transport Networks – Technical Guidelines)."@en .
+<https://w3id.org/def/bfiao#railwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "railwayInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."@en .
-<https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."@en .
-<https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "residentialInfrastructure"@en .
+# https://w3id.org/def/bfiao#residentialInfrastructure
+<https://w3id.org/def/bfiao#residentialInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."@en .
+<https://w3id.org/def/bfiao#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It Identifies the places that constitute nucleus where the population lives, as well as the infrastructures needed for this aim."@en .
+<https://w3id.org/def/bfiao#residentialInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "residentialInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain
-<https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem> .
-<https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#label> "riskInAffectedDomain"@en .
+# https://w3id.org/def/bfiao#riskInAffectedDomain
+<https://w3id.org/def/bfiao#riskInAffectedDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologyrepository.com/CommonCoreOntologies/ReferenceSystem> .
+<https://w3id.org/def/bfiao#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."@en .
+<https://w3id.org/def/bfiao#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identies the risk associated to an affected domain (infrastructures, forestry, etc.) considering the risk domain an so the events (fire, snow, earthquake, vulcano, etc.). The values of risk will be: HIGH (>75%), MEDIUM (between 35% and 75%) or LOW (< 35%)."@en .
+<https://w3id.org/def/bfiao#riskInAffectedDomain> <http://www.w3.org/2000/01/rdf-schema#label> "riskInAffectedDomain"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "roadInfrastructure"@en .
+# https://w3id.org/def/bfiao#roadInfrastructure
+<https://w3id.org/def/bfiao#roadInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."@en .
+<https://w3id.org/def/bfiao#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Road infrastructure includes physical assets like the roads themselves, as well as everything associated with them, for example bus stops, trucking terminals, signage, drainage, and structures such as bridges or tunnels. (source: https://www.myptv.com/)."@en .
+<https://w3id.org/def/bfiao#roadInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "roadInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#strategicSector
-<https://w3id.org/def/BFiaO/BFiaO#strategicSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#strategicSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000027> .
-<https://w3id.org/def/BFiaO/BFiaO#strategicSector> <http://www.w3.org/2000/01/rdf-schema#comment> "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)."@en .
-<https://w3id.org/def/BFiaO/BFiaO#strategicSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)"@en .
-<https://w3id.org/def/BFiaO/BFiaO#strategicSector> <http://www.w3.org/2000/01/rdf-schema#label> "strategicSector"@en .
+# https://w3id.org/def/bfiao#strategicSector
+<https://w3id.org/def/bfiao#strategicSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#strategicSector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000027> .
+<https://w3id.org/def/bfiao#strategicSector> <http://www.w3.org/2000/01/rdf-schema#comment> "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)."@en .
+<https://w3id.org/def/bfiao#strategicSector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It is each one of the differentiated areas within the labor, economic and productive activity that provides an essential service or that guarantees the exercise of the authority of the State or the security of the country. (Source: Ley 8/2011)"@en .
+<https://w3id.org/def/bfiao#strategicSector> <http://www.w3.org/2000/01/rdf-schema#label> "strategicSector"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the infrastructure nodes for subway system."@en .
-<https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the infrastructure nodes for subway system."@en .
-<https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "subwayInfrastructure"@en .
+# https://w3id.org/def/bfiao#subwayInfrastructure
+<https://w3id.org/def/bfiao#subwayInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "It identifies the infrastructure nodes for subway system."@en .
+<https://w3id.org/def/bfiao#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "It identifies the infrastructure nodes for subway system."@en .
+<https://w3id.org/def/bfiao#subwayInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "subwayInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the nodes to produce water in facilities and equipment for water desalinization."@en .
-<https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the nodes to produce water in facilities and equipment for water desalinization."@en .
-<https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "waterDesalinationInfrastructure"@en .
+# https://w3id.org/def/bfiao#waterDesalinationInfrastructure
+<https://w3id.org/def/bfiao#waterDesalinationInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the nodes to produce water in facilities and equipment for water desalinization."@en .
+<https://w3id.org/def/bfiao#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the nodes to produce water in facilities and equipment for water desalinization."@en .
+<https://w3id.org/def/bfiao#waterDesalinationInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "waterDesalinationInfrastructure"@en .
 # 
-# https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure
-<https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
-<https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the nodes to treat residual water in an infrastructure for water treatment."@en .
-<https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the nodes to treat residual water in an infrastructure for water treatment."@en .
-<https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "waterTreatmentInfrastructure"@en .
+# https://w3id.org/def/bfiao#waterTreatmentInfrastructure
+<https://w3id.org/def/bfiao#waterTreatmentInfrastructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/bfiao#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/bfiao#infrastructureNode> .
+<https://w3id.org/def/bfiao#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#comment> "it identifies the nodes to treat residual water in an infrastructure for water treatment."@en .
+<https://w3id.org/def/bfiao#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "it identifies the nodes to treat residual water in an infrastructure for water treatment."@en .
+<https://w3id.org/def/bfiao#waterTreatmentInfrastructure> <http://www.w3.org/2000/01/rdf-schema#label> "waterTreatmentInfrastructure"@en .
 # 
 # 
 # 
@@ -770,41 +770,41 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#waterTreatmentInfrastructure> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#waterTreatmentInfrastructure> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#waterDesalinationInfrastructure> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#waterDesalinationInfrastructure> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#subwayInfrastructure> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#subwayInfrastructure> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#roadInfrastructure> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#roadInfrastructure> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#residentialInfrastructure> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#residentialInfrastructure> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#railwayInfrastructure> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#railwayInfrastructure> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#possibleLossOfControlDependencyNode> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#possibleLossOfControlDependencyNode> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#portInfrastructure> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#portInfrastructure> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#outOfServiceInfrastructureNode> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#outOfServiceInfrastructureNode> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#naturalGasInfrastructure> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#naturalGasInfrastructure> .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#hydraulicInfrastructure> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#hydraulicInfrastructure> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#healthCareInfrastructure> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#healthCareInfrastructure> .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#fuelInfrastructure> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#fuelInfrastructure> .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#foodDistributionInfrastructure> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#foodDistributionInfrastructure> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#electricalInfrastructure> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#electricalInfrastructure> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#chemicalPlantInfrastructure> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#chemicalPlantInfrastructure> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#airTrafficInfrastructure> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#airTrafficInfrastructure> .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#ICTInfrastructure> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#ICTInfrastructure> .
 _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -812,11 +812,11 @@ _:genid20 <http://www.w3.org/2002/07/owl#members> _:genid23 .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#naturalEcosystemNode> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#naturalEcosystemNode> .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#infrastructureNode> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#infrastructureNode> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#controlCenterNode> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#controlCenterNode> .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -827,17 +827,17 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#naturalGasReserveCCNode> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#naturalGasReserveCCNode> .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#naturalGasMainCCNode> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#naturalGasMainCCNode> .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#fuelReserveCCNode> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#fuelReserveCCNode> .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#fuelMainCCNode> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#fuelMainCCNode> .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#electricalReserveCCNode> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#electricalReserveCCNode> .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/BFiaO/BFiaO#electricalMainCCNode> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/bfiao#electricalMainCCNode> .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
