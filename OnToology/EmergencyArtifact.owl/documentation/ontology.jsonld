@@ -171,6 +171,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This ontology is designed to cover all the necessary material resources to act in an emergency situation."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Emergency Artifact"
+  } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "Version 1.0"
   } ]

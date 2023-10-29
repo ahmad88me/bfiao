@@ -31,6 +31,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE."""@en ;
                                               <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos Santos"@en ;
                                               rdfs:comment "The taxonomy for events defines the possible event that can occur when different risks impact on affected domains or sectors."@en ;
+                                              rdfs:label "Emergency Event" ;
                                               owl:versionInfo "October 30, 2022"@en .
 
 #################################################################

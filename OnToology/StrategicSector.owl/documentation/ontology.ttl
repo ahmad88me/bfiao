@@ -31,6 +31,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE."""@en ;
                                                <http://purl.org/dc/elements/1.1/creator> "Leopoldo Santos" ;
                                                rdfs:comment "This ontology is designed to identify the strategic sectors and the domains that each sector has. In this case the sectors are defined in the Spanish law 8/2011 in order to establishing measures for the protection of critical infrastructures."@en ;
+                                               rdfs:label "Strategic Sector" ;
                                                owl:versionInfo "Version 1.0"@en .
 
 #################################################################

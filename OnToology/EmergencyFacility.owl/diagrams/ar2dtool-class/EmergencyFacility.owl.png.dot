@@ -2,29 +2,29 @@ digraph ar2dtool_diagram {
 rankdir=LR;
 size="1501"
 node [shape = rectangle, color="orange"]; "EmergencyFacility:emergencyCommandCenterFacility" "EmergencyFacility:emergencyCommandPostFacility" "EmergencyFacility:hospitalFacility" "EmergencyFacility:fireStationFacility" "EmergencyFacility:civilProtectionFacility" "EmergencyFacility:airportFacility" "EmergencyFacility:emergencyDepotFacility" "EmergencyFacility:reservoirFacility" "EmergencyFacility:heliportFacility" "EmergencyFacility:sportsCenterFacility" "EmergencyFacility:mortuaryFacility" ; /*classes style*/
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ffa" [ label = "rdf:rest" ];
 	"NULL" -> "EmergencyFacility:civilProtectionFacility" [ label = "rdf:first" ];
 	"NULL" -> "EmergencyFacility:emergencyCommandPostFacility" [ label = "rdf:first" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff1" [ label = "rdf:rest" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff4" [ label = "rdf:rest" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff7" [ label = "rdf:rest" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff3" [ label = "rdf:rest" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff6" [ label = "rdf:rest" ];
 	"NULL" -> "EmergencyFacility:emergencyDepotFacility" [ label = "rdf:first" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff8" [ label = "rdf:rest" ];
 	"NULL" -> "EmergencyFacility:hospitalFacility" [ label = "rdf:first" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
-	"NULL" -> "EmergencyFacility:heliportFacility" [ label = "rdf:first" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff3" [ label = "rdf:rest" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff6" [ label = "rdf:rest" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff2" [ label = "rdf:rest" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff5" [ label = "rdf:rest" ];
 	"NULL" -> "EmergencyFacility:airportFacility" [ label = "rdf:first" ];
+	"NULL" -> "EmergencyFacility:heliportFacility" [ label = "rdf:first" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ffb" [ label = "owl:members" ];
 	"NULL" -> "EmergencyFacility:emergencyCommandCenterFacility" [ label = "rdf:first" ];
-	"NULL" -> "EmergencyFacility:reservoirFacility" [ label = "rdf:first" ];
 	"NULL" -> "EmergencyFacility:fireStationFacility" [ label = "rdf:first" ];
-	"NULL" -> "EmergencyFacility:mortuaryFacility" [ label = "rdf:first" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ffb" [ label = "owl:members" ];
+	"NULL" -> "EmergencyFacility:reservoirFacility" [ label = "rdf:first" ];
 	"NULL" -> "EmergencyFacility:sportsCenterFacility" [ label = "rdf:first" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff2" [ label = "rdf:rest" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff5" [ label = "rdf:rest" ];
-	"NULL" -> "67ba225:18b7a5f1dc4:-7ff8" [ label = "rdf:rest" ];
+	"NULL" -> "EmergencyFacility:mortuaryFacility" [ label = "rdf:first" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff1" [ label = "rdf:rest" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff4" [ label = "rdf:rest" ];
+	"NULL" -> "-74d554f7:18b7c15e10e:-7ff7" [ label = "rdf:rest" ];
 	"http://localhost:8080/BFiaO/EmergencyFacility" -> "https://spdx.org/licenses/MIT.html" [ label = "ns:license" ];
 
 }

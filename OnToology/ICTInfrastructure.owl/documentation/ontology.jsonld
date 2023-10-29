@@ -56,6 +56,9 @@
     "@language" : "en",
     "@value" : "This ontology is designed to cover the main components to define an ICT Infrastructure."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ICT Infractructure"
+  } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "Version 1.0"
   } ]
